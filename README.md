@@ -10,8 +10,7 @@
 **tITLE hERE (_June 2022 - Present_)**
 - Details here
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- MORE EXAMPLES TO COME...
+
 
 ## Projects
 ### MORE EXAMPLES TO COME...
