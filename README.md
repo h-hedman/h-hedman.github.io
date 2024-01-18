@@ -7,13 +7,27 @@
 - Bachelor of Arts, _Magna Cum Laude_, University of Colorado, Boulder (_2013_)
 
 ## Work Experience
-**tITLE hERE (_June 2022 - Present_)**
-- Details here
+**Part-time Healthcare Data Analyst, Part-time Healthcare Data Analyst (_2022 - Present_)**
+- Oversaw and analyzed financial incentive program for food insecure patients including segmentation, targeting and return on investment (ROI)
+- Reduced company cost spending by over $80K by optimization of analytics reporting process
+- Real-World Insights to drive healthcare decisions and improve outcomes
+- Applied predictive modeling to analyze consumer behaviors and health outcomes
+- Contributed to the management of expansive data architecture and executed complex queries within Epic and Snowflake systems
+                                                                                                                                                                              
+**Contracting Health Scientist, Centers for Disease Control and Prevention     (_2022 - Present_)**
+- Led development of various client-facing documents including monthly reports, assessment evaluation tools, and literature reviews, and automated dashboards (Tableau, Power BI, Google Analytics) 
+- Applied natural language processing (NLP) techniques to analyze and extract valuable insights from medical text, contributing to enhanced data-driven decision-making in healthcare settings 
+- Served as the team expert in geospatial analytics and data visualization, contributing specialized insights to enhance decision-making processes
 
+**Epidemiologist, Centers for Disease Control and Prevention     (_2021 - 2022_)**
+- Engineered automated data pipelines to streamline the generation of internal reports and data dashboards, establishing them as industry standards for national responses
+- Applied sophisticated statistical methods to probe chronic disease patterns among diverse demographics over time, providing valuable insights into public health trends
+- Generated infographics, research reports and presentations for multiple stakeholders 
 
-
-## Projects
-### MORE EXAMPLES TO COME...
+**Lead Epidemiologist, Summit County Local Public Health Agency     (_2020 - 2021_)**
+- Designed, implemented, and consistently optimized a robust data pipeline from web APIs to automate report generation and public dashboards, ensuring rapid delivery of critical information
+- Leveraged advanced statistical methodologies to analyze and forecast COVID-19 cases, contributing to informed decision-making and strategic planning in response to the pandemic
+- Managed a team of medical professionals, policy decision makers, scientists, and healthcare providers to troubleshoot and to report disease surveillance updates
 
 ## Publications
 1.	Valenzuela X., **Hedman HD**, Villagomez A, Cardenas P, Eisenberg JN, Levy K, Zhang L, Trueba G. 2023. Distribution of blaCTX-M-gene variants in _E. coli_ from different origins in Ecuador. Medicine in Microecology, 18, 100092.
