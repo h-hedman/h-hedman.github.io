@@ -74,7 +74,7 @@ Epidemic Intelligence Service Officer
 - Oversaw molecular and microbial laboratory management and specimen processing, ensuring accuracy and reliability of data for research and analysis purposes.
 
 ## Publications
-1. [Valenzuela X., **Hedman HD**, Villagomez A, Cardenas P, Eisenberg JN, Levy K, Zhang L, Trueba G. 2023. Distribution of blaCTX-M-gene variants in _E. coli_ from different origins in Ecuador. Medicine in Microecology, 18, 100092.]([Publication 1 Link](https://pubmed.ncbi.nlm.nih.gov/38148908/))
+1. [Valenzuela X., **Hedman HD**, Villagomez A, Cardenas P, Eisenberg JN, Levy K, Zhang L, Trueba G. 2023. Distribution of blaCTX-M-gene variants in _E. coli_ from different origins in Ecuador. Medicine in Microecology, 18, 100092.](https://pubmed.ncbi.nlm.nih.gov/38148908/)
 2. [Publication 2 Title](Publication 2 Link)
 3. [Publication 3 Title](Publication 3 Link)
 4. [Publication 4 Title](Publication 4 Link)
