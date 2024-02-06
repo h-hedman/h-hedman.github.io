@@ -15,7 +15,7 @@
 ## Work Experience
 
 **Kapili Services, LLC / CDC National Neurological Conditions Surveillance System (NNCSS) (2022 - Present)**
-*Contractor Health Scientist
+*Contractor Health Scientist*
 - Served as the lead statistical programmer and primary point of contact for the CDC NNCSS leadership and Kapili Services.
 - Collaborated with cross-functional teams to identify key areas for improvement in data analytics methodologies and practices.
 - Led bi-weekly client meetings, facilitating discussions and delivering client-facing deliverables including written summaries, data visualizations, and oral presentations to guide key NNCSS decision points.
@@ -25,7 +25,7 @@
 - Provided comprehensive training and statistical consultation on statistical methods, data visualization, and results interpretation for ongoing projects.
 
 **CommonSpirit Health (2023 - Present)**
-Part-time Healthcare Data Analyst
+*Part-time Healthcare Data Analyst*
 
 - Spearheaded the development of robust data infrastructure, workflow design, statistical analysis, and outcome assessment for a financial incentive program aimed at food insecurity reduction in Colorado.
 - Collaborated closely with cross-functional teams to generate analytics and data visualizations, facilitating strategic decision-making and resource optimization, resulting in approximately $100k reduction in project costs.
@@ -33,38 +33,44 @@ Part-time Healthcare Data Analyst
 - Conducted statistical analyses on healthcare and observational studies using advanced econometric models, simulation techniques, and prediction modeling to support evidence-based decision-making.
 
 **Epidemiologic Research & Methods, LLC (2022 - 2023)**
-Consultant
+*Consultant*
 
 - Performed systematic literature reviews, evidence synthesis, and report generation to assist with burden-of-illness studies on multiple chronic disease conditions.
 - Conducted epidemiologic and trend analyses to identify the needs for pharmaceutical and biotechnology clients using SAS and SQL.
 - Led the development of key sections of client reports, effectively communicating epidemiologic evidence, treatment effectiveness, and health economics data to stakeholders, contributing to informed decision-making and actionable outcomes.
 
 **Summit County Local Public Health Agency (2020 - 2022)**
-Part-Time Lead Epidemiologist
+*Part-Time Lead Epidemiologist*
 
 - Designed, implemented, and optimized a resilient data pipeline to automate report generation and public dashboards, ensuring swift dissemination of crucial information to stakeholders.
 - Utilized advanced statistical techniques to analyze and forecast COVID-19 cases, enabling proactive decision-making and resource allocation in response to evolving pandemic dynamics.
 - Orchestrated and led a multidisciplinary team of medical professionals, policy decision-makers, and healthcare providers to troubleshoot and provide weekly disease surveillance updates.
 
 **Centers for Disease Control and Prevention (2021 - 2022)**
-Epidemic Intelligence Service Officer
+*Epidemic Intelligence Service Officer*
 
 - Engineered automated data pipelines to streamline the generation of internal reports and data dashboards for state and national-level responses.
 - Partnered with state and national public health agencies on numerous national outbreak investigations.
 - Applied sophisticated statistical methods to investigate chronic disease patterns among diverse demographics over time to inform state and national policy guideline development.
 - Generated tailored infographics, research reports, and presentations for various stakeholders and audiences.
 
-**U.S. Department of State, Office of the U.S. Global AIDS Coordinator and Health Diplomacy AAAS Science and Technology Policy Fellow (2020 - 2021)**
+**U.S. Department of State, Office of the U.S. Global AIDS Coordinator and Health Diplomacy (2020 - 2021)**
+*AAAS Science and Technology Policy Fellow*
+
 - Collaborated with U.S. and international stakeholders to assess the effectiveness of HIV/AIDS intervention strategies and identified optimal strategic plans with an allocated budget of approximately 10.8B.
 - Designed and implemented global strategies to improve access and treatment outcomes for people living with HIV/AIDS in multiple low- and middle-income countries using real-world data.
 - Communicated recommendations based on epidemiologic studies and analytics directly with country ministry of health, federal agencies, and non-profit organizations to inform strategic planning.
 
-**University of Illinois, Urbana-Champaign Postdoctoral Research Fellow/Biostatician (2019 - 2020)**
+**University of Illinois, Urbana-Champaign (2019 - 2020)**
+*Postdoctoral Research Fellow/Biostatician*
+
 - Designed and led comparative effectiveness studies on the effectiveness of state-level interventions targeting chronic wasting disease using surveillance and registry data.
 - Designed and conducted several observational studies to evaluate local- and state-level outcomes of chronic wasting disease intervention strategies using complex survey and surveillance data.
 - Led strategic planning meetings and communicated research findings to multiple stakeholders using data visualization tools and presentations.
 
-**University of Michigan, Ann Arbor Doctoral Researcher (2013 - 2019)**
+**University of Michigan, Ann Arbor (2013 - 2019)**
+*Doctoral Researcher*
+
 - Designed and led multiple longitudinal observational studies focusing on health outcomes related to antimicrobial use in low-resource settings.
 - Conducted statistical and geospatial analyses to assess the impact of environmental exposure risks on health outcomes using R and SAS.
 - Developed and led qualitative interviews to assess the effectiveness of numerous health promotion strategies.
