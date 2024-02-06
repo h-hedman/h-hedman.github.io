@@ -4,15 +4,13 @@
 - Python
 - R
 - SQL
+- SAS
 - Power Bi
 - Tableau
-- Snowflake
-- MATLAB
-- ArcGIS
 
 ## Education
-- Doctor of Philosophy, University of Michigan, Ann Arbor (2019)
-- Bachelor of Arts, Magna Cum Laude, University of Colorado, Boulder (2013)
+- Ph.D., University of Michigan, Ann Arbor (2019)
+- B.A., Magna Cum Laude, University of Colorado, Boulder (2013)
 
 ## Work Experience
 
