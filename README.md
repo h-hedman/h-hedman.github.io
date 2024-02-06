@@ -1,67 +1,104 @@
 # Data Scientist
 
-#### Technical Skills: Python, R, SQL, Power Bi, Tableau, Snowflake, MATLAB, ArcGIS
+## Technical Skills
+- Python
+- R
+- SQL
+- Power Bi
+- Tableau
+- Snowflake
+- MATLAB
+- ArcGIS
 
 ## Education
-- Doctor of Philosophy, University of Michigan, Ann Arbor (_2019_)								       		
-- Bachelor of Arts, _Magna Cum Laude_, University of Colorado, Boulder (_2013_)
+- Doctor of Philosophy, University of Michigan, Ann Arbor (2019)
+- Bachelor of Arts, Magna Cum Laude, University of Colorado, Boulder (2013)
 
 ## Work Experience
-**Kapili Services, LLC / CDC National Neurological Conditions Surveillance System (NNCSS) (_2022 - Present_)**                      
-Contractor Health Scientist		                                                                                                  
-•	Served as the lead statistical programmer and primary point of contact for the CDC NNCSS leadership and Kapili Services.
-•	Collaborated with cross-functional teams to identify key areas for improvement in data analytics methodologies and practices.
-•	Led bi-weekly client meetings, facilitating discussions and delivering client-facing deliverables including written summaries, data visualizations, and oral presentations to guide key NNCSS decision points.
-•	Automated statistical reporting processes and develop dashboards for client meetings using R, Tableau, Power BI, and SQL, enhancing accessibility and insight generation.
-•	Implemented best practices and quality assurance measures to enhance the efficiency and effectiveness of data analysis workflows.
-•	Applied natural language processing (NLP) techniques to analyze and extract valuable insights from medical text, contributing to enhanced data-driven decision-making in healthcare settings.
-•	Provided comprehensive training and statistical consultation on statistical methods, data visualization, and results interpretation for ongoing projects.
 
-**CommonSpirit Health (_2023 - Present_)**                        
-Part-time Healthcare Data Analyst							            	      
-•	Spearheaded the development of robust data infrastructure, workflow design, statistical analysis, and outcome assessment for a financial incentive program aimed at food insecurity reduction in Colorado.
-•	Collaborated closely with cross-functional teams to generate analytics and data visualizations, facilitating strategic decision-making and resource optimization, resulting in approximately $100k reduction in project costs.
-•	Executed complex queries within Epic, Snowflake, and Azure environments using R, SQL, and Python.
-•	Conducted statistical analyses on healthcare and observational studies using advanced econometric models, simulation techniques, and prediction modeling to support evidence-based decision-making.
+**Kapili Services, LLC / CDC National Neurological Conditions Surveillance System (NNCSS) (2022 - Present)**
+Contractor Health Scientist
 
-**Epidemiologic Research & Methods, LLC (_2022 - 2023_)** 
-Consultant                       									      
-•	Performed systematic literature reviews, evidence synthesis, and report generation to assist with burden-of-illness studies on multiple chronic disease conditions.
-•	Conducted epidemiologic and trend analyses to identify the needs for pharmaceutical and biotechnology clients using SAS and SQL. 
-•	Led the development of key sections of client reports, effectively communicating epidemiologic evidence, treatment effectiveness, and health economics data to stakeholders, contributing to informed decision-making and actionable outcomes.
+- Served as the lead statistical programmer and primary point of contact for the CDC NNCSS leadership and Kapili Services.
+- Collaborated with cross-functional teams to identify key areas for improvement in data analytics methodologies and practices.
+- Led bi-weekly client meetings, facilitating discussions and delivering client-facing deliverables including written summaries, data visualizations, and oral presentations to guide key NNCSS decision points.
+- Automated statistical reporting processes and develop dashboards for client meetings using R, Tableau, Power BI, and SQL, enhancing accessibility and insight generation.
+- Implemented best practices and quality assurance measures to enhance the efficiency and effectiveness of data analysis workflows.
+- Applied natural language processing (NLP) techniques to analyze and extract valuable insights from medical text, contributing to enhanced data-driven decision-making in healthcare settings.
+- Provided comprehensive training and statistical consultation on statistical methods, data visualization, and results interpretation for ongoing projects.
 
-**Summit County Local Public Health Agency (_2020 - 2022_)** 
-Part-Time Lead Epidemiologist 							                                
-•	Designed, implemented, and optimized a resilient data pipeline to automate report generation and public dashboards, ensuring swift dissemination of crucial information to stakeholders.
-•	Utilized advanced statistical techniques to analyze and forecast COVID-19 cases, enabling proactive decision-making and resource allocation in response to evolving pandemic dynamics.
-•	Orchestrated and led a multidisciplinary team of medical professionals, policy decision-makers, and healthcare providers to troubleshoot and provide weekly disease surveillance updates.
+**CommonSpirit Health (2023 - Present)**
+Part-time Healthcare Data Analyst
 
-**Centers for Disease Control and Prevention (_2021 - 2022_)** 
-Epidemic Intelligence Service Officer							                   
-•	Engineered automated data pipelines to streamline the generation of internal reports and data dashboards for state and national-level responses.
-•	Partnered with state and national public health agencies on numerous national outbreak investigations. 
-•	Applied sophisticated statistical methods to investigate chronic disease patterns among diverse demographics over time to inform state and national policy guideline development. 
-•	Generated tailored infographics, research reports and presentations for various stakeholders and audiences.
+- Spearheaded the development of robust data infrastructure, workflow design, statistical analysis, and outcome assessment for a financial incentive program aimed at food insecurity reduction in Colorado.
+- Collaborated closely with cross-functional teams to generate analytics and data visualizations, facilitating strategic decision-making and resource optimization, resulting in approximately $100k reduction in project costs.
+- Executed complex queries within Epic, Snowflake, and Azure environments using R, SQL, and Python.
+- Conducted statistical analyses on healthcare and observational studies using advanced econometric models, simulation techniques, and prediction modeling to support evidence-based decision-making.
 
+**Epidemiologic Research & Methods, LLC (2022 - 2023)**
+Consultant
 
-**U.S. Department of State, Office of the U.S. Global AIDS Coordinator and Health Diplomacy
-AAAS Science and Technology Policy Fellow	(_2020 - 2021_)**               	       
-•	Collaborated with U.S. and international stakeholders to assess the effectiveness of HIV/AIDS intervention strategies and identified optimal strategic plans with an allocated budget of approximately 10.8B.
-•	Designed and implemented global strategies to improve access and treatment outcomes for people living with HIV/AIDS in multiple low- and middle-income countries using real world data. 
-•	Communicated recommendations based on epidemiologic studies and analytics directly with country ministry of health, federal agencies, and non-profit organizations to inform strategic planning.
+- Performed systematic literature reviews, evidence synthesis, and report generation to assist with burden-of-illness studies on multiple chronic disease conditions.
+- Conducted epidemiologic and trend analyses to identify the needs for pharmaceutical and biotechnology clients using SAS and SQL.
+- Led the development of key sections of client reports, effectively communicating epidemiologic evidence, treatment effectiveness, and health economics data to stakeholders, contributing to informed decision-making and actionable outcomes.
 
-**University of Illinois, Urbana-Champaign  
-Postdoctoral Research Fellow/Biostatician (_2019 - 2020_)** 							      
-•	Designed and led comparative effectiveness studies on the effectiveness of state-level interventions targeting chronic wasting disease using surveillance and registry data.
-•	Designed and conducted several observational studies to evaluate local- and state-level outcomes of chronic wasting disease intervention strategies using complex survey and surveillance data. 
-•	Led strategic planning meetings and communicated research findings to multiple stakeholders using data visualization tools and presentations.
+**Summit County Local Public Health Agency (2020 - 2022)**
+Part-Time Lead Epidemiologist
 
-**University of Michigan, Ann Arbor  
-Doctoral Researcher (_2013 - 2019_)** 						     		 		     
-•	Designed and led multiple longitudinal observational studies focusing on health outcomes related to antimicrobial use in low-resource settings.
-•	Conducted statistical and geospatial analyses to assess the impact of environmental exposure risks on health outcomes using R and SAS. 
-•	Developed and led qualitative interviews to assess the effectiveness of numerous health promotion strategies.
-•	Oversaw molecular and microbial laboratory management and specimen processing, ensuring accuracy and reliability of data for research and analysis purposes.
+- Designed, implemented, and optimized a resilient data pipeline to automate report generation and public dashboards, ensuring swift dissemination of crucial information to stakeholders.
+- Utilized advanced statistical techniques to analyze and forecast COVID-19 cases, enabling proactive decision-making and resource allocation in response to evolving pandemic dynamics.
+- Orchestrated and led a multidisciplinary team of medical professionals, policy decision-makers, and healthcare providers to troubleshoot and provide weekly disease surveillance updates.
+
+**Centers for Disease Control and Prevention (2021 - 2022)**
+Epidemic Intelligence Service Officer
+
+- Engineered automated data pipelines to streamline the generation of internal reports and data dashboards for state and national-level responses.
+- Partnered with state and national public health agencies on numerous national outbreak investigations.
+- Applied sophisticated statistical methods to investigate chronic disease patterns among diverse demographics over time to inform state and national policy guideline development.
+- Generated tailored infographics, research reports, and presentations for various stakeholders and audiences.
+
+**U.S. Department of State, Office of the U.S. Global AIDS Coordinator and Health Diplomacy AAAS Science and Technology Policy Fellow (2020 - 2021)**
+- Collaborated with U.S. and international stakeholders to assess the effectiveness of HIV/AIDS intervention strategies and identified optimal strategic plans with an allocated budget of approximately 10.8B.
+- Designed and implemented global strategies to improve access and treatment outcomes for people living with HIV/AIDS in multiple low- and middle-income countries using real-world data.
+- Communicated recommendations based on epidemiologic studies and analytics directly with country ministry of health, federal agencies, and non-profit organizations to inform strategic planning.
+
+**University of Illinois, Urbana-Champaign Postdoctoral Research Fellow/Biostatician (2019 - 2020)**
+- Designed and led comparative effectiveness studies on the effectiveness of state-level interventions targeting chronic wasting disease using surveillance and registry data.
+- Designed and conducted several observational studies to evaluate local- and state-level outcomes of chronic wasting disease intervention strategies using complex survey and surveillance data.
+- Led strategic planning meetings and communicated research findings to multiple stakeholders using data visualization tools and presentations.
+
+**University of Michigan, Ann Arbor Doctoral Researcher (2013 - 2019)**
+- Designed and led multiple longitudinal observational studies focusing on health outcomes related to antimicrobial use in low-resource settings.
+- Conducted statistical and geospatial analyses to assess the impact of environmental exposure risks on health outcomes using R and SAS.
+- Developed and led qualitative interviews to assess the effectiveness of numerous health promotion strategies.
+- Oversaw molecular and microbial laboratory management and specimen processing, ensuring accuracy and reliability of data for research and analysis purposes.
+
+## Publications
+1. [Valenzuela X., **Hedman HD**, Villagomez A, Cardenas P, Eisenberg JN, Levy K, Zhang L, Trueba G. 2023. Distribution of blaCTX-M-gene variants in _E. coli_ from different origins in Ecuador. Medicine in Microecology, 18, 100092.]([Publication 1 Link](https://pubmed.ncbi.nlm.nih.gov/38148908/))
+2. [Publication 2 Title](Publication 2 Link)
+3. [Publication 3 Title](Publication 3 Link)
+4. [Publication 4 Title](Publication 4 Link)
+5. [Publication 5 Title](Publication 5 Link)
+6. [Publication 6 Title](Publication 6 Link)
+7. [Publication 7 Title](Publication 7 Link)
+8. [Publication 8 Title](Publication 8 Link)
+9. [Publication 9 Title](Publication 9 Link)
+10. [Publication 10 Title](Publication 10 Link)
+11. [Publication 11 Title](Publication 11 Link)
+12. [Publication 12 Title](Publication 12 Link)
+13. [Publication 13 Title](Publication 13 Link)
+14. [Publication 14 Title](Publication 14 Link)
+15. [Publication 15 Title](Publication 15 Link)
+16. [Publication 16 Title](Publication 16 Link)
+17. [Publication 17 Title](Publication 17 Link)
+18. [Publication 18 Title](Publication 18 Link)
+19. [Publication 19 Title](Publication 19 Link)
+20. [Publication 20 Title](Publication 20 Link)
+21. [Publication 21 Title](Publication 21 Link)
+22. [Publication 22 Title](Publication 22 Link)
+23. [Publication 23 Title](Publication 23 Link)
+24. [Publication 24 Title](Publication 24 Link)
+25. [Publication 25 Title](Publication 25 Link)
 
 
 ## Publications
