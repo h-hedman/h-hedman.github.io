@@ -77,34 +77,8 @@ Epidemic Intelligence Service Officer
 1. [Valenzuela X., Hedman HD, Villagomez A, Cardenas P, Eisenberg JN, Levy K, Zhang L, Trueba G. 2023. Distribution of blaCTX-M-gene variants in E. coli from different origins in Ecuador. Medicine in Microecology, 18, 100092](https://pubmed.ncbi.nlm.nih.gov/38148908/)
 
 2. [Publication 2 Title](Publication 2 Link)
-3. [Publication 3 Title](Publication 3 Link)
-4. [Publication 4 Title](Publication 4 Link)
-5. [Publication 5 Title](Publication 5 Link)
-6. [Publication 6 Title](Publication 6 Link)
-7. [Publication 7 Title](Publication 7 Link)
-8. [Publication 8 Title](Publication 8 Link)
-9. [Publication 9 Title](Publication 9 Link)
-10. [Publication 10 Title](Publication 10 Link)
-11. [Publication 11 Title](Publication 11 Link)
-12. [Publication 12 Title](Publication 12 Link)
-13. [Publication 13 Title](Publication 13 Link)
-14. [Publication 14 Title](Publication 14 Link)
-15. [Publication 15 Title](Publication 15 Link)
-16. [Publication 16 Title](Publication 16 Link)
-17. [Publication 17 Title](Publication 17 Link)
-18. [Publication 18 Title](Publication 18 Link)
-19. [Publication 19 Title](Publication 19 Link)
-20. [Publication 20 Title](Publication 20 Link)
-21. [Publication 21 Title](Publication 21 Link)
-22. [Publication 22 Title](Publication 22 Link)
-23. [Publication 23 Title](Publication 23 Link)
-24. [Publication 24 Title](Publication 24 Link)
-25. [Publication 25 Title](Publication 25 Link)
 
-
-## Publications
-1.	Valenzuela X., **Hedman HD**, Villagomez A, Cardenas P, Eisenberg JN, Levy K, Zhang L, Trueba G. 2023. Distribution of blaCTX-M-gene variants in _E. coli_ from different origins in Ecuador. Medicine in Microecology, 18, 100092.
-2.	Servellita V, Gonzalez AS, Lamson DM, Foresythe A, Huh HJ, Bazinet AL, Bergman NH, Bull RL, Garcia KY, Goodrich JS, Lovett SP, Parker K, Radune D, Hatada A, Pan C, Rizzo K, Bertumen JB, Morales C, Oluniyi PE, Nguyen J, Tan J, Stryke D, Jaber R, Leslie MT, Lyons Z, **Hedman HD**, Parashar U, Sullivan M, Wroblewski K, Oberste MS, Tate JE, Baker JM, Sugerman D, Potts C, Lu X, Chhabra P, Pediatric Hepatitis of Unknown Etiology Working Group, Ingram LA, Shiau H, Britt W, Gutierrez Sanchez LH, Ciric C, Rostad CA, Vinjé J, Kirking HL, Wadford DA, Raborn RT, St. George K, Chiu CY. (2023). “Adeno-associated virus type 2 in US children with acute severe hepatitis”. Nature. 1-3.
+2.	[Servellita V, Gonzalez AS, Lamson DM, Foresythe A, Huh HJ, Bazinet AL, Bergman NH, Bull RL, Garcia KY, Goodrich JS, Lovett SP, Parker K, Radune D, Hatada A, Pan C, Rizzo K, Bertumen JB, Morales C, Oluniyi PE, Nguyen J, Tan J, Stryke D, Jaber R, Leslie MT, Lyons Z, **Hedman HD**, Parashar U, Sullivan M, Wroblewski K, Oberste MS, Tate JE, Baker JM, Sugerman D, Potts C, Lu X, Chhabra P, Pediatric Hepatitis of Unknown Etiology Working Group, Ingram LA, Shiau H, Britt W, Gutierrez Sanchez LH, Ciric C, Rostad CA, Vinjé J, Kirking HL, Wadford DA, Raborn RT, St. George K, Chiu CY. (2023). “Adeno-associated virus type 2 in US children with acute severe hepatitis”. Nature. 1-3](https://pubmed.ncbi.nlm.nih.gov/36996871/)
 3.	Cates J, Baker JM, Almendares O, Kambhampati AK, Burke RM, Balachandran N, Burnett E, Potts CC, Reagan-Steiner S, Kirking HL, Sugerman D, Parashar UD, Tate JE, **Hepatitis of Unknown Etiology Group**. (2022). “Interim Analysis of Acute Hepatitis of Unknown Etiology in Children Aged <10 Years — United States, October 2021–June 2022”. MMWR. 71:852–858.	
 4.	**Hedman HD**, Zhang L, Butt B, Papias P, Trostle JA, Eisenberg JNS. “Chicken dumping”: Motivations and perceptions in shifting poultry production practices. One Health. 13, 100296.
 5.	**Hedman HD**, Krawczyk E, Hemy YA, Zhang L, Varga C. Host diversity and potential transmission pathways of SARS-CoV-2 at the human-animal interface. Pathogens. 10, 180. 
