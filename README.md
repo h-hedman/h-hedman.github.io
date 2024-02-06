@@ -10,7 +10,7 @@
 
 ## Education
 - Ph.D., University of Michigan, Ann Arbor (2019)
-- B.A., Magna Cum Laude, University of Colorado, Boulder (2013)
+- B.A., *Magna Cum Laude*, University of Colorado, Boulder (2013)
 
 ## Work Experience
 
