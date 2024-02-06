@@ -16,6 +16,7 @@
 
 **Kapili Services, LLC / CDC National Neurological Conditions Surveillance System (NNCSS) (2022 - Present)**
 *Contractor Health Scientist*
+
 - Served as the lead statistical programmer and primary point of contact for the CDC NNCSS leadership and Kapili Services.
 - Collaborated with cross-functional teams to identify key areas for improvement in data analytics methodologies and practices.
 - Led bi-weekly client meetings, facilitating discussions and delivering client-facing deliverables including written summaries, data visualizations, and oral presentations to guide key NNCSS decision points.
