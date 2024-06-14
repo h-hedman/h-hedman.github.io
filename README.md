@@ -25,7 +25,7 @@
 - Applied natural language processing (NLP) techniques to analyze and extract valuable insights from medical text, contributing to enhanced data-driven decision-making in healthcare settings.
 - Provided comprehensive training and statistical consultation on statistical methods, data visualization, and results interpretation for ongoing projects.
 
-**CommonSpirit Health (2023 - Present)** <br>
+**CommonSpirit Health (2023 - 2024)** <br>
 *Part-time Healthcare Data Analyst*
 
 - Spearheaded the development of robust data infrastructure, workflow design, statistical analysis, and outcome assessment for a financial incentive program aimed at food insecurity reduction in Colorado.
