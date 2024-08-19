@@ -9,8 +9,11 @@
 - Tableau
 
 ## Education
-- Ph.D., University of Michigan, Ann Arbor (2019)
-- B.A., *Magna Cum Laude*, University of Colorado, Boulder (2013)
+- Epidemic Intelligence Service Fellowship, Centers for Disease Control and Prevention (2021-2022)
+- AAAS Science and Technology Fellow/Data Scientist, U.S. Department of State (2020-2021)                                                                     
+- Postdoctoral Research Fellow/Biostatician, University of Illinois, Urbana-Champaign (2019-2020)	
+- Doctor of Philosophy, University of Michigan, Ann Arbor (2013-2019)
+- Bachelor of Arts, University of Colorado, Boulder (2009-2013)   
 
 ## Work Experience
 
