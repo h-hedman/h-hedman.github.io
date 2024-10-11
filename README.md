@@ -45,7 +45,7 @@
 - Conducted epidemiologic and trend analyses to identify the needs for pharmaceutical and biotechnology clients using SAS and SQL.
 - Led the development of key sections of client reports, effectively communicating epidemiologic evidence, treatment effectiveness, and health economics data to stakeholders, contributing to informed decision-making and actionable outcomes.
 
-**Summit County Local Public Health Agency (2020 - 2024)** <br>
+**Summit County Local Public Health Agency (2020 - _Present_)** <br>
 *Data Scientist / Epidemiologist*
 
 - Streamlined COVID-19 data pipelines and implemented advanced data automation, resulting in optimized reporting time (from ~8 hours/day to ~5 minutes/day) and departmental budget saving of over $40K 
