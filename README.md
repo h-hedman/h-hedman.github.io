@@ -1,12 +1,11 @@
 # Data Scientist
 
-## Technical Skills
-- Python
-- R
-- SQL
-- SAS
-- Power Bi
-- Tableau
+## Programming languages
+- Python, R, SQL, SAS, C++
+## Methodologies
+- Impact analysis, Predictive modeling, Forecasting, AI/ML, Data automation, Statistical inference
+## Applications
+- R shiny, Power Bi, Tableau
 
 ## Education
 - Epidemic Intelligence Service Fellowship, Centers for Disease Control and Prevention (2021-2022)
@@ -21,13 +20,10 @@
 **Kapili Services, LLC / CDC National Neurological Conditions Surveillance System (NNCSS) (2022 - 2024)** <br>
 *Contractor Health Scientist* 
 
-- Served as the lead statistical programmer and primary point of contact for the CDC NNCSS leadership and Kapili Services.
-- Collaborated with cross-functional teams to identify key areas for improvement in data analytics methodologies and practices.
-- Led bi-weekly client meetings, facilitating discussions and delivering client-facing deliverables including written summaries, data visualizations, and oral presentations to guide key NNCSS decision points.
-- Automated statistical reporting processes and develop dashboards for client meetings using R, Tableau, Power BI, and SQL, enhancing accessibility and insight generation.
-- Implemented best practices and quality assurance measures to enhance the efficiency and effectiveness of data analysis workflows.
-- Applied natural language processing (NLP) techniques to analyze and extract valuable insights from medical text, contributing to enhanced data-driven decision-making in healthcare settings.
-- Provided comprehensive training and statistical consultation on statistical methods, data visualization, and results interpretation for ongoing projects.
+- Spearheaded a data modernization initiative to integrate AI-driven analytical modelling, reducing processing time (from ~4 hours/week to ~1 minute/week) for client data summary reports 
+-	Performed advanced analysis of large healthcare datasets using impact analysis, cluster analysis, and data mining techniques with Python, R, and SAS
+-	Collaborated with private, non-governmental, and governmental stakeholders to gather data, understand business needs, and conduct analysis that improved scientific research and client deliverables
+
 
 **CommonSpirit Health (2023 - 2024)** <br>
 *Part-time Healthcare Data Analyst*
@@ -44,27 +40,28 @@
 - Conducted epidemiologic and trend analyses to identify the needs for pharmaceutical and biotechnology clients using SAS and SQL.
 - Led the development of key sections of client reports, effectively communicating epidemiologic evidence, treatment effectiveness, and health economics data to stakeholders, contributing to informed decision-making and actionable outcomes.
 
-**Summit County Local Public Health Agency (2020 - 2022)** <br>
-*Part-Time Lead Epidemiologist*
+**Summit County Local Public Health Agency (2020 - 2024)** <br>
+*Data Scientist / Epidemiologist*
 
-- Designed, implemented, and optimized a resilient data pipeline to automate report generation and public dashboards, ensuring swift dissemination of crucial information to stakeholders.
-- Utilized advanced statistical techniques to analyze and forecast COVID-19 cases, enabling proactive decision-making and resource allocation in response to evolving pandemic dynamics.
-- Orchestrated and led a multidisciplinary team of medical professionals, policy decision-makers, and healthcare providers to troubleshoot and provide weekly disease surveillance updates.
+- Streamlined COVID-19 data pipelines and implemented advanced data automation, resulting in optimized reporting time (from ~8 hours/day to ~5 minutes/day) and departmental budget saving of over $40K 
+-	Performed predictive modeling and impact analysis in R and Python to allocate resources for key populations
+-	Developed and managed automated data dashboards using R Shiny, Tableau, and Power BI, integrating APIs and database connections with data wrangling and SQL queries to track key performance metrics and enhance real-time decision-making
+
 
 **Centers for Disease Control and Prevention (2021 - 2022)**<br>
 *Epidemic Intelligence Service Officer*
 
-- Engineered automated data pipelines to streamline the generation of internal reports and data dashboards for state and national-level responses.
-- Partnered with state and national public health agencies on numerous national outbreak investigations.
-- Applied sophisticated statistical methods to investigate chronic disease patterns among diverse demographics over time to inform state and national policy guideline development.
-- Generated tailored infographics, research reports, and presentations for various stakeholders and audiences.
+- Led analytics efforts on multiple CDC emergency responses, transforming manual reporting systems (from ~3 hours/day to ~5 minutes/day) and automating disease outbreak forecasts for key populations under tight deadlines
+-	Conducted advanced statistical analyses on national and state-level databases to perform cost-benefit analyses, outbreak predictions, and simulation studies
+-	Initiated cross-functional collaboration with tribal nations, state government, federal government, and NGO partners to mitigate racial disparities by improving the racial classification of American Indian populations in healthcare data
+
 
 **U.S. Department of State, Office of the U.S. Global AIDS Coordinator and Health Diplomacy (2020 - 2021)**<br>
 *AAAS Science and Technology Policy Fellow*
 
-- Collaborated with U.S. and international stakeholders to assess the effectiveness of HIV/AIDS intervention strategies and identified optimal strategic plans with an allocated budget of approximately 10.8B.
-- Designed and implemented global strategies to improve access and treatment outcomes for people living with HIV/AIDS in multiple low- and middle-income countries using real-world data.
-- Communicated recommendations based on epidemiologic studies and analytics directly with country ministry of health, federal agencies, and non-profit organizations to inform strategic planning.
+- Led efforts to assess the cost-effectiveness of national HIV/AIDS interventions, collaborating with stakeholders to help allocate resources from a total $80M program budget across targeted geographic regions
+-	Identified key economic metrics using R and R Shiny to evaluate the comparative effectiveness of national interventions while collaborating with diverse stakeholders to ensure comprehensive analysis
+
 
 **University of Illinois, Urbana-Champaign (2019 - 2020)**<br>
 *Postdoctoral Research Fellow/Biostatician*
