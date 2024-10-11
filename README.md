@@ -1,11 +1,16 @@
 # Data Scientist
 
 ## Programming languages
+
 - Python, R, SQL, SAS, C++
+
 ## Methodologies
+
 - Impact analysis, Predictive modeling, Forecasting, AI/ML, Data automation, Statistical inference
+
 ## Applications
-- R shiny, Tableau, Power Bi
+
+- R shiny, Tableau, Power BI
 
 ## Education
 - Epidemic Intelligence Service Fellowship, Centers for Disease Control and Prevention (2021-2022)
