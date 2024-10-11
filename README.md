@@ -5,7 +5,7 @@
 ## Methodologies
 - Impact analysis, Predictive modeling, Forecasting, AI/ML, Data automation, Statistical inference
 ## Applications
-- R shiny, Power Bi, Tableau
+- R shiny, Tableau, Power Bi
 
 ## Education
 - Epidemic Intelligence Service Fellowship, Centers for Disease Control and Prevention (2021-2022)
