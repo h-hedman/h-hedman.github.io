@@ -10,7 +10,7 @@
 
 ## Applications
 
-- R shiny, Tableau, Power BI
+- Jupyter Notebooks, R shiny, Tableau, Power BI
 
 ## Education
 - Epidemic Intelligence Service Fellowship, Centers for Disease Control and Prevention (2021-2022)
