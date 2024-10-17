@@ -13,12 +13,9 @@
 - Jupyter Notebooks, R shiny, Tableau, Power BI
 
 ## Education
-- Epidemic Intelligence Service Fellowship, Centers for Disease Control and Prevention (2021-2022)
-- Tribal Researchers’ Cancer Control Fellowship, Northwest Portland Area Indian Health Board (2021-2022)
-- AAAS Science and Technology Fellow/Data Scientist, U.S. Department of State (2020-2021)                                                                     
-- Postdoctoral Research Fellow/Biostatician, University of Illinois, Urbana-Champaign (2019-2020)	
-- Doctor of Philosophy, University of Michigan, Ann Arbor (2013-2019)
-- Bachelor of Arts, University of Colorado, Boulder (2009-2013)   
+- M.S., Computer Science, Georgia Institute of Technology	(2024-2026)
+- Ph.D., School for Environment and Sustainability, University of Michigan, Ann Arbor, MI (2013-2019)
+- B.A., Ecology and Evolutionary Biology, _Magna Cum Laude_, University of Colorado, Boulder (2009-2013)   
 
 ## Work Experience
 
@@ -82,6 +79,16 @@
 - Conducted statistical and geospatial analyses to assess the impact of environmental exposure risks on health outcomes using R and SAS.
 - Developed and led qualitative interviews to assess the effectiveness of numerous health promotion strategies.
 - Oversaw molecular and microbial laboratory management and specimen processing, ensuring accuracy and reliability of data for research and analysis purposes.
+
+**Leadership Experience**<br>
+*American Indian/Alaskan Native Community Engagement*
+
+- Led analysis and reporting of tobacco-use data for the Cherokee Nation as a data science consultant and tribal citizen
+- Tribal Researchers’ Cancer Control Fellowship, Northwest Portland Area Indian Health Board (2021-2022)
+-	Mentored 30+ AI/AN students in STEM through various programs such as AISES, SACNAS, and NPAIHB, fostering opportunities for academic and professional growth
+-	Led STEM career development initiatives and organized community engagement events, including powwows and discussion panels with AI/AN STEM professionals, as AISES Chapter President at the University of Colorado
+
+
 
 ## Publications
 1. [Valenzuela X., Hedman HD, Villagomez A, Cardenas P, Eisenberg JN, Levy K, Zhang L, Trueba G. 2023. Distribution of blaCTX-M-gene variants in E. coli from different origins in Ecuador. Medicine in Microecology, 18, 100092](https://pubmed.ncbi.nlm.nih.gov/38148908/)
