@@ -19,6 +19,12 @@
 
 ## Work Experience
 
+**Cardinal Health, Inc. (2025 - Present)** <br>
+*Data Science Advisor* 
+- Lead the development and deployment of predictive models and forecasting algorithms to inform marketing strategies and drive revenue growth through customer personalization.
+- Collaborate with cross-functional teams to proactively identify opportunities for data-driven insights, enhancing customer understanding and supporting strategic decision-making.
+- Design and implement advanced statistical models and machine learning solutions using Python and R, delivering actionable reporting to executives and business stakeholders.
+
 **Kapili Services, LLC / CDC National Neurological Conditions Surveillance System (NNCSS) (2022 - 2024)** <br>
 *Contractor Health Scientist* 
 
