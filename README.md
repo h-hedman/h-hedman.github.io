@@ -1,6 +1,5 @@
-# Hayden Hedman, PhD
-
-Applied Data Science | ML Systems
+# Hayden Hedman, PhD  
+Applied Data Scientist
 
 - PhD – School for Environment and Sustainability, University of Michigan (2013-2019)
 - MS – Computer Science, Georgia Institute of Technology (2024-2026)
