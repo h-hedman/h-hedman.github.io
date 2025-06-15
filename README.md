@@ -2,12 +2,13 @@
 
 Applied Data Science | ML Systems
 
-- PhD – Epidemiology & Biostatistics, University of Michigan (2013-2019)
-- MS (in progress) – Computer Science, Georgia Tech (OMSCS) (2024-2026)
+- PhD – School for Environment and Sustainability, University of Michigan (2013-2019)
+- MS – Computer Science, Georgia Institute of Technology (2024-2026)
 
-I’ve led national-scale analytics efforts in public health, infrastructure, and supply chain domains. My work blends statistical modeling, machine learning, and systems thinking — with an emphasis on scalable, interpretable solutions.
+I’ve led data science efforts across federal public health and international development, serving as a technical lead for the CDC and U.S. Department of State. My work spans comparative effectiveness research, supply chain optimization, critical resource allocation, financial modeling, and national emergency response analytics.
 
-Most of my production work lives behind firewalls, but here’s a selection of open projects I’m currently building or adapting.
+I focus on building scalable pipelines, applying machine learning in high-impact environments, and translating complex systems into actionable insights. This portfolio highlights selected projects aligned with that approach — including outcomes modeling, e-commerce forecasting, and experimental ML systems.
+
 
 ---
 
