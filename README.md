@@ -7,7 +7,7 @@ Applied Data Science | ML Systems
 
 I’ve led data science efforts across federal public health and international development, serving as a technical lead for the CDC and U.S. Department of State. My work spans comparative effectiveness research, supply chain optimization, critical resource allocation, financial modeling, and national emergency response analytics.
 
-I focus on building scalable pipelines, applying machine learning in high-impact environments, and translating complex systems into actionable insights. This portfolio highlights selected projects aligned with that approach — including outcomes modeling, e-commerce forecasting, and experimental ML systems.
+I build practical, scalable data pipelines and apply machine learning in settings where the stakes are high and the systems are complex. This portfolio showcases a few of the projects I’ve worked on, including outcomes modeling, e-commerce forecasting, and experimental ML tools.
 
 
 ---
