@@ -13,11 +13,11 @@ I build practical, scalable data pipelines and apply machine learning in setting
 
 ## Featured Projects
 
-- **[Public Health Models](https://github.com/h-hedman/public-health-models)**  
-  A multi-language collection of health outcome modeling projects (R, Python, SQL), including spatial AMR mapping, COVID mortality forecasting, and causal inference pipelines.
-
 - **[Predictive Modeling for E-Commerce](https://github.com/h-hedman/ecommerce-ml)**  
   Applied ML techniques for consumer behavior and revenue forecasting, including Random Forest purchase prediction, LSTM-based revenue forecasting, NLP review summarization, Bayesian compartmental modeling, and price optimization using Golden Section Search.
+
+- **[Public Health Models](https://github.com/h-hedman/public-health-models)**  
+A multi-language collection of health outcome modeling projects (R, Python, SQL), including spatial AMR mapping, COVID mortality forecasting, and causal inference pipelines.
 
 ---
 
