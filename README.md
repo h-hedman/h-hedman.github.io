@@ -2,6 +2,21 @@
 
 *Data Scientist focused on systems science and applied modeling*
 
+<p align="center">
+  <a href="https://github.com/h-hedman" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="30" alt="GitHub" style="margin-right:10px;">
+  </a>
+  <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="30" alt="LinkedIn" style="margin-right:10px;">
+  </a>
+  <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" width="30" alt="Google Scholar">
+  </a>
+</p>
+
+
+
+
 
 ---
 
