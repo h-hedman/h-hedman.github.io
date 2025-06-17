@@ -26,21 +26,6 @@ A collection of modeling projects (R, Python, SQL) featuring spatial analysis, t
 
 ---
 
-
-<p align="left">
-  <a href="https://github.com/h-hedman" target="_blank">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
-    <img alt="Google Scholar" src="https://img.shields.io/badge/Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white">
-  </a>
-</p>
-
-
-
 ## Contact
 - Email: haydenhedman [at] gmail [dot] com
 <div style="text-align: center; margin-top: 12px;">
