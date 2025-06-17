@@ -63,3 +63,18 @@ A collection of modeling projects (R, Python, SQL) featuring spatial analysis, t
 - [Google Scholar](https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en)  
 - [LinkedIn](https://www.linkedin.com/in/hayden-hedman/)  
 - Email: haydenhedman [at] gmail [dot] com
+
+
+
+<div style="position: absolute; top: 230px; left: 45px;">
+  <a href="https://github.com/h-hedman" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="24" alt="GitHub" style="margin-right:10px;">
+  </a>
+  <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="24" alt="LinkedIn" style="margin-right:10px;">
+  </a>
+  <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" width="24" alt="Google Scholar">
+  </a>
+</div>
+
