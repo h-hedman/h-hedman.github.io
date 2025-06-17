@@ -40,4 +40,16 @@ A collection of modeling projects (R, Python, SQL) featuring spatial analysis, t
   </a>
 </div>
 
+<style>
+/* Hide sidebar project link and default footer */
+footer, .header, .title, .credits {
+  display: none !important;
+}
+
+/* Hide “View the Project on GitHub” and top left title */
+.sidebar .header, .sidebar .title {
+  display: none !important;
+}
+</style>
+
 
