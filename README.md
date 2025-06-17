@@ -1,6 +1,8 @@
 # Hayden Hedman, PhD  
 ## Applied Data Scientist
 
+
+## Education
 - MS, Computer Science, Georgia Institute of Technology (2024-2026)
 - PhD, School for Environment and Sustainability, University of Michigan (2013-2019)
 - BA, Ecology and Evolutionary Biology, Magna Cum Laude, University of Colorado (2009-2013)
