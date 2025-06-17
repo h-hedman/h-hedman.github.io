@@ -1,8 +1,12 @@
+/* Hide GitHub Pages branding, headers, and sidebar extras */
 .site-title,
 .footer,
-.view-on-github {
-  display: none !important;
-}
-footer, .footer, .credits, .header, .title, .repo {
+.site-footer,
+.view-on-github,
+.credits,
+.header,
+.title,
+.repo,
+.sidebar p {
   display: none !important;
 }
