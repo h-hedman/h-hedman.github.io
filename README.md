@@ -1,5 +1,8 @@
 # Hayden Hedman, PhD
 
+<link rel="stylesheet" href="assets/css/custom.css">
+
+
 *Data Scientist focused on systems science and applied modeling*
 
 ---
