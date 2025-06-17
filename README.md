@@ -66,15 +66,15 @@ A collection of modeling projects (R, Python, SQL) featuring spatial analysis, t
 
 
 
-<div style="position: absolute; top: 230px; left: 45px;">
+<div style="text-align: center; margin-top: 12px;">
   <a href="https://github.com/h-hedman" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="24" alt="GitHub" style="margin-right:10px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="24" alt="GitHub" style="margin: 0 8px;">
   </a>
   <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="24" alt="LinkedIn" style="margin-right:10px;">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="24" alt="LinkedIn" style="margin: 0 8px;">
   </a>
   <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" width="24" alt="Google Scholar">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" width="24" alt="Google Scholar" style="margin: 0 8px;">
   </a>
 </div>
 
