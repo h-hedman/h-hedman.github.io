@@ -23,14 +23,6 @@ I’ve led data science efforts across federal public health and international d
 A collection of modeling projects (R, Python, SQL) featuring spatial analysis, time series forecasting, and causal inference applied to real-world data.
 
 ---
-
-## Contact
-<script type="text/javascript">
-  var part1 = "haydenhedman";
-  var part2 = "gmail.com";
-  document.write('<a href="mailto:' + part1 + '@' + part2 + '">Email</a>');
-</script>
-
 <div style="text-align: center; margin-top: 12px;">
   <a href="https://github.com/h-hedman" target="_blank">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="24" alt="GitHub" style="margin: 0 8px;">
