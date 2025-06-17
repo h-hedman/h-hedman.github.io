@@ -52,4 +52,13 @@ footer, .header, .title, .credits {
 }
 </style>
 
+<style>
+/* Hide GitHub repo name & top-left header */
+.sidebar .header,
+.sidebar .title,
+.sidebar .repo,
+.sidebar p {
+  display: none !important;
+}
+</style>
 
