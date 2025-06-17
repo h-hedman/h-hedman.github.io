@@ -1,6 +1,4 @@
-# Hayden Hedman, PhD  
-## Applied Data Scientist
-
+# Hayden Hedman, PhD  - Data Scientist
 
 ## Education
 - MS, Computer Science, Georgia Institute of Technology (2024-2026)
