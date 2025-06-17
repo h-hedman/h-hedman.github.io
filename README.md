@@ -40,25 +40,23 @@ A collection of modeling projects (R, Python, SQL) featuring spatial analysis, t
   </a>
 </div>
 
+
+
 <style>
-/* Hide sidebar project link and default footer */
-footer, .header, .title, .credits {
+/* Hide top-left site title above image */
+.site-title {
   display: none !important;
 }
 
-/* Hide “View the Project on GitHub” and top left title */
-.sidebar .header, .sidebar .title {
+/* Hide GitHub project link under image */
+.site-footer, .footer, .view-on-github {
   display: none !important;
+}
+
+/* Optional: tighten up spacing where the links were removed */
+body {
+  margin-top: -30px;
 }
 </style>
 
-<style>
-/* Hide GitHub repo name & top-left header */
-.sidebar .header,
-.sidebar .title,
-.sidebar .repo,
-.sidebar p {
-  display: none !important;
-}
-</style>
 
