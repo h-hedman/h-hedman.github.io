@@ -1,21 +1,16 @@
 # Hayden Hedman, PhD
 
-<link rel="stylesheet" href="assets/css/custom.css">
-
-
 *Data Scientist focused on systems science and applied modeling*
 
 ---
 
-## Education
-- MS, Computer Science, Georgia Institute of Technology (2024-2026)
-- PhD, School for Environment and Sustainability, University of Michigan (2013-2019)
-- BA, Ecology and Evolutionary Biology, *Magna Cum Laude*, University of Colorado (2009-2013)
+**Education**  
+MS, Computer Science, Georgia Institute of Technology (2024–2026)  
+PhD, Environment & Sustainability, University of Michigan (2013–2019)  
+BA, Ecology & Evolutionary Biology, *Magna Cum Laude*, University of Colorado (2009–2013)
 
-I’ve led data science efforts across federal public health and international development, serving as a technical lead for the CDC and U.S. Department of State. My work spans comparative effectiveness research, supply chain optimization, critical resource allocation, financial modeling, and national emergency response analytics.
-
-I build practical, scalable data pipelines and apply machine learning in settings where the stakes are high and the systems are complex. This portfolio showcases a few of the projects I’ve worked on, including outcomes modeling, e-commerce forecasting, and experimental ML tools.
-
+---
+I’ve led data science efforts across federal public health and international development, serving as a technical lead for the CDC and US Department of State. My work focuses on building scalable data pipelines and applying statistical and machine learning methods to complex, high-stakes problems including resource allocation, financial modeling, emergency response, and supply chain analytics. This portfolio highlights select projects in predictive modeling, applied statistics, and practical solutions to real-world problems.
 
 ---
 
