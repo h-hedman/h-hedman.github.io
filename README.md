@@ -5,7 +5,7 @@
 ## Education
 - MS, Computer Science, Georgia Institute of Technology (2024-2026)
 - PhD, School for Environment and Sustainability, University of Michigan (2013-2019)
-- BA, Ecology and Evolutionary Biology, Magna Cum Laude, University of Colorado (2009-2013)
+- BA, Ecology and Evolutionary Biology, *Magna Cum Laude*, University of Colorado (2009-2013)
 
 I’ve led data science efforts across federal public health and international development, serving as a technical lead for the CDC and U.S. Department of State. My work spans comparative effectiveness research, supply chain optimization, critical resource allocation, financial modeling, and national emergency response analytics.
 
