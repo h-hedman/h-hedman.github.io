@@ -3,3 +3,6 @@
 .view-on-github {
   display: none !important;
 }
+footer, .footer, .credits, .header, .title, .repo {
+  display: none !important;
+}
