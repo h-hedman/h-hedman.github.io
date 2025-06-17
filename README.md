@@ -2,7 +2,7 @@
 
 *Data Scientist focused on systems science and applied modeling*
 
----
+
 ---
 
 ## Education
