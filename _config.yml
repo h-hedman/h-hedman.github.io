@@ -1,11 +1,8 @@
-title: 
-logo: /assets/img/gh_profile.png
-#description: text below image
-#show_downloads: true
 theme: jekyll-theme-minimal
+
 defaults:
   -
     scope:
       path: ""
     values:
-      custom_css: "/assets/css/custom.css"
+      custom_css: assets/css/custom.css
