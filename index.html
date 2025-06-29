@@ -48,8 +48,7 @@
     .landing {
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
+      align-items: flex-start;
       padding: 3rem 2rem 2rem 2rem;
       max-width: 960px;
       margin: 0 auto;
@@ -57,12 +56,13 @@
 
     .profile-pic {
       width: 140px;
-      height: auto;
+      height: 140px;
       aspect-ratio: 1 / 1;
       border-radius: 50%;
       object-fit: cover;
       margin-right: 2rem;
       background-color: #ccc;
+      flex-shrink: 0;
     }
 
     .bio {
@@ -111,7 +111,8 @@
       }
 
       .profile-pic {
-        margin: 0 0 1rem 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
       }
 
       .bio {
@@ -131,21 +132,7 @@
   </div>
 
   <div class="landing">
-    <div style="text-align: center;">
-      <img src="assets/img/portfolio_profile.jpg" alt="Hayden Hedman" class="profile-pic">
-      <p style="margin-top: 0.5rem; font-weight: 500; font-size: 1rem; color: #444;">Data Scientist, PhD</p>
-      <div class="social-icons">
-        <a href="https://github.com/h-hedman" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
-        </a>
-        <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
-        </a>
-        <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar">
-        </a>
-      </div>
-    </div>
+    <img src="assets/img/portfolio_profile.jpg" alt="Hayden Hedman" class="profile-pic">
 
     <div class="bio">
       <h2>Systems Thinking in Practice</h2>
@@ -159,6 +146,18 @@
         PhD, Environment & Sustainability, University of Michigan (2013–2019)<br>
         BA, Ecology & Evolutionary Biology, <em>Magna Cum Laude</em>, University of Colorado (2009–2013)
       </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/h-hedman" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+        </a>
+        <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar">
+        </a>
+      </div>
     </div>
   </div>
 
