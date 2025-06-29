@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hayden Hedman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #214c38; /* dark green */
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+    }
+
+    .navbar h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 2rem;
+      font-weight: 500;
+    }
+
+    .landing {
+      display: flex;
+      align-items: center;
+      padding: 3rem 2rem 2rem 2rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 2rem;
+      background-color: #ccc;
+    }
+
+    .bio {
+      max-width: 700px;
+    }
+
+    .bio h2 {
+      margin-top: 0;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+
+    .project, .pub {
+      margin-bottom: 1.5rem;
+    }
+
+    a {
+      color: #214c38;
+    }
+
+    .education {
+      font-size: 0.9rem;
+      color: #666;
+      padding: 0 2rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .education p {
+      margin: 0.3rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>Hayden Hedman</h1>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+    </div>
+  </div>
+
+  <div class="landing">
+    <img src="photo.jpg" alt="Hayden Hedman" class="profile-pic">
+    <div class="bio">
+      <h2>Hayden Hedman</h2>
+      <p>
+        I’ve led data science efforts across federal public health and international development, serving as a technical lead for the CDC and US Department of State. My work focuses on building scalable data pipelines and applying statistical and machine learning methods to complex, high-stakes problems including resource allocation, financial modeling, emergency response, and supply chain analytics. This portfolio highlights select projects in predictive modeling, applied statistics, and practical solutions to real-world problems.
+      </p>
+    </div>
+  </div>
+
+  <div class="section" id="projects">
+    <h2>Selected Projects</h2>
+    <div class="project">
+      <strong>Market Simulator (ML4T)</strong><br>
+      Vectorized simulator with performance metrics (Sharpe, cumulative return, volatility). Used to evaluate trading strategies in Python.
+      [<a href="https://github.com/yourusername/project-market-sim">GitHub</a>]
+    </div>
+    <div class="project">
+      <strong>Healthify (R Shiny)</strong><br>
+      Influenza hospitalization data visualizer built with CDC data. Front-end dashboard for public health decision-makers.
+      [<a href="https://github.com/yourusername/healthify">GitHub</a>]
+    </div>
+  </div>
+
+  <div class="section" id="publications">
+    <h2>Publications</h2>
+    <div class="pub">
+      <strong>Antimicrobial Resistance in Environmental Reservoirs</strong> (PLOS One, 2020) — [<a href="#">PDF</a>]
+    </div>
+    <div class="pub">
+      <strong>Cyber-Physical Checkup: A Systematic Review</strong> (GT Lit Review, 2025) — [<a href="#">PDF</a>]
+    </div>
+  </div>
+
+  <div class="education">
+    <p><strong>Education</strong></p>
+    <p>MS, Computer Science, Georgia Institute of Technology (2024–2026)</p>
+    <p>PhD, Environment & Sustainability, University of Michigan (2013–2019)</p>
+    <p>BA, Ecology & Evolutionary Biology, Magna Cum Laude, University of Colorado (2009–2013)</p>
+  </div>
+
+</body>
+</html>
