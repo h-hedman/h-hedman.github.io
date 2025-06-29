@@ -54,15 +54,26 @@
       margin: 0 auto;
     }
 
+    .profile-block {
+      text-align: center;
+      margin-right: 2rem;
+      flex-shrink: 0;
+    }
+
     .profile-pic {
       width: 140px;
       height: 140px;
       aspect-ratio: 1 / 1;
       border-radius: 50%;
       object-fit: cover;
-      margin-right: 2rem;
       background-color: #ccc;
-      flex-shrink: 0;
+    }
+
+    .profile-title {
+      margin-top: 0.5rem;
+      font-weight: 500;
+      font-size: 1rem;
+      color: #444;
     }
 
     .bio {
@@ -110,13 +121,17 @@
         text-align: center;
       }
 
-      .profile-pic {
+      .profile-block {
         margin-right: 0;
         margin-bottom: 1rem;
       }
 
       .bio {
         max-width: 100%;
+      }
+
+      .social-icons {
+        justify-content: center;
       }
     }
   </style>
@@ -132,9 +147,10 @@
   </div>
 
   <div class="landing">
-    <img src="assets/img/portfolio_profile.jpg" alt="Hayden Hedman" class="profile-pic">
-    <p style="margin-top: 0.5rem; font-weight: 500; font-size: 1rem; color: #444;">Data Scientist</p>
-
+    <div class="profile-block">
+      <img src="assets/img/portfolio_profile.jpg" alt="Hayden Hedman" class="profile-pic">
+      <p class="profile-title">Data Scientist</p>
+    </div>
 
     <div class="bio">
       <h2>Systems Thinking in Practice</h2>
