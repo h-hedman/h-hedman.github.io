@@ -13,34 +13,36 @@
     }
 
     .navbar {
-      background-color: #214c38; /* dark green */
+      background-color: #214c38;
       padding: 1rem 2rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
       color: white;
+      flex-wrap: wrap;
     }
 
-    .navbar h1 {
-      margin: 0;
+    .navbar-title {
+      display: flex;
+      align-items: center;
       font-size: 1.5rem;
       font-weight: 600;
     }
 
-    .nav-links a {
-      color: white;
-      text-decoration: none;
-      margin-left: 2rem;
-      font-weight: 500;
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
+    .navbar-title span {
+      margin-left: 1.5rem;
+      font-size: 1rem;
+      font-weight: 400;
     }
 
-    .nav-links a:hover,
-    .nav-links a:focus,
-    .nav-links a.active {
-      background-color: #a5d6b5;
-      color: #1a2f25;
+    .navbar-title a {
+      color: white;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    .navbar-title a:hover {
+      text-decoration: underline;
     }
 
     .landing {
@@ -92,16 +94,27 @@
       padding-left: 1.25rem;
       list-style-type: disc;
     }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 12px;
+    }
+
+    .social-icons a img {
+      margin: 0 6px;
+      vertical-align: middle;
+    }
   </style>
 </head>
 <body>
 
   <div class="navbar">
-    <h1>Hayden Hedman</h1>
-    <div class="nav-links">
-      <a href="#projects">Projects</a>
-      <span style="color:#fff; opacity:0.6;">|</span>
-      <a href="#publications">Publications</a>
+    <div class="navbar-title">
+      Hayden Hedman
+      <span>| 
+        <a href="#projects">Projects</a> | 
+        <a href="#publications">Publications</a>
+      </span>
     </div>
   </div>
 
@@ -109,15 +122,15 @@
     <div style="text-align: center;">
       <img src="assets/img/portfolio_profile.jpg" alt="Hayden Hedman" class="profile-pic">
       <p style="margin-top: 0.5rem; font-weight: 500; font-size: 1rem; color: #444;">Data Scientist | PhD</p>
-      <div style="text-align: center; margin-top: 12px;">
+      <div class="social-icons">
         <a href="https://github.com/h-hedman" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="24" alt="GitHub" style="margin: 0 8px;">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="24" alt="GitHub">
         </a>
         <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="24" alt="LinkedIn" style="margin: 0 8px;">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="24" alt="LinkedIn">
         </a>
         <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" width="24" alt="Google Scholar" style="margin: 0 8px;">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" width="24" alt="Google Scholar">
         </a>
       </div>
     </div>
