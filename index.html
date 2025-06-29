@@ -1,112 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Hayden Hedman</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-
-    .navbar {
-      background-color: #214c38;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      color: white;
-    }
-
-    .navbar h1 {
-      margin: 0;
-      font-size: 1.5rem;
-      font-weight: 600;
-    }
-
-    .nav-links a {
-      color: white;
-      text-decoration: none;
-      margin-left: 2rem;
-      font-weight: 500;
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
-    }
-
-    .nav-links a:hover,
-    .nav-links a:focus,
-    .nav-links a.active {
-      background-color: #a5d6b5; /* light green highlight */
-      color: #1a2f25;
-    }
-
-    .landing {
-      display: flex;
-      align-items: center;
-      padding: 3rem 2rem 2rem 2rem;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-
-    .profile-pic {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-right: 2rem;
-      background-color: #ccc;
-    }
-
-    .bio {
-      max-width: 700px;
-    }
-
-    .bio h2 {
-      margin-top: 0;
-      font-size: 2rem;
-      margin-bottom: 0.3rem;
-    }
-
-    .bio p.subtitle {
-      font-style: italic;
-      margin-top: -0.25rem;
-      color: #666;
-      font-size: 1rem;
-    }
-
-    .education {
-      font-size: 0.9rem;
-      color: #666;
-      padding: 0 2rem 2rem;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    .education ul {
-      padding-left: 1.25rem;
-      list-style-type: disc;
-    }
-
-    .education p {
-      margin: 0.3rem 0;
-    }
-  </style>
-</head>
 <body>
 
   <div class="navbar">
     <h1>Hayden Hedman</h1>
     <div class="nav-links">
       <a href="#projects">Projects</a>
+      <span style="color:#fff; opacity:0.6;">|</span>
       <a href="#publications">Publications</a>
     </div>
   </div>
 
   <div class="landing">
-    <img src="photo.jpg" alt="Hayden Hedman" class="profile-pic">
+    <div style="text-align: center;">
+      <img src="assets/img/portfolio_profile.jpg" alt="Hayden Hedman" class="profile-pic">
+      <p style="margin-top: 0.5rem; font-weight: 500; font-size: 1rem; color: #444;">Data Scientist | PhD</p>
+      <div style="text-align: center; margin-top: 12px;">
+        <a href="https://github.com/h-hedman" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="24" alt="GitHub" style="margin: 0 8px;">
+        </a>
+        <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="24" alt="LinkedIn" style="margin: 0 8px;">
+        </a>
+        <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" width="24" alt="Google Scholar" style="margin: 0 8px;">
+        </a>
+      </div>
+    </div>
+
     <div class="bio">
       <h2>Systems Thinking in Practice</h2>
       <p class="subtitle">Bridging complexity, uncertainty, and action through data</p>
@@ -115,15 +34,3 @@
       </p>
     </div>
   </div>
-
-  <div class="education">
-    <p><strong>Education</strong></p>
-    <ul>
-      <li>MS, Computer Science, Georgia Institute of Technology (2024–2026)</li>
-      <li>PhD, Environment & Sustainability, University of Michigan (2013–2019)</li>
-      <li>BA, Ecology & Evolutionary Biology, <em>Magna Cum Laude</em>, University of Colorado (2009–2013)</li>
-    </ul>
-  </div>
-
-</body>
-</html>
