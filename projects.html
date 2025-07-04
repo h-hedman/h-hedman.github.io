@@ -57,35 +57,28 @@
     }
 
     .project {
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
+      text-align: center;
     }
 
-    .project::before {
-      content: "▸";
-      color: #214c38;
-      font-size: 1rem;
-      display: inline-block;
-      width: 1rem;
-      margin-right: 0.5rem;
-      vertical-align: top;
+    .project img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
     }
 
-    .project a {
-      color: #214c38;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .project a:hover {
-      text-decoration: none;
+    .project img:hover {
+      transform: scale(1.02);
     }
 
     .project p {
       color: #666;
-      margin-left: 1.5rem;
-      margin-top: 0.25rem;
       font-size: 0.95rem;
       line-height: 1.4;
+      margin-top: 0.5rem;
     }
 
     .social-icons {
@@ -117,26 +110,31 @@
     <h2>Featured Projects</h2>
 
     <div class="project">
-      <a href="healthify-flu-app/index.html">Healthify: Flu Surveillance & Modeling Dashboard</a>
-      <p>An R Shiny web app designed for public health researchers, featuring dynamic visualizations, epidemic models, and forecasting tools built from CDC FluSurv-NET data. Developed using epidemiology, biostatistics, and machine learning methods.</p>
+      <a href="https://github.com/h-hedman/public-health-models" target="_blank">
+        <img src="healthcare_data_science_thumbnail.png" alt="Healthcare Data Science Projects">
+      </a>
+      <p><strong>Healthcare Data Science Projects:</strong> A suite of modeling projects spanning R Shiny apps, spatial epidemiology, LLMs, and ML models—drawing on CDC and tribal datasets.</p>
     </div>
 
     <div class="project">
-      <a href="https://github.com/h-hedman/public-health-models" target="_blank" rel="noopener noreferrer">Public Health Models</a>
-      <p>A collection of modeling projects (R, Python, SQL) featuring spatial analysis, time series forecasting, and causal inference applied to real-world data.</p>
-    </div>
-
-    <div class="project">
-      <a href="https://github.com/h-hedman/ecommerce-ml" target="_blank" rel="noopener noreferrer">Predictive Modeling for E-Commerce</a>
-      <p>Applied ML to understand consumer behavior, forecast revenue trends, and optimize pricing in e-commerce settings.</p>
-    </div>
-
-    <div class="project">
-      <a href="indigenous_projects.html">Tribal Analytics & Community Leadership</a>
-      <p>As a citizen of the Cherokee Nation, I’ve led analytics and mentoring initiatives supporting American Indian/Alaska Native (AI/AN) communities across health, education, and STEM access.</p>
+      <a href="https://github.com/h-hedman/ecommerce-ml" target="_blank">
+        <img src="assets/img/ecommerce_thumbnail.png" alt="E-Commerce Projects">
+      </a>
+      <p><strong>E-Commerce Projects:</strong> Machine learning projects exploring consumer behavior, revenue forecasting, and pricing optimization using real-world transaction data.</p>
     </div>
   </div>
 
+  <div class="social-icons">
+    <a href="https://github.com/h-hedman" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+    </a>
+    <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+    </a>
+    <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar">
+    </a>
+  </div>
 
 </body>
 </html>
