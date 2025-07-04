@@ -46,9 +46,9 @@
     }
 
     .content {
-      max-width: 700px;
+      max-width: 800px;
       margin: 3rem auto 2rem;
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
 
     h2 {
@@ -57,28 +57,33 @@
     }
 
     .project {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
       margin-bottom: 2.5rem;
-      text-align: center;
+      text-align: left;
+      flex-wrap: wrap;
     }
 
     .project img {
-      width: 100%;
-      max-width: 700px;
+      width: 120px;
       height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
+      border-radius: 6px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+      flex-shrink: 0;
+      transition: transform 0.2s ease;
     }
 
     .project img:hover {
-      transform: scale(1.02);
+      transform: scale(1.03);
     }
 
     .project p {
       color: #666;
       font-size: 0.95rem;
-      line-height: 1.4;
-      margin-top: 0.5rem;
+      line-height: 1.5;
+      margin: 0;
+      flex: 1;
     }
 
     .social-icons {
@@ -123,6 +128,7 @@
       <p><strong>E-Commerce Projects:</strong> Machine learning projects exploring consumer behavior, revenue forecasting, and pricing optimization using real-world transaction data.</p>
     </div>
   </div>
+
 
 
 </body>
