@@ -87,6 +87,26 @@
       box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
     }
 
+    .readme-link {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .readme-link a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #214c38;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 500;
+      transition: background-color 0.3s;
+    }
+
+    .readme-link a:hover {
+      background-color: #1a2f25;
+    }
+
     @media (max-width: 768px) {
       .project-header {
         flex-direction: column;
@@ -111,7 +131,6 @@
 
   <div class="content">
     <div class="project-header">
-
       <h2>Epi PDF Generator: CDC Emergency Tool</h2>
     </div>
 
@@ -122,6 +141,12 @@
     </div>
 
     <iframe src="https://healthcare-data-analytics.shinyapps.io/epi_automated_report/" title="Epi Report Tool"></iframe>
+
+    <div class="readme-link">
+      <a href="https://github.com/h-hedman/healthcare-data-science/blob/main/automated-epidemiological-report/README.md" target="_blank">
+        View Methods & Documentation (README)
+      </a>
+    </div>
   </div>
 
 </body>
