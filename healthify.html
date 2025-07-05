@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Healthify</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #0071bc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    .nav {
+      background-color: #e8e8e8;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .nav a {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #d0d0d0;
+    }
+
+    .content {
+      background-color: white;
+      padding: 30px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+      font-size: 2em;
+      color: #0071bc;
+      margin-bottom: 20px;
+    }
+
+    .content h3 {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      margin-bottom: 20px;
+    }
+
+    .image-nav-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .image-nav-button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+      border-radius: 8px;
+      background-color: #f0f0f0;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .image-nav-button:hover {
+      background-color: #e0e0e0;
+      transform: scale(1.05);
+    }
+
+    .image-nav-button img {
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      background-color: #e8e8e8;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .footer a {
+      display: inline-block;
+      padding: 8px 15px;
+      margin: 5px;
+      text-decoration: none;
+      color: #333;
+      background-color: #d0d0d0;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .footer a:hover {
+      background-color: #bbb;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 10px;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      .nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Healthify</h1>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="summary.html">Summary</a>
+    <a href="demographics.html">Demographics</a>
+    <a href="nlp_symptoms.html">Symptom Analysis (NLP)</a>
+    <a href="ml_prediction.html">ML Predictions</a>
+    <a href="svi.html">Social Vulnerability Index</a>
+    <a href="vaccine_simulation_coverage.html">Vaccine Coverage</a>
+    <a href="sir.html">Epidemic Models (SIR)</a>
+    <a href="geographic.html">Geographic Trends</a>
+  </nav>
+
+  <div class="container">
+    <div class="content">
+      
+
+      <h2>Project Overview</h2>
+      <p>
+        This web app provides influenza-associated hospitalization data sourced from the 
+        <a href="https://www.cdc.gov/fluview/overview/influenza-hospitalization-surveillance.html" target="_blank" rel="noopener noreferrer">FluSurv-NET FluView system (2009–2025)</a>.<br>
+        This analysis is based on confirmed hospitalizations of seasonal influenza cases in children and adults.
+      </p>
+      <p>
+        FluSurv-NET conducts population-based surveillance for laboratory-confirmed influenza hospitalizations across multiple U.S. sites.<br>
+        By leveraging this dataset, this tool analyzes trends in hospitalizations, demographic disparities, and disease burden.
+      </p>
+      <p>
+        This data-driven approach applies epidemiological and machine learning methods to enhance public health surveillance<br>
+        and support informed decision-making on seasonal influenza mitigation strategies.
+      </p>
+
+      <div class="image-nav-container">
+        <a href="summary.html" class="image-nav-button">
+          <img src="gui_data/summary_icon.png" alt="Summary Icon">
+          Summary
+        </a>
+        <a href="demographics.html" class="image-nav-button">
+          <img src="gui_data/demographics_icon.png" alt="Demographics Icon">
+          Demographics
+        </a>
+        <a href="nlp_symptoms.html" class="image-nav-button">
+          <img src="gui_data/symptoms_icon.png" alt="Symptoms Icon">
+          Symptom Analysis (NLP)
+        </a>
+        <a href="ml_prediction.html" class="image-nav-button">
+          <img src="gui_data/prediction_icon.png" alt="Prediction Icon">
+          ML Predictions
+        </a>
+        <a href="svi.html" class="image-nav-button">
+          <img src="gui_data/svi_icon.png" alt="SVI Icon">
+          Social Vulnerability Index
+        </a>
+        <a href="vaccine_simulation_coverage.html" class="image-nav-button">
+          <img src="gui_data/vaccine_icon.png" alt="Vaccine Icon">
+          Vaccine Coverage
+        </a>
+        <a href="sir.html" class="image-nav-button">
+          <img src="gui_data/epidemic_icon.png" alt="Epidemic Icon">
+          Epidemic Models (SIR)
+        </a>
+        <a href="geographic.html" class="image-nav-button">
+          <img src="gui_data/geographic_icon.png" alt="Geographic Icon">
+          Geographic Trends
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="project_readme.html">README</a>
+    <a href="documentation.html">Documentation</a>
+  </div>
+
+</body>
+</html>
