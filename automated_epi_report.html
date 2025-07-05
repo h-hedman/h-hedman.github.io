@@ -1,7 +1,128 @@
-<div class="project">
-  <a href="https://h-hedman.shinyapps.io/epi_automated_report/">
-    <img src="assets/img/epi_report_thumbnail.png" alt="Epi Report App">
-  </a>
-  <p><strong><a href="https://h-hedman.shinyapps.io/epi_automated_report/">Epi PDF Generator: CDC Emergency Tool</a></strong><br>
-  Developed during an emergency response with the CDC, this tool automated daily outbreak reports across refugee camps. It parsed medical notes to identify infectious disease conditions and produced formatted PDF reports, replacing a manual process that previously required several hours. The tool was later scaled for national use in settings with limited internet access.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Epi Report Generator | Hayden Hedman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #214c38;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    .navbar-title {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .navbar-title a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .navbar-title a:hover {
+      background-color: #a5d6b5;
+      color: #1a2f25;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .project-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+
+    .project-header img {
+      width: 140px;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+      flex-shrink: 0;
+    }
+
+    .project-header h2 {
+      font-size: 1.6rem;
+      margin: 0;
+    }
+
+    .project-desc {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 2rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      .project-header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .project-header img {
+        margin-bottom: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-title">
+      <a href="index.html">Hayden Hedman</a> |
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="project-header">
+      <img src="assets/img/epi_report_thumbnail.png" alt="Epi Report Thumbnail">
+      <h2>Epi PDF Generator: CDC Emergency Tool</h2>
+    </div>
+
+    <div class="project-desc">
+      Developed during an emergency response with the CDC, this tool automated daily outbreak reports across refugee camps.
+      It parsed medical notes to identify infectious disease conditions and produced formatted PDF reports, replacing a manual
+      process that previously required several hours. The tool was later scaled for national use in settings with limited internet access.
+    </div>
+
+    <iframe src="https://h-hedman.shinyapps.io/epi_automated_report/" title="Epi Report Tool"></iframe>
+  </div>
+
+</body>
+</html>
