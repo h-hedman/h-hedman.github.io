@@ -2,81 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Epi Report Generator | Hayden Hedman</title>
+  <title>Epi PDF Generator | Hayden Hedman</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
+      background-color: #f9fafa;
       color: #333;
     }
 
-    .navbar {
-      background-color: #214c38;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    .header-bar {
+      background: linear-gradient(to right, #005eb8, #007c9e);
+      padding: 1.5rem 2rem;
       color: white;
-      flex-wrap: wrap;
-    }
-
-    .navbar-title {
-      display: flex;
-      align-items: center;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       font-weight: 600;
     }
 
-    .navbar-title a {
-      color: white;
-      text-decoration: none;
-      margin-left: 1rem;
-      font-size: 1rem;
-      font-weight: 400;
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
-    }
-
-    .navbar-title a:hover {
-      background-color: #a5d6b5;
-      color: #1a2f25;
-    }
-
-    .content {
-      max-width: 900px;
+    .container {
+      max-width: 960px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
 
-    .project-header {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      flex-wrap: wrap;
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .date-tag {
+      font-size: 0.85rem;
+      color: #666;
       margin-bottom: 2rem;
     }
 
-    .project-header img {
-      width: 140px;
-      height: auto;
+    .glance-box {
+      background-color: #ecf6fb;
+      border-left: 6px solid #007c9e;
+      padding: 1rem 1.5rem;
+      margin-bottom: 2rem;
       border-radius: 6px;
-      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
-      flex-shrink: 0;
     }
 
-    .project-header h2 {
-      font-size: 1.6rem;
+    .glance-box ul {
+      padding-left: 1.2rem;
       margin: 0;
     }
 
-    .project-desc {
-      font-size: 0.95rem;
-      line-height: 1.6;
-      color: #555;
-      margin-bottom: 2rem;
+    .glance-box li {
+      margin-bottom: 0.6rem;
+      line-height: 1.5;
     }
 
     iframe {
@@ -84,60 +60,54 @@
       height: 800px;
       border: none;
       border-radius: 6px;
-      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+      margin-bottom: 2rem;
     }
 
     .readme-link {
       text-align: center;
-      margin-top: 30px;
+      margin-top: 20px;
     }
 
     .readme-link a {
-      display: inline-block;
       padding: 10px 20px;
-      background-color: #214c38;
+      background-color: #007c9e;
       color: white;
       text-decoration: none;
       border-radius: 5px;
       font-weight: 500;
-      transition: background-color 0.3s;
+      transition: background-color 0.3s ease;
     }
 
     .readme-link a:hover {
-      background-color: #1a2f25;
+      background-color: #005e7a;
     }
 
     @media (max-width: 768px) {
-      .project-header {
-        flex-direction: column;
+      .header-bar {
+        font-size: 1.2rem;
         text-align: center;
-      }
-
-      .project-header img {
-        margin-bottom: 1rem;
       }
     }
   </style>
 </head>
 <body>
 
-  <div class="navbar">
-    <div class="navbar-title">
-      <a href="index.html">Hayden Hedman</a> |
-      <a href="projects.html">Projects</a>
-      <a href="publications.html">Publications</a>
-    </div>
+  <div class="header-bar">
+    Epi Tracker: PDF Generator for Emergency Response
   </div>
 
-  <div class="content">
-    <div class="project-header">
-      <h2>Epi PDF Generator: CDC Emergency Tool</h2>
-    </div>
+  <div class="container">
+    <h1>Epi PDF Generator</h1>
+    <div class="date-tag">Used in field deployments during 2023–2024 emergencies</div>
 
-    <div class="project-desc">
-      Developed during an emergency response with the CDC, this tool automated daily outbreak reports across refugee camps.
-      It parsed medical notes to identify infectious disease conditions and produced formatted PDF reports, replacing a manual
-      process that previously required several hours. The tool was later scaled for national use in settings with limited internet access.
+    <div class="glance-box">
+      <strong>At a Glance</strong>
+      <ul>
+        <li>Parsed frontline medical notes to auto-detect outbreak signals daily</li>
+        <li>Generated structured PDF reports in under 30 seconds per site</li>
+        <li>Used in refugee camp deployments and low-connectivity settings</li>
+      </ul>
     </div>
 
     <iframe src="https://healthcare-data-analytics.shinyapps.io/epi_automated_report/" title="Epi Report Tool"></iframe>
