@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Epi PDF Generator | Hayden Hedman</title>
+  <title>Outbreak Insight Generator | Hayden Hedman</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -26,9 +26,13 @@
       padding: 0 1rem;
     }
 
-    h1 {
-      font-size: 2rem;
+    .cdc-title {
+      font-size: 2.2rem;
+      font-weight: 300;
+      letter-spacing: 0.3px;
       margin-bottom: 0.25rem;
+      color: #2c2c2c;
+      text-transform: none;
     }
 
     .date-tag {
@@ -74,50 +78,3 @@
       background-color: #007c9e;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
-      font-weight: 500;
-      transition: background-color 0.3s ease;
-    }
-
-    .readme-link a:hover {
-      background-color: #005e7a;
-    }
-
-    @media (max-width: 768px) {
-      .header-bar {
-        font-size: 1.2rem;
-        text-align: center;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <div class="header-bar">
-    Epi Tracker: PDF Generator for Emergency Response
-  </div>
-
-  <div class="container">
-    <h1>Epi PDF Generator</h1>
-    <div class="date-tag">Used in field deployments during 2023–2024 emergencies</div>
-
-    <div class="glance-box">
-      <strong>At a Glance</strong>
-      <ul>
-        <li>Parsed frontline medical notes to auto-detect outbreak signals daily</li>
-        <li>Generated structured PDF reports in under 30 seconds per site</li>
-        <li>Used in refugee camp deployments and low-connectivity settings</li>
-      </ul>
-    </div>
-
-    <iframe src="https://healthcare-data-analytics.shinyapps.io/epi_automated_report/" title="Epi Report Tool"></iframe>
-
-    <div class="readme-link">
-      <a href="https://github.com/h-hedman/healthcare-data-science/blob/main/automated-epidemiological-report/README.md" target="_blank">
-        View Methods & Documentation (README)
-      </a>
-    </div>
-  </div>
-
-</body>
-</html>
