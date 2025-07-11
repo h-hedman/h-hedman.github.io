@@ -5,9 +5,11 @@
   <title>Disease Trend Detection Tool | Hayden Hedman</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500&display=swap');
+
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Source Sans Pro', 'Segoe UI', sans-serif;
       background-color: #f9fafa;
       color: #333;
     }
@@ -29,18 +31,23 @@
     }
 
     .section-title {
-      font-size: 1.9rem;
-      font-weight: 600;
-      color: #1a1a1a;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 0.25rem;
+      font-size: 2.1rem;
+      font-weight: 500;
+      color: #2e2e2e;
+      letter-spacing: 0.2px;
+      margin-bottom: 0.5rem;
+      line-height: 1.3;
     }
 
     .date-tag {
       font-size: 0.85rem;
       color: #666;
-      margin-bottom: 2rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .date-tag.italic-note {
+      font-style: italic;
+      margin-bottom: 1rem;
     }
 
     .glance-box {
@@ -94,16 +101,6 @@
         font-size: 1.2rem;
         text-align: center;
       }
-      .cdc-title {
-  font-size: 2.1rem;
-  font-weight: 500;
-  color: #2e2e2e;
-  font-family: 'Segoe UI', 'Source Sans Pro', sans-serif;
-  letter-spacing: 0.2px;
-  margin: 1.5rem 0 0.5rem 0;
-  line-height: 1.3;
-}
-
     }
   </style>
 </head>
@@ -113,19 +110,16 @@
     Disease Trend Detection Tool
   </div>
 
-<div class="container">
-  <div class="section-title">Disease Trend Detection Tool</div>
-  
-  <div class="date-tag" style="font-style: italic; margin-bottom: 0.2rem;">
-    Note: All data are synthetic and provided for demonstration purposes only.
-  </div>
-  
-  <div class="date-tag">
-    Used during emergency responses while supporting the Centers for Disease Control and Prevention (CDC) in 2021.
-  </div>
-</div>
+  <div class="container">
+    <div class="section-title">Disease Trend Detection Tool</div>
 
+    <div class="date-tag italic-note">
+      Note: All data are synthetic and provided for demonstration purposes only.
+    </div>
 
+    <div class="date-tag">
+      Used during emergency responses while supporting the Centers for Disease Control and Prevention (CDC) in 2021.
+    </div>
 
     <div class="glance-box">
       <strong>At a Glance</strong>
@@ -138,4 +132,12 @@
 
     <iframe src="https://healthcare-data-analytics.shinyapps.io/epi_automated_report/" title="Epi Report Tool"></iframe>
 
-    <div class=
+    <div class="readme-link">
+      <a href="https://github.com/h-hedman/healthcare-data-science/blob/main/automated-epidemiological-report/README.md" target="_blank">
+        View Methods & Documentation (README)
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
