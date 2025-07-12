@@ -1,0 +1,689 @@
+child_id,arrival_date,triage_reason,ml_predicted_reason,symptoms,temp,days_since_arrival
+H100000,2021-07-11,Varicella,Flu,cough,100.7,1460
+H100037,2021-07-23,Varicella,Varicella,fever,99.1,1448
+H100038,2021-07-23,Varicella,Varicella,fever,101.0,1448
+H100041,2021-07-23,Flu,Flu,"fatigue, cough",101.1,1448
+H100043,2021-07-23,Varicella,Varicella,"fever, headache",100.5,1448
+H100064,2021-08-06,COVID,COVID,none,100.1,1434
+H100065,2021-08-06,Varicella,Varicella,rash,98.6,1434
+H100066,2021-08-06,Flu,Flu,"headache, cough, rash",100.7,1434
+H100067,2021-08-06,Lice,Lice,"rash, cough",97.0,1434
+H100068,2021-08-06,Lice,Lice,fever,99.0,1434
+H100069,2021-08-06,Lice,Lice,fever,97.8,1434
+H100070,2021-08-06,Varicella,Varicella,"rash, cough, fatigue",99.8,1434
+H100071,2021-08-06,Lice,Lice,fever,99.0,1434
+H100072,2021-08-06,Lice,Lice,"fever, rash, cough",100.3,1434
+H100101,2021-08-16,Varicella,Varicella,"headache, rash",99.4,1424
+H100102,2021-08-16,Varicella,Varicella,"headache, fatigue",100.1,1424
+H100130,2021-08-26,Varicella,Varicella,fatigue,99.4,1414
+H100131,2021-08-26,Lice,Lice,"cough, fatigue",96.4,1414
+H100132,2021-08-26,Varicella,Varicella,fatigue,99.9,1414
+H100135,2021-08-26,Varicella,Varicella,fatigue,97.8,1414
+H100136,2021-08-26,Varicella,Varicella,"cough, rash",98.0,1414
+H100159,2021-08-26,Flu,Flu,none,100.1,1414
+H100174,2021-09-05,Lice,Lice,"fatigue, fever",99.0,1404
+H100175,2021-09-05,Varicella,Varicella,"rash, fever",96.4,1404
+H100176,2021-09-05,Varicella,Varicella,fatigue,98.9,1404
+H100178,2021-09-05,Varicella,Varicella,"fever, fatigue",98.9,1404
+H100179,2021-09-05,Varicella,Varicella,"fatigue, fever",99.9,1404
+H100180,2021-09-05,Lice,Varicella,"headache, fatigue",99.3,1404
+H100181,2021-09-05,Varicella,Varicella,rash,97.7,1404
+H100184,2021-09-05,Lice,Lice,headache,101.9,1404
+H100185,2021-09-05,Lice,Lice,fever,98.5,1404
+H100194,2021-09-16,Lice,Lice,fatigue,98.9,1393
+H100197,2021-09-16,Lice,Varicella,"fatigue, fever, cough",99.8,1393
+H100201,2021-09-16,Lice,Lice,none,98.2,1393
+H100202,2021-09-16,COVID,COVID,"fever, fatigue",100.6,1393
+H100203,2021-09-16,Lice,Lice,none,97.3,1393
+H100206,2021-09-16,Lice,Lice,"fatigue, headache, cough",97.8,1393
+H100207,2021-09-16,Varicella,Lice,headache,97.9,1393
+H100208,2021-09-16,Lice,Lice,"headache, cough",100.4,1393
+H100209,2021-09-16,Lice,Varicella,"rash, fatigue",97.9,1393
+H100213,2021-09-16,Lice,Lice,"fever, cough",97.6,1393
+H100214,2021-09-16,COVID,COVID,"rash, fever",101.9,1393
+H100220,2021-09-16,Varicella,Varicella,"fatigue, cough, headache",98.8,1393
+H100239,2021-09-28,Lice,Lice,"cough, headache",99.6,1381
+H100241,2021-09-28,Lice,Lice,none,97.1,1381
+H100246,2021-09-28,Flu,Flu,"rash, headache",100.3,1381
+H100258,2021-10-09,Flu,Flu,none,100.1,1370
+H100263,2021-10-09,Varicella,Lice,"fever, rash",99.7,1370
+H100265,2021-10-09,Lice,Lice,rash,98.9,1370
+H100266,2021-10-09,Varicella,Varicella,"fever, cough",99.6,1370
+H100267,2021-10-09,Varicella,Varicella,cough,98.5,1370
+H100268,2021-10-09,Varicella,Varicella,"headache, cough, fatigue",99.8,1370
+H100279,2021-10-09,Lice,Lice,cough,100.4,1370
+H100294,2021-10-22,Lice,Lice,"fever, fatigue",97.7,1357
+H100295,2021-10-22,Lice,Lice,"headache, fever",99.8,1357
+H100296,2021-10-22,Lice,Lice,rash,99.4,1357
+H100297,2021-10-22,Varicella,Varicella,fever,99.1,1357
+H100301,2021-10-22,Varicella,Varicella,fever,100.7,1357
+H100307,2021-10-22,Varicella,Varicella,"fatigue, rash",97.4,1357
+H100332,2021-11-04,COVID,COVID,rash,100.5,1344
+H100384,2021-11-26,Varicella,Lice,"fatigue, fever",99.2,1322
+H100389,2021-11-26,Varicella,Varicella,"fatigue, cough",96.6,1322
+H100392,2021-11-26,Varicella,Varicella,cough,101.0,1322
+H100393,2021-11-26,COVID,COVID,"fatigue, rash",100.0,1322
+H100396,2021-11-26,Varicella,Varicella,rash,98.6,1322
+H100397,2021-11-26,COVID,Varicella,"headache, fever",100.4,1322
+H100398,2021-11-26,COVID,COVID,rash,100.1,1322
+H100399,2021-11-26,Varicella,Varicella,"fever, fatigue",102.0,1322
+H100402,2021-11-26,Varicella,Varicella,fever,99.7,1322
+H100403,2021-11-26,Varicella,Varicella,"headache, rash",99.3,1322
+H100407,2021-11-26,Varicella,Varicella,fatigue,98.3,1322
+H100427,2021-12-10,Lice,Lice,"rash, cough, fever",98.9,1308
+H100429,2021-12-10,Varicella,Varicella,fever,98.5,1308
+H100430,2021-12-10,Lice,Lice,"fatigue, fever, cough",98.2,1308
+H100432,2021-12-10,Varicella,Varicella,"cough, rash, headache",98.2,1308
+H100434,2021-12-10,Varicella,Varicella,"fever, cough",96.3,1308
+H100436,2021-12-10,Lice,Lice,"rash, fever, headache",98.0,1308
+H100463,2021-12-20,Lice,Lice,"headache, cough",101.1,1298
+H100465,2021-12-20,Varicella,Varicella,none,99.2,1298
+H100475,2021-12-20,Varicella,Varicella,none,99.7,1298
+H100488,2021-12-30,Lice,Lice,"fatigue, cough, headache",97.9,1288
+H100489,2021-12-30,Varicella,Varicella,"rash, fatigue",98.8,1288
+H100490,2021-12-30,Lice,Lice,"rash, headache",99.7,1288
+H100491,2021-12-30,Lice,Varicella,"fatigue, fever",97.5,1288
+H100497,2021-12-30,Lice,Lice,"rash, headache",98.0,1288
+H100498,2021-12-30,Lice,Lice,"cough, rash",98.0,1288
+H100501,2021-12-30,Lice,Lice,cough,99.7,1288
+H100509,2022-01-11,Varicella,Varicella,fatigue,97.9,1276
+H100510,2022-01-11,Lice,Lice,fever,98.8,1276
+H100511,2022-01-11,Varicella,Varicella,fatigue,98.9,1276
+H100512,2022-01-11,Varicella,Lice,"fever, cough",98.4,1276
+H100514,2022-01-11,Lice,Lice,none,97.0,1276
+H100518,2022-01-11,Lice,Lice,rash,97.5,1276
+H100519,2022-01-11,Lice,Lice,"fatigue, headache, rash",101.3,1276
+H100520,2022-01-11,Lice,Lice,"fever, rash",98.4,1276
+H100521,2022-01-11,Lice,Lice,"cough, fever",100.4,1276
+H100529,2022-01-11,Varicella,Varicella,fever,99.1,1276
+H100532,2022-01-25,Lice,Lice,"fever, rash",97.8,1262
+H100536,2022-01-25,Lice,Lice,"cough, fever",98.1,1262
+H100549,2022-02-05,COVID,COVID,"fever, fatigue",100.4,1251
+H100550,2022-02-05,COVID,COVID,"headache, fatigue, fever",100.0,1251
+H100578,2022-02-19,Varicella,Lice,rash,98.9,1237
+H100590,2022-03-02,Varicella,Varicella,"headache, fatigue, cough",98.6,1226
+H100592,2022-03-02,Varicella,Varicella,headache,99.6,1226
+H100593,2022-03-02,Varicella,Varicella,"rash, headache",99.0,1226
+H100595,2022-03-02,Varicella,Varicella,cough,96.9,1226
+H100596,2022-03-02,Varicella,Varicella,"fatigue, cough",98.3,1226
+H100597,2022-03-02,Varicella,Varicella,"fatigue, fever",97.5,1226
+H100599,2022-03-02,Varicella,Lice,"headache, fever",97.1,1226
+H100600,2022-03-02,Lice,Lice,"rash, fever",99.9,1226
+H100601,2022-03-02,Lice,Lice,"cough, fatigue",99.8,1226
+H100612,2022-03-16,Lice,Lice,cough,97.6,1212
+H100613,2022-03-16,Lice,Lice,"fever, rash",98.5,1212
+H100614,2022-03-16,Varicella,Varicella,fatigue,97.8,1212
+H100615,2022-03-16,Varicella,Varicella,headache,98.9,1212
+H100616,2022-03-16,Varicella,Varicella,"rash, cough",97.8,1212
+H100618,2022-03-16,Varicella,Varicella,fever,98.3,1212
+H100619,2022-03-16,Lice,Lice,"rash, cough",98.6,1212
+H100647,2022-03-27,Lice,Lice,"fever, headache",98.0,1201
+H100650,2022-03-27,Flu,Flu,rash,100.9,1201
+H100651,2022-03-27,Varicella,Lice,"fever, rash",100.6,1201
+H100654,2022-03-27,Lice,Varicella,"fever, cough",98.9,1201
+H100655,2022-03-27,Lice,Lice,"fever, fatigue",99.7,1201
+H100658,2022-03-27,Lice,Lice,cough,98.5,1201
+H100659,2022-03-27,Lice,Lice,fever,99.2,1201
+H100660,2022-03-27,Lice,Lice,none,98.0,1201
+H100661,2022-03-27,Lice,Lice,"headache, fever, fatigue",98.8,1201
+H100665,2022-03-27,Varicella,Varicella,cough,97.5,1201
+H100717,2022-04-18,Varicella,Varicella,"cough, headache, fatigue",98.6,1179
+H100718,2022-04-18,Lice,Lice,rash,97.3,1179
+H100719,2022-04-18,Lice,Lice,headache,98.3,1179
+H100721,2022-04-18,Varicella,Varicella,"headache, fatigue, cough",100.2,1179
+H100722,2022-04-18,Lice,Lice,fatigue,97.0,1179
+H100723,2022-04-18,Varicella,Varicella,"headache, fatigue",98.1,1179
+H100724,2022-04-18,Flu,Flu,cough,100.9,1179
+H100770,2022-05-02,Lice,Lice,"fever, rash",97.5,1165
+H100775,2022-05-02,COVID,COVID,"cough, fatigue",100.4,1165
+H100788,2022-05-13,Varicella,Varicella,"fever, cough",96.8,1154
+H100789,2022-05-13,Varicella,Varicella,fatigue,98.4,1154
+H100790,2022-05-13,Varicella,Varicella,headache,97.3,1154
+H100792,2022-05-13,Lice,Lice,"fever, cough, headache",99.2,1154
+H100793,2022-05-13,Varicella,Lice,fever,98.7,1154
+H100795,2022-05-13,Varicella,Varicella,"fatigue, headache",96.4,1154
+H100796,2022-05-13,Lice,Lice,"cough, rash, fatigue",99.1,1154
+H100798,2022-05-13,Varicella,Varicella,none,99.3,1154
+H100800,2022-05-13,Varicella,Varicella,"fever, fatigue",97.5,1154
+H100801,2022-05-13,Lice,Lice,"fever, headache",98.7,1154
+H100802,2022-05-13,Varicella,Varicella,none,99.3,1154
+H100803,2022-05-13,COVID,COVID,"fatigue, fever",100.5,1154
+H100804,2022-05-13,Varicella,Varicella,"cough, fever",99.2,1154
+H100806,2022-05-13,Varicella,Varicella,headache,97.7,1154
+H100807,2022-05-13,Lice,Lice,fever,98.1,1154
+H100808,2022-05-13,Lice,Lice,"cough, rash",97.8,1154
+H100822,2022-05-13,Lice,Varicella,"fatigue, headache",100.1,1154
+H100829,2022-05-27,Lice,Lice,"cough, headache, fatigue",97.9,1140
+H100830,2022-05-27,Lice,Lice,fatigue,97.6,1140
+H100831,2022-05-27,Lice,Lice,"rash, fever",99.2,1140
+H100832,2022-05-27,Lice,Lice,"fatigue, cough",97.8,1140
+H100833,2022-05-27,Lice,Lice,"headache, fatigue",97.1,1140
+H100834,2022-05-27,Lice,Lice,"rash, fever",101.3,1140
+H100835,2022-05-27,Lice,Flu,fatigue,100.7,1140
+H100837,2022-05-27,Lice,Lice,"cough, fatigue, rash",99.0,1140
+H100838,2022-05-27,Lice,Lice,fatigue,96.2,1140
+H100840,2022-05-27,Lice,Lice,none,95.8,1140
+H100841,2022-05-27,Lice,Lice,rash,100.2,1140
+H100842,2022-05-27,Lice,Lice,cough,98.2,1140
+H100859,2022-06-09,Lice,Lice,"fever, cough, rash",98.4,1127
+H100881,2022-06-09,Lice,Lice,"rash, fever",98.4,1127
+H100886,2022-06-09,Varicella,Varicella,"cough, fever",99.0,1127
+H100889,2022-06-09,Flu,Flu,fatigue,100.3,1127
+H100890,2022-06-09,Varicella,Lice,"rash, fever",97.6,1127
+H100898,2022-06-23,Varicella,Varicella,none,96.8,1113
+H100899,2022-06-23,Lice,Lice,headache,96.5,1113
+H100903,2022-06-23,Lice,Lice,"fever, rash",98.4,1113
+H100905,2022-06-23,Varicella,Varicella,"headache, fever",100.1,1113
+H100907,2022-06-23,Lice,Lice,"headache, rash",97.9,1113
+H100908,2022-06-23,Lice,Lice,rash,97.8,1113
+H100910,2022-06-23,Varicella,Varicella,"rash, fatigue",97.9,1113
+H100912,2022-06-23,Lice,Lice,"headache, fever, rash",96.8,1113
+H100913,2022-06-23,Varicella,Varicella,rash,99.4,1113
+H100914,2022-06-23,Varicella,Varicella,headache,98.1,1113
+H100915,2022-06-23,Lice,Lice,"cough, fever, rash",97.7,1113
+H100930,2022-07-04,Varicella,Varicella,cough,99.5,1102
+H100932,2022-07-04,Varicella,Lice,fever,98.1,1102
+H100933,2022-07-04,Varicella,Varicella,"cough, headache",97.6,1102
+H100934,2022-07-04,Varicella,Varicella,cough,99.3,1102
+H100935,2022-07-04,Varicella,Varicella,"headache, cough",99.2,1102
+H100947,2022-07-18,Varicella,Varicella,"headache, fatigue, cough",99.1,1088
+H100949,2022-07-18,Lice,Lice,rash,96.8,1088
+H100950,2022-07-18,Lice,Varicella,rash,98.5,1088
+H100951,2022-07-18,Lice,Lice,fever,97.8,1088
+H100952,2022-07-18,Varicella,Varicella,headache,97.7,1088
+H100954,2022-07-18,Varicella,Lice,fatigue,99.7,1088
+H100975,2022-07-30,Varicella,Varicella,"fever, headache, rash",96.1,1076
+H100977,2022-07-30,Varicella,Lice,"fatigue, cough, rash",98.6,1076
+H100990,2022-07-30,COVID,COVID,"rash, fatigue, cough",100.3,1076
+H100995,2022-08-10,Lice,Lice,"headache, rash",97.8,1065
+H100996,2022-08-10,Varicella,Varicella,"fatigue, cough",98.7,1065
+H100998,2022-08-10,Varicella,Varicella,"cough, headache",95.5,1065
+H101001,2022-08-10,Lice,Lice,cough,98.6,1065
+H101004,2022-08-10,Lice,Lice,none,98.8,1065
+H101022,2022-08-10,Varicella,Varicella,cough,100.2,1065
+H101028,2022-08-24,Varicella,Varicella,rash,99.1,1051
+H101031,2022-08-24,COVID,COVID,none,101.3,1051
+H101033,2022-08-24,Varicella,Varicella,headache,99.4,1051
+H101034,2022-08-24,Varicella,Varicella,"headache, fatigue",98.8,1051
+H101035,2022-08-24,Varicella,Varicella,none,98.8,1051
+H101036,2022-08-24,Varicella,Varicella,rash,98.8,1051
+H101037,2022-08-24,Varicella,Varicella,"cough, headache, rash",99.4,1051
+H101055,2022-09-04,COVID,COVID,cough,101.0,1040
+H101056,2022-09-04,Lice,Lice,cough,99.0,1040
+H101059,2022-09-04,COVID,COVID,fatigue,100.0,1040
+H101067,2022-09-04,COVID,Varicella,fever,100.0,1040
+H101070,2022-09-04,COVID,COVID,headache,100.1,1040
+H101071,2022-09-04,Varicella,Varicella,fever,100.1,1040
+H101083,2022-09-18,Lice,Lice,cough,98.2,1026
+H101087,2022-09-18,Lice,Lice,cough,99.8,1026
+H101089,2022-09-18,Flu,Flu,"headache, rash",100.3,1026
+H101092,2022-09-18,Flu,Flu,fever,100.5,1026
+H101093,2022-09-18,Varicella,Varicella,"cough, rash, fever",97.9,1026
+H101094,2022-09-18,Varicella,Lice,rash,98.0,1026
+H101095,2022-09-18,Flu,Flu,"headache, cough",100.8,1026
+H101120,2022-09-28,Lice,Lice,"fatigue, fever",97.2,1016
+H101157,2022-10-11,Lice,Lice,"headache, fatigue, fever",99.9,1003
+H101158,2022-10-11,Lice,Lice,"fever, cough, rash",97.6,1003
+H101159,2022-10-11,Varicella,Varicella,"rash, fatigue",100.7,1003
+H101160,2022-10-11,Lice,Lice,"headache, fever",97.2,1003
+H101162,2022-10-11,Lice,Lice,fatigue,99.4,1003
+H101163,2022-10-11,Varicella,Varicella,"fever, cough",99.8,1003
+H101164,2022-10-11,Lice,Lice,"fever, rash",99.7,1003
+H101165,2022-10-11,Varicella,Lice,"fever, headache",98.8,1003
+H101167,2022-10-11,Varicella,Varicella,"fatigue, fever, cough",99.0,1003
+H101168,2022-10-11,Lice,Lice,cough,100.0,1003
+H101169,2022-10-11,Lice,Lice,rash,95.8,1003
+H101170,2022-10-11,Varicella,Lice,"cough, fever",98.6,1003
+H101171,2022-10-11,Varicella,Varicella,"rash, fever, fatigue",100.2,1003
+H101172,2022-10-11,Varicella,Varicella,"fever, headache, fatigue",100.9,1003
+H101173,2022-10-11,Lice,Lice,"fatigue, headache",100.0,1003
+H101176,2022-10-11,Lice,Lice,fever,97.7,1003
+H101178,2022-10-11,Varicella,Varicella,fever,96.7,1003
+H101179,2022-10-11,Varicella,Lice,cough,96.8,1003
+H101180,2022-10-11,Varicella,Varicella,fatigue,99.3,1003
+H101181,2022-10-11,COVID,COVID,rash,100.7,1003
+H101182,2022-10-11,Lice,Lice,"fever, fatigue",98.5,1003
+H101183,2022-10-11,Varicella,Varicella,"cough, fever",99.3,1003
+H101198,2022-10-22,Lice,Lice,fatigue,98.2,992
+H101199,2022-10-22,Lice,Lice,"headache, rash",96.9,992
+H101200,2022-10-22,Lice,Lice,"rash, headache",97.1,992
+H101201,2022-10-22,Lice,Lice,"fever, rash",98.3,992
+H101202,2022-10-22,Lice,Lice,headache,99.0,992
+H101203,2022-10-22,Lice,Lice,"fever, rash, headache",100.5,992
+H101204,2022-10-22,Lice,Lice,"fever, fatigue",99.8,992
+H101205,2022-10-22,Lice,Lice,"rash, cough",101.6,992
+H101206,2022-10-22,Lice,Lice,rash,96.8,992
+H101207,2022-10-22,Flu,Flu,fatigue,100.8,992
+H101208,2022-10-22,Lice,Varicella,"cough, rash",97.6,992
+H101221,2022-10-22,Lice,Lice,fever,98.1,992
+H101225,2022-10-22,Lice,Lice,"cough, fever, fatigue",97.1,992
+H101234,2022-11-03,Lice,Lice,"cough, fatigue, headache",98.7,980
+H101259,2022-11-03,Lice,Lice,"rash, fever, headache",99.3,980
+H101265,2022-11-17,Varicella,Varicella,"rash, cough",97.6,966
+H101266,2022-11-17,Varicella,Varicella,"headache, rash, fever",98.2,966
+H101267,2022-11-17,Varicella,Varicella,"fever, rash",100.8,966
+H101269,2022-11-17,Varicella,Varicella,"cough, headache",100.1,966
+H101271,2022-11-17,Varicella,Varicella,"fatigue, rash, cough",97.4,966
+H101273,2022-11-17,Varicella,Lice,cough,97.1,966
+H101274,2022-11-17,Varicella,Varicella,"fatigue, cough",99.2,966
+H101299,2022-11-17,COVID,COVID,fever,100.7,966
+H101303,2022-11-30,Lice,Lice,fatigue,96.9,953
+H101341,2022-12-11,Varicella,Varicella,"fatigue, fever, headache",97.4,942
+H101348,2022-12-11,Varicella,Varicella,cough,100.8,942
+H101355,2022-12-23,Lice,Lice,"cough, headache",98.3,930
+H101356,2022-12-23,Lice,Lice,"fever, fatigue",98.0,930
+H101388,2023-01-03,Lice,Lice,"rash, fever",97.7,919
+H101389,2023-01-03,Lice,Lice,"fatigue, cough",97.7,919
+H101390,2023-01-03,Varicella,Varicella,cough,96.5,919
+H101393,2023-01-03,Lice,Lice,headache,100.8,919
+H101394,2023-01-03,Lice,Lice,"cough, rash",99.2,919
+H101395,2023-01-03,Lice,Lice,headache,99.9,919
+H101396,2023-01-03,Varicella,Varicella,fatigue,98.4,919
+H101428,2023-01-15,Varicella,Varicella,rash,99.7,907
+H101431,2023-01-15,Lice,Lice,rash,97.5,907
+H101433,2023-01-15,Lice,Lice,"rash, fatigue",99.4,907
+H101437,2023-01-15,Lice,Varicella,rash,99.2,907
+H101438,2023-01-15,Lice,Lice,headache,100.6,907
+H101439,2023-01-15,Lice,Lice,"rash, fever, headache",99.0,907
+H101440,2023-01-15,Varicella,Varicella,"cough, rash",98.9,907
+H101441,2023-01-15,Varicella,Varicella,fever,98.5,907
+H101443,2023-01-15,Varicella,Lice,cough,99.6,907
+H101456,2023-01-27,Varicella,Varicella,fatigue,99.5,895
+H101457,2023-01-27,Varicella,Varicella,"fever, headache",99.2,895
+H101458,2023-01-27,Varicella,Varicella,fatigue,98.8,895
+H101459,2023-01-27,Varicella,Varicella,"rash, fatigue",99.7,895
+H101461,2023-01-27,Varicella,Varicella,rash,98.8,895
+H101474,2023-02-09,Lice,Lice,headache,98.3,882
+H101475,2023-02-09,Lice,Lice,"headache, fatigue",99.9,882
+H101476,2023-02-09,Lice,Lice,"fatigue, rash",100.3,882
+H101477,2023-02-09,Lice,Lice,"fever, fatigue",99.8,882
+H101478,2023-02-09,Lice,Lice,"rash, fatigue",99.3,882
+H101479,2023-02-09,Lice,Lice,fever,99.4,882
+H101480,2023-02-09,Lice,Lice,"rash, cough, fatigue",100.4,882
+H101481,2023-02-09,Lice,Lice,fatigue,96.9,882
+H101482,2023-02-09,Lice,Lice,"fatigue, headache",97.8,882
+H101484,2023-02-09,Lice,Lice,"fatigue, headache",98.5,882
+H101485,2023-02-09,Lice,Lice,"rash, fever",97.2,882
+H101486,2023-02-09,Lice,Lice,rash,97.0,882
+H101487,2023-02-09,Lice,Lice,"rash, fatigue, fever",98.7,882
+H101488,2023-02-09,Lice,Lice,"fatigue, rash",100.5,882
+H101490,2023-02-09,Lice,Lice,"fever, rash",98.1,882
+H101508,2023-02-20,Varicella,Varicella,"fatigue, rash",98.4,871
+H101510,2023-02-20,Varicella,Lice,"headache, cough, fatigue",97.9,871
+H101530,2023-03-06,Lice,Lice,"fever, fatigue",99.9,857
+H101532,2023-03-06,Lice,Lice,fatigue,99.5,857
+H101533,2023-03-06,COVID,COVID,rash,101.8,857
+H101538,2023-03-06,Lice,Lice,"fatigue, cough, fever",97.0,857
+H101579,2023-03-17,Varicella,Varicella,fatigue,97.7,846
+H101589,2023-03-17,COVID,Varicella,cough,100.5,846
+H101592,2023-03-29,Lice,Lice,"cough, fatigue, headache",97.2,834
+H101593,2023-03-29,Varicella,Varicella,headache,100.9,834
+H101594,2023-03-29,Varicella,Varicella,"rash, headache",99.7,834
+H101600,2023-03-29,Lice,Lice,"fever, headache, fatigue",99.7,834
+H101616,2023-03-29,Varicella,Varicella,"fatigue, cough",99.1,834
+H101628,2023-04-10,Lice,Lice,"rash, fatigue",97.0,822
+H101630,2023-04-10,Varicella,Varicella,headache,99.8,822
+H101631,2023-04-10,Lice,Lice,"fever, fatigue",98.7,822
+H101632,2023-04-10,Lice,Lice,cough,95.9,822
+H101633,2023-04-10,Lice,Lice,"fatigue, rash",100.3,822
+H101651,2023-04-10,Lice,Lice,fever,100.3,822
+H101661,2023-04-23,Varicella,Varicella,headache,97.1,809
+H101662,2023-04-23,Varicella,Varicella,fatigue,100.7,809
+H101663,2023-04-23,Flu,Flu,"rash, headache",100.2,809
+H101666,2023-04-23,Varicella,Varicella,none,96.9,809
+H101668,2023-04-23,Lice,Lice,"cough, fever",101.1,809
+H101669,2023-04-23,Lice,Lice,"cough, rash, fatigue",99.5,809
+H101670,2023-04-23,Lice,Lice,"fatigue, fever",100.7,809
+H101687,2023-05-07,Varicella,Varicella,"fatigue, headache",99.1,795
+H101692,2023-05-07,COVID,COVID,"fever, headache, cough",100.0,795
+H101713,2023-05-20,Varicella,Varicella,"cough, fever, headache",100.4,782
+H101718,2023-05-20,COVID,COVID,rash,100.2,782
+H101727,2023-05-30,Lice,Lice,"fever, cough",98.4,772
+H101729,2023-05-30,Varicella,Varicella,"cough, fatigue",99.0,772
+H101730,2023-05-30,Lice,Lice,"fatigue, headache",99.7,772
+H101731,2023-05-30,Varicella,Varicella,none,97.4,772
+H101732,2023-05-30,Lice,Lice,headache,97.9,772
+H101733,2023-05-30,Varicella,Varicella,"cough, headache",100.1,772
+H101734,2023-05-30,Varicella,Varicella,"fever, cough, rash",97.6,772
+H101748,2023-05-30,Lice,Varicella,fever,98.6,772
+H101756,2023-06-11,Varicella,Lice,"headache, rash",97.8,760
+H101760,2023-06-11,Lice,Lice,cough,98.5,760
+H101764,2023-06-11,Varicella,Varicella,headache,100.2,760
+H101765,2023-06-11,Varicella,Varicella,headache,99.2,760
+H101766,2023-06-11,Lice,Lice,cough,97.2,760
+H101769,2023-06-11,Varicella,Varicella,fever,98.7,760
+H101773,2023-06-11,Lice,Lice,rash,99.2,760
+H101774,2023-06-11,Varicella,Varicella,"fever, headache",99.9,760
+H101777,2023-06-11,Lice,Lice,cough,95.8,760
+H101778,2023-06-11,Varicella,Varicella,"headache, cough",99.6,760
+H101779,2023-06-11,Varicella,Varicella,cough,100.4,760
+H101792,2023-06-22,Varicella,Varicella,"headache, fever, cough",99.2,749
+H101794,2023-06-22,Lice,Lice,"fatigue, headache",98.9,749
+H101800,2023-06-22,Flu,Lice,"cough, rash",101.0,749
+H101819,2023-07-05,COVID,COVID,"cough, fatigue",100.1,736
+H101822,2023-07-05,Lice,Lice,cough,98.8,736
+H101832,2023-07-05,Varicella,Varicella,"cough, headache, rash",98.1,736
+H101836,2023-07-05,Lice,Lice,cough,96.9,736
+H101857,2023-07-18,Varicella,Varicella,fever,99.2,723
+H101858,2023-07-18,Varicella,Varicella,"fever, cough",96.1,723
+H101859,2023-07-18,Varicella,Varicella,"cough, fever, fatigue",97.9,723
+H101860,2023-07-18,Varicella,Varicella,"headache, cough",96.7,723
+H101861,2023-07-18,Varicella,Varicella,"fatigue, fever",97.1,723
+H101869,2023-07-18,COVID,Lice,"cough, rash",100.3,723
+H101871,2023-08-01,COVID,COVID,"cough, fever",101.7,709
+H101874,2023-08-01,Varicella,Varicella,cough,100.4,709
+H101875,2023-08-01,Varicella,Varicella,"fever, cough, fatigue",101.3,709
+H101881,2023-08-01,Varicella,Varicella,cough,101.1,709
+H101882,2023-08-01,Varicella,Varicella,cough,99.0,709
+H101885,2023-08-01,Varicella,Varicella,"cough, headache",101.5,709
+H101886,2023-08-01,Varicella,Varicella,"headache, fatigue",98.4,709
+H101889,2023-08-01,Varicella,Varicella,"headache, fatigue, cough",98.5,709
+H101916,2023-08-12,Varicella,Varicella,fever,99.7,698
+H101919,2023-08-12,Flu,Lice,rash,101.0,698
+H101922,2023-08-12,Varicella,Varicella,"fever, headache",99.2,698
+H101936,2023-08-25,Varicella,Varicella,"cough, fatigue",97.9,685
+H101937,2023-08-25,Varicella,Varicella,"headache, cough",98.9,685
+H101939,2023-08-25,Varicella,Varicella,rash,98.0,685
+H101951,2023-08-25,COVID,Lice,headache,100.0,685
+H101983,2023-09-08,Varicella,Varicella,"cough, fatigue, fever",99.9,671
+H101995,2023-09-22,Lice,Lice,"fever, headache, fatigue",95.8,657
+H101996,2023-09-22,Lice,Lice,"fever, rash, headache",99.2,657
+H102003,2023-09-22,Lice,Lice,"headache, fatigue",98.3,657
+H102017,2023-10-06,Lice,Lice,"cough, headache",100.1,643
+H102021,2023-10-06,Lice,Lice,"rash, cough",99.2,643
+H102024,2023-10-06,Lice,Varicella,rash,98.0,643
+H102028,2023-10-06,Varicella,Varicella,fatigue,98.9,643
+H102062,2023-10-18,Varicella,Varicella,headache,99.7,631
+H102063,2023-10-18,Varicella,Varicella,"fatigue, fever, headache",99.3,631
+H102065,2023-10-18,Varicella,Varicella,fatigue,100.5,631
+H102066,2023-10-18,Varicella,Varicella,"rash, fatigue",98.7,631
+H102068,2023-10-18,Varicella,Varicella,"fever, cough, rash",98.2,631
+H102070,2023-10-18,Varicella,Varicella,"fatigue, fever",99.4,631
+H102072,2023-10-18,Varicella,Varicella,cough,95.9,631
+H102073,2023-10-18,Varicella,Lice,"cough, headache, fever",98.0,631
+H102076,2023-10-18,Varicella,Varicella,fever,97.5,631
+H102078,2023-10-18,Varicella,Varicella,rash,98.3,631
+H102080,2023-10-18,Varicella,Varicella,"rash, headache",99.7,631
+H102081,2023-10-18,Varicella,Varicella,"headache, rash, cough",96.8,631
+H102098,2023-10-28,Lice,Varicella,"rash, fever, cough",98.3,621
+H102101,2023-10-28,Lice,Lice,"rash, headache, fever",98.4,621
+H102102,2023-10-28,Lice,Lice,headache,98.1,621
+H102104,2023-10-28,Lice,Lice,fatigue,99.2,621
+H102105,2023-10-28,Lice,Lice,rash,98.4,621
+H102106,2023-10-28,Lice,Lice,"fever, fatigue",98.3,621
+H102107,2023-10-28,Varicella,Varicella,fever,98.8,621
+H102108,2023-10-28,Lice,Lice,headache,97.1,621
+H102110,2023-10-28,Varicella,Varicella,"headache, rash",99.5,621
+H102111,2023-10-28,Varicella,Varicella,none,96.6,621
+H102112,2023-10-28,Lice,Lice,"fever, rash",97.7,621
+H102114,2023-10-28,Lice,Lice,"cough, rash",98.2,621
+H102115,2023-10-28,Lice,Lice,"fatigue, fever, headache",100.4,621
+H102116,2023-10-28,COVID,COVID,fever,100.7,621
+H102117,2023-10-28,Varicella,Varicella,fatigue,99.8,621
+H102118,2023-10-28,Lice,Lice,fatigue,100.1,621
+H102120,2023-10-28,Lice,Lice,"headache, fatigue",98.3,621
+H102122,2023-10-28,Lice,Varicella,"cough, fever",96.4,621
+H102125,2023-10-28,Varicella,Varicella,"cough, rash",100.0,621
+H102143,2023-11-10,Varicella,Varicella,rash,99.2,608
+H102144,2023-11-10,Flu,Varicella,rash,100.0,608
+H102181,2023-12-02,Lice,Lice,fever,99.5,586
+H102183,2023-12-02,Lice,Lice,fever,99.1,586
+H102184,2023-12-02,Lice,Lice,rash,98.9,586
+H102186,2023-12-02,Lice,Lice,rash,101.1,586
+H102187,2023-12-02,Lice,Lice,fatigue,97.3,586
+H102188,2023-12-02,Lice,Lice,"cough, fatigue, rash",98.8,586
+H102191,2023-12-02,Lice,Lice,fatigue,99.9,586
+H102193,2023-12-02,Lice,Lice,"fatigue, headache, fever",96.6,586
+H102194,2023-12-02,Lice,Lice,"cough, fatigue",98.0,586
+H102216,2023-12-02,Varicella,Varicella,"rash, headache",96.5,586
+H102226,2023-12-16,Lice,Lice,none,97.3,572
+H102243,2023-12-27,Varicella,Varicella,headache,98.3,561
+H102244,2023-12-27,Lice,Lice,none,98.3,561
+H102258,2023-12-27,Flu,Flu,"fatigue, rash, headache",100.5,561
+H102263,2024-01-08,Lice,Lice,"rash, cough",98.2,549
+H102268,2024-01-08,Lice,Lice,fatigue,101.2,549
+H102269,2024-01-08,Lice,Lice,"headache, fever",98.5,549
+H102280,2024-01-19,Varicella,Varicella,"rash, fever",99.9,538
+H102281,2024-01-19,Lice,Lice,none,97.6,538
+H102283,2024-01-19,Varicella,Varicella,none,98.2,538
+H102284,2024-01-19,Varicella,Varicella,"cough, fatigue",98.3,538
+H102285,2024-01-19,Varicella,Varicella,headache,99.2,538
+H102286,2024-01-19,Varicella,Varicella,"fatigue, cough, fever",97.2,538
+H102287,2024-01-19,Varicella,Varicella,fatigue,99.5,538
+H102288,2024-01-19,Varicella,Varicella,fever,99.4,538
+H102292,2024-01-19,Varicella,Varicella,"fever, fatigue",100.4,538
+H102293,2024-01-19,Varicella,Varicella,"fever, headache",98.4,538
+H102294,2024-01-19,Varicella,Varicella,cough,96.7,538
+H102317,2024-01-31,Lice,Lice,"rash, fatigue",100.3,526
+H102318,2024-01-31,Lice,Varicella,rash,99.5,526
+H102321,2024-01-31,Varicella,Varicella,"cough, rash, fatigue",99.2,526
+H102323,2024-01-31,Varicella,Varicella,fatigue,98.2,526
+H102326,2024-01-31,Lice,Lice,"cough, fever",97.0,526
+H102327,2024-01-31,Varicella,Varicella,"fatigue, headache",99.2,526
+H102348,2024-02-13,Lice,Lice,"headache, rash, cough",99.3,513
+H102349,2024-02-13,Lice,Lice,"cough, fatigue",98.9,513
+H102350,2024-02-13,Lice,Lice,"fatigue, fever, headache",100.5,513
+H102353,2024-02-13,Lice,Lice,"cough, headache, fatigue",98.2,513
+H102377,2024-02-27,Lice,Lice,fever,101.0,499
+H102379,2024-02-27,Lice,Lice,none,98.0,499
+H102382,2024-02-27,Lice,Lice,"headache, fever",97.5,499
+H102390,2024-02-27,COVID,COVID,none,100.9,499
+H102391,2024-02-27,Lice,Lice,headache,99.8,499
+H102396,2024-02-27,Lice,Lice,"headache, rash, fever",98.2,499
+H102413,2024-03-11,Lice,Lice,rash,98.6,486
+H102431,2024-03-11,Lice,Lice,cough,97.9,486
+H102473,2024-04-04,Varicella,Varicella,fever,100.3,462
+H102474,2024-04-04,Varicella,Varicella,"cough, headache, fatigue",98.8,462
+H102479,2024-04-04,Varicella,Lice,"cough, fatigue",97.0,462
+H102482,2024-04-04,Varicella,Varicella,"fatigue, rash",98.1,462
+H102483,2024-04-04,Varicella,Varicella,"cough, headache, fever",99.5,462
+H102484,2024-04-04,Varicella,Varicella,"headache, rash, fatigue",98.5,462
+H102485,2024-04-04,Varicella,Varicella,"cough, headache",100.4,462
+H102499,2024-04-14,Lice,Lice,rash,99.2,452
+H102500,2024-04-14,Lice,Lice,none,100.3,452
+H102504,2024-04-14,Lice,Varicella,"cough, headache",97.6,452
+H102506,2024-04-14,Lice,Lice,"cough, rash, fatigue",98.1,452
+H102507,2024-04-14,Lice,Lice,none,96.4,452
+H102510,2024-04-14,Varicella,Varicella,headache,99.6,452
+H102526,2024-04-28,Lice,Lice,"headache, rash, cough",100.6,438
+H102529,2024-04-28,Lice,Lice,rash,97.4,438
+H102530,2024-04-28,Lice,Lice,"fatigue, cough, rash",97.8,438
+H102531,2024-04-28,Lice,Lice,"fatigue, cough",98.6,438
+H102533,2024-04-28,Lice,Lice,"fatigue, fever",100.7,438
+H102534,2024-04-28,Lice,Lice,"fever, cough",99.7,438
+H102535,2024-04-28,Lice,Varicella,fever,100.4,438
+H102537,2024-04-28,Lice,Lice,fever,96.5,438
+H102548,2024-05-11,Flu,Flu,none,100.7,425
+H102566,2024-05-11,Lice,Varicella,"cough, headache",97.4,425
+H102587,2024-05-22,Lice,Lice,"fever, headache, fatigue",99.6,414
+H102588,2024-05-22,Lice,Lice,rash,99.0,414
+H102589,2024-05-22,Varicella,Varicella,"fatigue, cough, headache",100.1,414
+H102591,2024-05-22,Lice,Lice,"rash, headache",98.3,414
+H102592,2024-05-22,Lice,Lice,"rash, fever",99.8,414
+H102594,2024-05-22,Lice,Lice,"fatigue, fever",96.9,414
+H102595,2024-05-22,Lice,Varicella,"fever, headache",100.3,414
+H102597,2024-05-22,Flu,Flu,"fever, headache",100.7,414
+H102598,2024-05-22,Lice,Lice,fever,97.5,414
+H102599,2024-05-22,Lice,Lice,fatigue,97.3,414
+H102600,2024-05-22,Varicella,Varicella,headache,97.9,414
+H102602,2024-05-22,Lice,Lice,"rash, fever",98.4,414
+H102605,2024-05-22,Lice,Lice,fatigue,97.6,414
+H102606,2024-05-22,Lice,Lice,"cough, headache, fatigue",97.1,414
+H102607,2024-05-22,Lice,Lice,"rash, headache",97.8,414
+H102634,2024-06-04,Lice,Lice,headache,99.9,401
+H102638,2024-06-04,Lice,Lice,none,100.4,401
+H102642,2024-06-04,Varicella,Lice,"headache, rash, fever",99.4,401
+H102643,2024-06-04,Varicella,Varicella,"fever, fatigue",98.1,401
+H102645,2024-06-04,Lice,Lice,fatigue,95.0,401
+H102649,2024-06-04,Varicella,Varicella,"cough, rash",100.1,401
+H102662,2024-06-16,Lice,Lice,fatigue,100.1,389
+H102664,2024-06-16,Lice,Varicella,headache,98.2,389
+H102666,2024-06-16,Lice,Lice,fatigue,98.3,389
+H102667,2024-06-16,Varicella,Varicella,headache,97.1,389
+H102668,2024-06-16,Varicella,Varicella,rash,99.8,389
+H102674,2024-06-16,Varicella,Varicella,"rash, fatigue",98.9,389
+H102675,2024-06-16,Lice,Lice,"fatigue, fever, headache",97.7,389
+H102676,2024-06-16,Varicella,Varicella,cough,98.0,389
+H102678,2024-06-16,Lice,Lice,"fever, cough",100.6,389
+H102704,2024-06-27,Varicella,Varicella,"rash, fever",99.4,378
+H102706,2024-06-27,COVID,COVID,"cough, fever",100.3,378
+H102717,2024-07-07,COVID,COVID,"fatigue, fever",100.0,368
+H102732,2024-07-17,Flu,Flu,headache,101.6,358
+H102734,2024-07-17,Lice,Varicella,"cough, rash",96.2,358
+H102736,2024-07-17,Lice,Lice,"cough, fatigue",96.9,358
+H102739,2024-07-17,Varicella,Varicella,"cough, rash, fatigue",97.4,358
+H102770,2024-07-17,Varicella,Varicella,"fever, fatigue",98.5,358
+H102775,2024-07-27,Varicella,Varicella,"headache, fatigue, rash",98.7,348
+H102778,2024-07-27,Varicella,Lice,rash,98.5,348
+H102779,2024-07-27,Lice,Lice,fever,97.8,348
+H102781,2024-07-27,Lice,Lice,none,100.6,348
+H102800,2024-08-09,Lice,Lice,"fatigue, fever, headache",98.3,335
+H102802,2024-08-09,Lice,Lice,"fatigue, cough, rash",98.2,335
+H102803,2024-08-09,Lice,Lice,cough,98.7,335
+H102805,2024-08-09,Lice,Lice,"rash, fever",98.2,335
+H102808,2024-08-09,Lice,Lice,fatigue,98.9,335
+H102813,2024-08-09,Lice,Lice,fever,97.5,335
+H102814,2024-08-09,Lice,Lice,"rash, fatigue, cough",98.1,335
+H102835,2024-08-23,Varicella,Varicella,"fatigue, headache",99.6,321
+H102839,2024-08-23,Varicella,Varicella,"cough, rash",97.1,321
+H102840,2024-08-23,Flu,Flu,"headache, rash",100.9,321
+H102853,2024-08-23,Lice,Lice,"fatigue, headache",98.5,321
+H102868,2024-09-03,Varicella,Varicella,fatigue,98.7,310
+H102871,2024-09-03,Lice,Lice,"fatigue, rash, fever",98.5,310
+H102876,2024-09-03,Varicella,Lice,"headache, rash",99.2,310
+H102878,2024-09-03,Lice,Lice,"rash, headache",97.5,310
+H102879,2024-09-03,Lice,Lice,"rash, fever",98.6,310
+H102881,2024-09-03,Varicella,Varicella,"rash, fever, fatigue",99.4,310
+H102911,2024-09-17,Lice,Lice,"rash, headache",98.5,296
+H102913,2024-09-17,Lice,Lice,"cough, rash",98.2,296
+H102914,2024-09-17,Varicella,Varicella,"fatigue, rash",97.7,296
+H102916,2024-09-17,Lice,Lice,"fever, fatigue, headache",97.9,296
+H102917,2024-09-17,Varicella,Varicella,cough,98.8,296
+H102918,2024-09-17,Varicella,Varicella,"headache, fever",98.3,296
+H102919,2024-09-17,Varicella,Varicella,"cough, fever, rash",99.4,296
+H102920,2024-09-17,Lice,Lice,"rash, fever, fatigue",99.0,296
+H102921,2024-09-17,Lice,Lice,"cough, fatigue",98.3,296
+H102923,2024-09-17,Lice,Lice,"cough, headache",101.7,296
+H102924,2024-09-17,Lice,Lice,"fever, rash",100.2,296
+H102925,2024-09-17,Varicella,Varicella,"fatigue, cough, headache",101.5,296
+H102926,2024-09-17,Varicella,Varicella,fever,100.3,296
+H102927,2024-09-17,Lice,Lice,fever,97.6,296
+H102930,2024-09-17,Varicella,Varicella,none,97.5,296
+H102932,2024-09-17,Lice,COVID,cough,100.3,296
+H102934,2024-09-17,Lice,Lice,"fever, headache",98.2,296
+H102935,2024-09-17,Lice,Lice,fever,97.8,296
+H102936,2024-09-17,Lice,Lice,"fatigue, rash",97.6,296
+H102938,2024-09-17,Varicella,Varicella,headache,99.0,296
+H102956,2024-09-27,Lice,Lice,rash,98.6,286
+H102979,2024-09-27,Lice,Varicella,"cough, fever",99.3,286
+H102984,2024-10-08,Lice,Lice,"cough, rash",99.0,275
+H102985,2024-10-08,Lice,Lice,none,100.7,275
+H102986,2024-10-08,Varicella,Varicella,"fatigue, fever",100.4,275
+H102989,2024-10-08,Lice,Lice,none,99.4,275
+H102990,2024-10-08,Lice,Lice,"headache, fever, cough",98.8,275
+H102991,2024-10-08,Lice,Lice,cough,98.2,275
+H102993,2024-10-08,Lice,Lice,"headache, fever",98.8,275
+H102996,2024-10-08,Lice,Lice,"cough, fatigue, rash",95.4,275
+H102997,2024-10-08,Lice,Lice,"cough, fatigue",98.4,275
+H102998,2024-10-08,Lice,Lice,rash,100.5,275
+H102999,2024-10-08,Lice,Lice,"cough, rash",98.4,275
+H103004,2024-10-08,COVID,COVID,rash,101.1,275
+H103028,2024-10-21,Varicella,Varicella,"headache, cough, fatigue",98.7,262
+H103032,2024-10-21,Varicella,Varicella,fever,97.3,262
+H103044,2024-10-21,Varicella,Varicella,fatigue,99.1,262
+H103059,2024-11-03,Varicella,Varicella,rash,97.3,249
+H103061,2024-11-03,Varicella,Varicella,"rash, cough",97.8,249
+H103063,2024-11-03,Varicella,Varicella,"cough, fever",98.9,249
+H103064,2024-11-03,Varicella,Varicella,"rash, fever",99.3,249
+H103077,2024-11-16,Flu,Flu,cough,100.2,236
+H103079,2024-11-16,Varicella,Varicella,fever,100.6,236
+H103083,2024-11-16,Flu,Flu,"cough, headache, rash",100.1,236
+H103101,2024-11-16,Lice,Lice,"fatigue, cough",98.4,236
+H103105,2024-11-30,Flu,Varicella,"fatigue, rash, cough",100.1,222
+H103106,2024-11-30,Varicella,Varicella,"fever, fatigue, rash",99.4,222
+H103109,2024-11-30,Lice,Varicella,fever,101.2,222
+H103110,2024-11-30,Lice,Lice,headache,98.0,222
+H103133,2024-12-11,Varicella,Varicella,"cough, rash",96.7,211
+H103134,2024-12-11,Varicella,Lice,none,97.7,211
+H103135,2024-12-11,Varicella,Varicella,headache,99.1,211
+H103137,2024-12-11,Varicella,Varicella,fatigue,100.0,211
+H103139,2024-12-11,Varicella,Varicella,headache,99.7,211
+H103141,2024-12-11,Varicella,Varicella,headache,97.2,211
+H103142,2024-12-11,Varicella,Varicella,"fever, rash",97.6,211
+H103145,2024-12-11,Varicella,Varicella,"rash, fever",97.6,211
+H103146,2024-12-11,Varicella,Varicella,fever,97.6,211
+H103148,2024-12-11,Lice,Lice,"cough, fever",98.8,211
+H103149,2024-12-11,Varicella,Varicella,"cough, fatigue, rash",99.1,211
+H103172,2024-12-25,COVID,COVID,headache,102.7,197
+H103173,2024-12-25,Varicella,Varicella,"fever, cough, fatigue",100.3,197
+H103174,2024-12-25,Lice,Lice,"fever, headache",97.5,197
+H103175,2024-12-25,Lice,Lice,none,98.8,197
+H103176,2024-12-25,Lice,Varicella,"rash, cough",99.5,197
+H103179,2024-12-25,Lice,Lice,rash,96.0,197
+H103180,2024-12-25,COVID,Lice,"rash, fatigue",101.3,197
+H103184,2024-12-25,Lice,Lice,rash,99.0,197
+H103185,2024-12-25,Varicella,Varicella,"fever, fatigue, rash",98.9,197
+H103197,2024-12-25,Varicella,Varicella,"fatigue, cough",99.6,197
+H103217,2025-01-07,Lice,Lice,headache,96.7,184
+H103222,2025-01-07,Lice,Lice,none,99.2,184
+H103225,2025-01-07,Lice,Lice,"fatigue, fever",98.6,184
+H103257,2025-01-21,Varicella,Varicella,"fever, cough",96.3,170
+H103258,2025-01-21,Lice,Varicella,fever,100.7,170
+H103259,2025-01-21,Varicella,Varicella,cough,99.8,170
+H103260,2025-01-21,Varicella,Varicella,cough,99.2,170
+H103262,2025-01-21,Varicella,Varicella,"headache, fatigue",98.9,170
+H103290,2025-02-01,Flu,Flu,fatigue,100.9,159
+H103291,2025-02-01,COVID,COVID,headache,101.0,159
+H103321,2025-02-01,Varicella,Varicella,"fatigue, cough",97.0,159
+H103329,2025-02-13,Flu,Flu,"cough, headache, rash",100.7,147
+H103334,2025-02-13,Lice,Lice,fatigue,99.6,147
+H103338,2025-02-13,Flu,Flu,"fever, fatigue",100.2,147
+H103340,2025-02-13,Lice,Lice,"rash, fever",99.2,147
+H103346,2025-02-13,COVID,COVID,"cough, fever",100.4,147
+H103362,2025-02-24,Varicella,Varicella,rash,99.0,136
+H103363,2025-02-24,Varicella,Varicella,"fatigue, fever",98.1,136
+H103364,2025-02-24,Varicella,Varicella,fever,100.6,136
+H103367,2025-02-24,Varicella,Varicella,fatigue,100.5,136
+H103371,2025-02-24,Varicella,Varicella,cough,97.6,136
+H103386,2025-03-06,Varicella,Varicella,"headache, rash",100.5,126
+H103426,2025-03-18,Lice,Lice,fatigue,100.1,114
+H103430,2025-03-18,COVID,COVID,cough,100.3,114
+H103443,2025-03-18,COVID,COVID,"fever, cough",100.5,114
+H103465,2025-03-29,Varicella,Varicella,"headache, fatigue, rash",97.9,103
+H103466,2025-03-29,Varicella,Varicella,cough,98.3,103
+H103467,2025-03-29,Varicella,Varicella,"fatigue, rash, headache",99.3,103
+H103470,2025-03-29,Varicella,Varicella,rash,97.0,103
+H103488,2025-03-29,Varicella,Varicella,cough,99.3,103
+H103507,2025-04-09,Lice,Lice,"headache, fever, rash",100.3,92
+H103550,2025-04-21,Lice,Varicella,"fever, cough",96.5,80
+H103551,2025-04-21,Varicella,Varicella,"headache, cough",99.3,80
+H103556,2025-04-21,Varicella,Varicella,"fever, fatigue, cough",99.0,80
+H103594,2025-05-05,Lice,Lice,cough,99.7,66
+H103595,2025-05-05,Lice,Lice,"fever, headache",98.9,66
+H103596,2025-05-05,Lice,Lice,fever,99.4,66
+H103597,2025-05-05,Lice,Lice,headache,99.4,66
+H103598,2025-05-05,Lice,Lice,"headache, cough",98.4,66
+H103600,2025-05-05,Varicella,Varicella,"headache, fatigue, rash",99.8,66
+H103609,2025-05-18,Lice,Lice,"headache, cough",97.6,53
+H103613,2025-05-18,Lice,Lice,none,98.3,53
+H103621,2025-05-18,Varicella,Varicella,cough,96.5,53
+H103622,2025-05-18,Lice,Lice,fever,99.5,53
+H103641,2025-05-31,Varicella,Varicella,"rash, cough",98.6,40
+H103657,2025-05-31,Varicella,Varicella,"headache, cough, fever",100.0,40
+H103665,2025-06-13,Lice,Lice,"fever, fatigue",95.6,27
+H103666,2025-06-13,Lice,Lice,"cough, headache",96.3,27
+H103667,2025-06-13,Varicella,Varicella,"cough, fever, fatigue",99.0,27
+H103673,2025-06-13,Varicella,Varicella,cough,97.8,27
+H103675,2025-06-13,Lice,Lice,headache,99.4,27
+H103678,2025-06-13,Lice,Lice,"fatigue, headache",101.4,27
+H103680,2025-06-13,Lice,Lice,headache,100.2,27
+H103684,2025-06-13,Lice,Lice,"cough, headache, fatigue",96.1,27
+H103691,2025-06-13,Varicella,Varicella,"cough, rash, headache",98.7,27
+H103699,2025-06-26,Lice,Lice,"cough, headache",101.7,14
+H103701,2025-06-26,Lice,Lice,headache,99.3,14
+H103704,2025-06-26,Lice,Lice,rash,97.0,14
+H103705,2025-06-26,Varicella,Varicella,cough,96.8,14
+H103708,2025-06-26,Lice,Lice,"rash, headache, cough",98.8,14
+H103719,2025-07-09,Lice,Lice,headache,99.2,1
+H103720,2025-07-09,Varicella,Varicella,cough,100.8,1
+H103721,2025-07-09,Lice,Lice,"fatigue, fever",98.4,1

@@ -1,0 +1,59 @@
+child_id,arrival_date,facility_id,room_id,temp,symptoms,triage_reason,triage_decision
+C00001,2025-07-07,1,D-069,100.0,"fever, rash",Symptom-Based,Quarantine (Symptomatic)
+C00002,2025-07-07,5,A-098,99.9,fever,None,Clear
+C00003,2025-07-07,6,C-014,100.0,"fatigue, rash",COVID,Quarantine (COVID - Active)
+C00004,2025-07-07,5,E-086,98.5,"cough, fever",None,Clear
+C00005,2025-07-07,11,D-023,98.3,cough,Lice,Isolate (Lice)
+C00006,2025-07-07,15,D-027,97.0,cough,None,Clear
+C00007,2025-07-07,1,B-006,98.0,none,Flu,Quarantine (Flu - Active)
+C00008,2025-07-07,17,E-123,96.7,fatigue,None,Clear
+C00009,2025-07-07,17,A-079,97.5,"fatigue, headache",None,Clear
+C00010,2025-07-07,16,D-053,98.7,fatigue,Lice,Isolate (Lice)
+C00011,2025-07-07,5,E-145,97.5,fatigue,Flu,Quarantine (Flu - Active)
+C00012,2025-07-07,1,A-102,97.5,fever,None,Clear
+C00013,2025-07-07,13,E-112,97.4,"rash, cough",Varicella,Isolate (Varicella)
+C00014,2025-07-07,12,E-125,100.2,"fever, fatigue, rash",Symptom-Based,Quarantine (Symptomatic)
+C00015,2025-07-07,13,C-131,99.0,rash,Lice,Isolate (Lice)
+C00016,2025-07-07,14,B-022,97.4,"headache, rash, fatigue",None,Clear
+C00017,2025-07-07,2,C-044,99.2,"rash, fatigue, cough",None,Clear
+C00018,2025-07-07,12,D-019,98.8,fever,None,Clear
+C00019,2025-07-07,8,E-087,98.2,"fatigue, rash, fever",Varicella,Isolate (Varicella)
+C00020,2025-07-07,10,A-094,97.6,fever,None,Clear
+C00021,2025-07-29,8,B-104,97.8,"fever, fatigue, headache",None,Clear
+C00022,2025-07-29,13,A-074,96.6,none,None,Clear
+C00023,2025-07-29,16,B-140,97.9,headache,None,Clear
+C00024,2025-07-29,3,B-138,98.6,"rash, headache, fatigue",COVID,Quarantine (COVID - Active)
+C00025,2025-07-29,9,D-012,97.6,"fever, rash",Varicella,Isolate (Varicella)
+C00026,2025-07-29,7,B-006,98.5,"fatigue, headache, cough",None,Clear
+C00027,2025-07-29,17,C-112,98.5,"fatigue, headache",None,Clear
+C00028,2025-07-29,2,A-017,100.0,rash,Symptom-Based,Quarantine (Symptomatic)
+C00029,2025-07-29,12,A-022,97.2,fatigue,None,Clear
+C00030,2025-07-29,18,E-097,100.5,"headache, fatigue",Lice,Isolate (Lice)
+C00031,2025-07-29,10,D-008,100.2,rash,Flu,Quarantine (Flu - Active)
+C00032,2025-07-29,10,D-009,95.8,"rash, fatigue",None,Clear
+C00033,2025-07-29,7,B-108,100.4,rash,Varicella,Isolate (Varicella)
+C00034,2025-07-29,1,B-096,96.7,fever,None,Clear
+C00035,2025-07-29,13,A-015,98.4,"rash, cough",Lice,Isolate (Lice)
+C00036,2025-07-29,5,C-100,96.8,cough,None,Clear
+C00037,2025-07-29,6,C-133,100.0,"rash, cough",Symptom-Based,Quarantine (Symptomatic)
+C00038,2025-07-29,4,E-099,99.7,"cough, fever",Flu,Quarantine (Flu - Active)
+C00039,2025-07-29,11,D-006,97.4,"headache, fatigue",Flu,Quarantine (Flu - Active)
+C00040,2025-07-29,10,D-078,100.3,fatigue,Symptom-Based,Quarantine (Symptomatic)
+C00041,2025-07-29,14,A-041,99.2,rash,Lice,Isolate (Lice)
+C00042,2025-07-26,13,E-132,97.9,none,None,Clear
+C00043,2025-07-26,5,E-027,99.5,"fever, cough",Flu,Quarantine (Flu - Active)
+C00044,2025-07-26,14,C-024,99.1,fatigue,None,Clear
+C00045,2025-07-26,4,B-053,96.4,fever,Varicella,Isolate (Varicella)
+C00046,2025-07-26,10,D-012,100.1,"cough, rash",COVID,Quarantine (COVID - Active)
+C00047,2025-07-26,10,B-130,97.5,"rash, fever",None,Clear
+C00048,2025-07-26,12,A-050,98.7,"fatigue, headache, cough",None,Clear
+C00049,2025-07-26,10,A-082,99.0,rash,None,Clear
+C00050,2025-07-26,17,E-035,97.8,"headache, cough, fatigue",Flu,Quarantine (Flu - Active)
+C00051,2025-07-26,13,E-035,98.4,fatigue,Lice,Isolate (Lice)
+C00052,2025-07-26,10,D-102,97.4,fatigue,None,Clear
+C00053,2025-07-26,10,E-125,98.1,"rash, fever",Lice,Isolate (Lice)
+C00054,2025-07-26,7,E-033,98.6,"fever, rash",None,Clear
+C00055,2025-07-26,10,E-127,100.3,"fatigue, headache, rash",COVID,Quarantine (COVID - Active)
+C00056,2025-07-26,1,A-014,98.6,"rash, fatigue",None,Clear
+C00057,2025-07-26,17,C-108,100.8,"headache, cough",Symptom-Based,Quarantine (Symptomatic)
+C00058,2025-07-26,2,D-088,96.7,rash,None,Clear
