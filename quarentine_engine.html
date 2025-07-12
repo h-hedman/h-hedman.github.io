@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Epidemic Curve | Emergency Facility Surveillance</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f9fafa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background: linear-gradient(to right, #005eb8, #007c9e);
+      color: white;
+      padding: 1.5rem 2rem;
+      font-size: 1.6rem;
+      font-weight: 600;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 120px auto 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .note {
+      font-style: italic;
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    #plot {
+      width: 100%;
+      height: 550px;
+    }
+
+    .glance-box {
+      background-color: #ecf6fb;
+      border-left: 6px solid #007c9e;
+      padding: 1rem 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 6px;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .glance-box ul {
+      padding-left: 1.2rem;
+      margin: 0;
+    }
+
+    .glance-box li {
+      margin-bottom: 0.6rem;
+      line-height: 1.5;
+    }
+
+    .table-toggle {
+      text-align: center;
+      margin: 2rem 0 1rem 0;
+    }
+
+    .table-toggle button {
+      background-color: #007c9e;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      margin: 0 0.3rem;
+      font-size: 0.95rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .table-toggle button:hover {
+      background-color: #005e80;
+    }
+
+    .data-table {
+      margin-top: 1rem;
+      overflow-x: auto;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1rem;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .data-table table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .data-table th, .data-table td {
+      text-align: left;
+      padding: 0.5rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .data-table th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">Quarentine Engine</div>
+
+  <div class="container">
+    <p class="note">*Generated using synthetic data for public reproducibility*</p>
+
+    <!-- At a Glance -->
+    <div id="glance-box" style="text-align: center;"></div>
+
+    <!-- Heatmap -->
+    <h3 style="text-align:center; margin-top: 2rem;">Immediate Quarantine Action Required</h3>
+    <div id="quarantine-heatmap" style="text-align: center; margin-bottom: 2rem;"></div>
+
+    <!-- Chart -->
+    <div id="plot"></div>
+
+    <!-- Toggle Buttons -->
+    <div class="table-toggle">
+      <button onclick="showTable('or-covid')">OR: Transmission (COVID)</button>
+      <button onclick="showTable('or-flu')">OR: Transmission (Flu)</button>
+      <button onclick="showTable('sensitivity')">Sensitivity Analysis</button>
+      <button onclick="showTable('ml')">ML Predictions</button>
+    </div>
+
+    <!-- Toggle Table Containers -->
+    <div id="table-container">
+      <div id="or-covid" class="data-table" style="display: none;"></div>
+      <div id="or-flu" class="data-table" style="display: none;"></div>
+      <div id="sensitivity" class="data-table" style="display: none;"></div>
+      <div id="ml" class="data-table" style="display: none;"></div>
+    </div>
+<script>
+  function addGlanceBox() {
+    document.getElementById("glance-box").innerHTML = `
+      <div class="glance-box">
+        <strong>At a Glance</strong>
+        <ul>
+          <li>Automates quarantine and isolation calls based on symptoms and pathogen status</li>
+          <li>Uses real-time facility and transportation logs to flag exposure risks</li>
+          <li>Lightweight Python backend enables use in low-resource settings</li>
+        </ul>
+      </div>
+    `;
+  }
+
+  async function drawChart() {
+    const url = "https://raw.githubusercontent.com/h-hedman/healthcare-data-science/refs/heads/main/epidemiological_quarantine_algorithm/output/epi_curve_summary.csv";
+    const response = await fetch(url);
+    const raw = await response.text();
+
+    const rows = raw.trim().split("\n").map(row => row.split(","));
+    const header = rows[0];
+    const months = rows.slice(1).map(row => row[0]);
+
+    const colors = ["#440154", "#3b528b", "#21918c", "#5ec962", "#fde725"];
+
+    const traces = header.slice(1).map((disease, i) => ({
+      x: months,
+      y: rows.slice(1).map(row => +row[i + 1]),
+      name: disease,
+      type: 'scatter',
+      mode: 'lines+markers',
+      line: { color: colors[i % colors.length], width: 4 },
+      marker: { size: 10, opacity: 0.6, color: colors[i % colors.length] }
+    }));
+
+    Plotly.newPlot('plot', traces, {
+      title: 'Monthly Disease Incidence in Emergency Facility Settings',
+      xaxis: { title: 'Month', tickangle: -45 },
+      yaxis: { title: 'Reported Cases' },
+      legend: { orientation: 'h', x: 0, y: -0.2 },
+      margin: { t: 60, b: 80 }
+    }, { responsive: true });
+  }
+
+  function showTable(id) {
+    document.querySelectorAll('.data-table').forEach(el => el.style.display = 'none');
+    document.getElementById(id).style.display = 'block';
+  }
+
+  async function loadTable(url, containerId) {
+    const response = await fetch(url);
+    const text = await response.text();
+    const rows = text.trim().split('\n').map(row => row.split(','));
+
+    const table = document.createElement('table');
+    const thead = table.createTHead();
+    const tbody = table.createTBody();
+
+    const headerRow = thead.insertRow();
+    rows[0].forEach(cell => {
+      const th = document.createElement('th');
+      th.textContent = cell;
+      headerRow.appendChild(th);
+    });
+
+    rows.slice(1).forEach(row => {
+      const tr = tbody.insertRow();
+      row.forEach(cell => {
+        const td = document.createElement('td');
+        td.textContent = cell;
+        tr.appendChild(td);
+      });
+    });
+
+    document.getElementById(containerId).appendChild(table);
+  }
+
+  async function loadHeatmapTable(url, containerId) {
+    const response = await fetch(url);
+    const text = await response.text();
+    const rows = text.trim().split('\n').map(row => row.split(','));
+
+    const data = rows.slice(1).map(row => [row[0], parseInt(row[1], 10)]);
+    const maxCount = Math.max(...data.map(d => d[1]));
+
+    const container = document.getElementById(containerId);
+    container.innerHTML = "";
+
+    const table = document.createElement('table');
+    table.style.margin = '0 auto';
+    table.style.fontSize = '1.25rem';
+    table.style.borderCollapse = 'collapse';
+    table.style.minWidth = '400px';
+
+    // Custom header labels
+    const thead = document.createElement('thead');
+    const headRow = document.createElement('tr');
+    ["Disease", "New Cases"].forEach(text => {
+      const th = document.createElement('th');
+      th.textContent = text;
+      th.style.borderBottom = '2px solid #007c9e';
+      th.style.padding = '0.75rem 1rem';
+      th.style.textAlign = 'left';
+      headRow.appendChild(th);
+    });
+    thead.appendChild(headRow);
+    table.appendChild(thead);
+
+    // Body rows
+    const tbody = document.createElement('tbody');
+    data.forEach(([label, count]) => {
+      const row = document.createElement('tr');
+
+      const cell1 = document.createElement('td');
+      cell1.textContent = label;
+      cell1.style.padding = '0.5rem 1rem';
+
+      const cell2 = document.createElement('td');
+      cell2.textContent = count;
+      cell2.style.padding = '0.5rem 1rem';
+      cell2.style.fontWeight = 'bold';
+      cell2.style.backgroundColor = '#ecf6fb';
+
+      row.appendChild(cell1);
+      row.appendChild(cell2);
+      tbody.appendChild(row);
+    });
+    table.appendChild(tbody);
+    container.appendChild(table);
+  }
+
+  // Initialize all features
+  addGlanceBox();
+  drawChart();
+  showTable('or-covid');
+
+  // Load all tables
+  loadHeatmapTable("https://raw.githubusercontent.com/h-hedman/healthcare-data-science/refs/heads/main/epidemiological_quarantine_algorithm/output/triage_quarantine_count_table.csv", "quarantine-heatmap");
+  loadTable("https://raw.githubusercontent.com/h-hedman/healthcare-data-science/refs/heads/main/epidemiological_quarantine_algorithm/output/or_table_covid.csv", "or-covid");
+  loadTable("https://raw.githubusercontent.com/h-hedman/healthcare-data-science/refs/heads/main/epidemiological_quarantine_algorithm/output/or_table_flu.csv", "or-flu");
+  loadTable("https://raw.githubusercontent.com/h-hedman/healthcare-data-science/refs/heads/main/epidemiological_quarantine_algorithm/output/sensitivity_summary.csv", "sensitivity");
+  loadTable("https://raw.githubusercontent.com/h-hedman/healthcare-data-science/refs/heads/main/epidemiological_quarantine_algorithm/output/ml_summary_table.csv", "ml");
+</script>
+</body>
+</html>
+
+<div style="text-align: center; margin: 3rem 0 2rem 0;">
+  <a href="https://raw.githubusercontent.com/h-hedman/healthcare-data-science/refs/heads/main/epidemiological_quarantine_algorithm/README.md"
+     target="_blank"
+     style="
+       display: inline-block;
+       background-color: #007c9e;
+       color: white;
+       font-weight: 600;
+       padding: 0.6rem 1.2rem;
+       border-radius: 6px;
+       text-decoration: none;
+       font-size: 0.95rem;
+       box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+     ">
+    README
+  </a>
+</div>
