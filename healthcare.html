@@ -100,6 +100,28 @@
       color: #4c8b6c;
     }
 
+    .wide-banner {
+      margin: 3rem 0;
+    }
+
+    .wide-banner img {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .wide-banner p {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .wide-banner h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+    }
+
     @media (max-width: 600px) {
       .project {
         flex-direction: column;
@@ -126,59 +148,63 @@
   <div class="content">
     <h2>Healthcare Data Science Projects</h2>
 
-    
     <div class="project">
       <a href="https://h-hedman.github.io/automated_epi_report.html">
         <img src="assets/img/automated_epi_report.png" alt="Automated Epi Report App Thumbnail">
       </a>
-      <p><strong><a href="https://h-hedman.github.io/automated_epi_report.html">CDC-Used Rapid Reporting System for Field Epidemiology</a></strong><br>
-     Developed during an emergency response with the CDC, this system automated daily outbreak reporting across refugee camps. It parsed clinical notes to identify infectious disease conditions and generated structured PDF reports, replacing a manual workflow that previously took several hours. The system was later scaled for national use in low-connectivity environments.</p>
+      <p>
+        <strong>
+          <a href="https://h-hedman.github.io/automated_epi_report.html">CDC-Used Rapid Reporting System for Field Epidemiology</a>
+        </strong><br>
+        Developed during an emergency response with the CDC, this system automated daily outbreak reporting across refugee camps. 
+        It parsed clinical notes to identify infectious disease conditions and generated structured PDF reports, replacing a manual workflow 
+        that previously took several hours. The system was later scaled for national use in low-connectivity environments.
+      </p>
     </div>
 
-    <div class="container">
-    <div class="overview">
+    <div class="wide-banner">
+      <a href="quarantine_index.html">
+        <img src="gui_data/quarantine_engine.png" alt="Quarantine Engine Screenshot">
+      </a>
       <h2>Quarantine Engine: CDC-Deployed Triage Automation</h2>
       <p>
         Built during an emergency CDC response, this system automated quarantine and isolation decisions based on symptoms, temperature, and lab status. 
-        It streamlined triage operations across refugee intake sites by replacing manual case review with real-time, rules-based and ML-enhanced outputs—supporting faster, more consistent public health action in high-throughput environments.
+        It streamlined triage operations across refugee intake sites by replacing manual case review with real-time, rules-based and ML-enhanced outputs—
+        supporting faster, more consistent public health action in high-throughput environments.
       </p>
-      <a href="quarantine_index.html">
-        <img src="gui_data/quarantine_engine.png" alt="Quarantine Engine Screenshot" style="width:100%; max-width:960px; border-radius:8px; margin-top:1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
-      </a>
-    </div>
     </div>
 
-
-    
     <div class="project">
       <a href="https://h-hedman.github.io/healthify-flu-app/">
         <img src="assets/img/healthify.png" alt="Healthify App Thumbnail">
       </a>
       <p>
         <strong>
-          <a href="https://h-hedman.github.io/healthify-flu-app/">
-            Flu Surveillance & Modeling App
-          </a>
+          <a href="https://h-hedman.github.io/healthify-flu-app/">Flu Surveillance & Modeling App</a>
         </strong><br>
-        An interactive web application built with Python and R, featuring dynamic visualizations, predictive models, and forecasting tools powered by CDC FluSurv-NET data. Combines machine learning and public health analytics to support real-time flu surveillance and decision-making.
+        An interactive web application built with Python and R, featuring dynamic visualizations, predictive models, and forecasting tools 
+        powered by CDC FluSurv-NET data. Combines machine learning and public health analytics to support real-time flu surveillance 
+        and decision-making.
       </p>
     </div>
-
 
     <div class="project">
       <a href="https://h-hedman.github.io/indigenous_projects.html">
         <img src="assets/img/indigenous_ds_thumbnail.png" alt="Tribal Epidemiology & Leadership">
       </a>
-      <p><strong><a href="https://h-hedman.github.io/indigenous_projects.html">Tribal Epidemiology & Leadership</a></strong><br>
-      Led statistical modeling and reporting initiatives with American Indian & Alaska Native collaborators. Delivered comparative‑effectiveness studies, designed research frameworks, and provided methodological consulting across health and education domains.</p>
+      <p>
+        <strong>
+          <a href="https://h-hedman.github.io/indigenous_projects.html">Tribal Epidemiology & Leadership</a>
+        </strong><br>
+        Led statistical modeling and reporting initiatives with American Indian & Alaska Native collaborators. Delivered comparative‑effectiveness studies, 
+        designed research frameworks, and provided methodological consulting across health and education domains.
+      </p>
     </div>
 
-    <!-- Future CDC/UofM additions can go here -->
-
-  </div>
-
     <div style="text-align: center; font-size: 0.9rem; color: #777; margin: 2rem auto 3rem;">
-    Note: Some projects are being adapted with synthetic or public data. More reproducible examples coming soon.
+      Note: Some projects are being adapted with synthetic or public data. More reproducible examples coming soon.
+    </div>
   </div>
+
 </body>
 </html>
