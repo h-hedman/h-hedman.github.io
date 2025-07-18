@@ -18,14 +18,12 @@
       padding: 1rem 2rem;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
       color: white;
       flex-wrap: wrap;
     }
 
     .navbar-title {
-      display: flex;
-      align-items: center;
       font-size: 1.5rem;
       font-weight: 600;
     }
@@ -33,107 +31,50 @@
     .navbar-title a {
       color: white;
       text-decoration: none;
-      margin-left: 1rem;
-      font-size: 1rem;
-      font-weight: 400;
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
-    }
-
-    .navbar-title a:hover {
-      background-color: #a5d6b5;
-      color: #1a2f25;
+      font-size: 1.5rem;
     }
 
     .landing {
       display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      padding: 3rem 2rem 2rem 2rem;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 2rem;
       max-width: 960px;
       margin: 0 auto;
-    }
-
-    .profile-block {
-      text-align: center;
-      margin-right: 2rem;
-      flex-shrink: 0;
     }
 
     .profile-pic {
       width: 160px;
       height: 160px;
-      aspect-ratio: 1 / 1;
       border-radius: 50%;
       object-fit: cover;
       background-color: #ccc;
     }
 
-
     .profile-title {
-      margin-top: 0.5rem;
+      margin-top: 1rem;
       font-weight: 500;
-      font-size: 1rem;
+      font-size: 1.2rem;
       color: #444;
-    }
-
-    .bio {
-      max-width: 700px;
-    }
-
-    .bio h2 {
-      margin-top: 0;
-      font-size: 2rem;
-      margin-bottom: 0.3rem;
-    }
-
-    .bio p.subtitle {
-      font-style: italic;
-      margin-top: -0.25rem;
-      color: #666;
-      font-size: 1rem;
     }
 
     .social-icons {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 10px;
-      margin-top: 12px;
-    }
-
-    .social-icons a img {
-      display: inline-block;
-      width: 24px;
-      height: 24px;
-    }
-
-    .education-inline {
-      font-size: 0.9rem;
-      color: #888;
-      line-height: 1.5;
+      gap: 16px;
       margin-top: 1.5rem;
     }
 
-    @media (max-width: 600px) {
-      .landing {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
+    .social-icons a img {
+      width: 28px;
+      height: 28px;
+      filter: grayscale(100%);
+      transition: filter 0.3s;
+    }
 
-      .profile-block {
-        margin-right: 0;
-        margin-bottom: 1rem;
-      }
-
-      .bio {
-        max-width: 100%;
-      }
-
-      .social-icons {
-        justify-content: center;
-      }
+    .social-icons a img:hover {
+      filter: none;
     }
   </style>
 </head>
@@ -141,42 +82,24 @@
 
   <div class="navbar">
     <div class="navbar-title">
-      <a href="index.html">Hayden Hedman</a> |
-      <a href="projects.html">Projects</a>
-      <a href="publications.html">Publications</a>
+      <a href="#">Hayden Hedman</a>
     </div>
   </div>
 
   <div class="landing">
-    <div class="profile-block">
-      <img src="assets/img/portfolio_profile.jpg" alt="Hayden Hedman" class="profile-pic">
-      <p class="profile-title">Data Scientist</p>
-    </div>
+    <img src="assets/img/portfolio_profile.jpg" alt="Hayden Hedman" class="profile-pic">
+    <p class="profile-title">Data Scientist</p>
 
-    <div class="bio">
-      <h2>Systems Thinking in Practice</h2>
-      <p class="subtitle">Bridging complexity, uncertainty, and action through data</p>
-      <p>
-        I’ve led analytics efforts across multiple federal agencies, applying a systems approach to complex, high-impact challenges. I apply rigorous analytical methods to solve real-world problems. My work spans predictive modeling, study design, product development, and operational strategy. As a lifelong learner, I'm always eager to explore new tools and approaches.
-      </p>
-      <p class="education-inline">
-        <strong>Education</strong><br>
-        MS, Computer Science, Georgia Institute of Technology (2024–2026)<br>
-        PhD, Environment & Sustainability, University of Michigan (2013–2019)<br>
-        BA, Ecology & Evolutionary Biology, <em>Magna Cum Laude</em>, University of Colorado (2009–2013)
-      </p>
-
-      <div class="social-icons">
-        <a href="https://github.com/h-hedman" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
-        </a>
-        <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
-        </a>
-        <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
-          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar">
-        </a>
-      </div>
+    <div class="social-icons">
+      <a href="https://github.com/h-hedman" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+      </a>
+      <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar">
+      </a>
     </div>
   </div>
 
