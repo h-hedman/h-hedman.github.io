@@ -18,7 +18,7 @@
       padding: 1rem 2rem;
       display: flex;
       align-items: center;
-      justify-content: space-between; /* changed to match pubs page */
+      justify-content: space-between;
       color: white;
       flex-wrap: wrap;
     }
@@ -28,32 +28,19 @@
       align-items: center;
       font-size: 1.5rem;
       font-weight: 600;
-      gap: 0.75rem;
     }
 
     .navbar-title a {
       color: white;
       text-decoration: none;
-      font-weight: 600;
-    }
-
-    /* simple right-side nav links */
-    .navbar-links {
-      display: flex;
-      gap: 1rem;
-      align-items: center;
+      margin-left: 1rem;
       font-size: 1rem;
       font-weight: 400;
-    }
-
-    .navbar-links a {
-      color: white;
-      text-decoration: none;
       padding: 0.25rem 0.5rem;
       border-radius: 4px;
     }
 
-    .navbar-links a:hover {
+    .navbar-title a:hover {
       background-color: #a5d6b5;
       color: #1a2f25;
     }
@@ -153,10 +140,7 @@
 
   <div class="navbar">
     <div class="navbar-title">
-      <a href="index.html">Hayden Hedman</a>
-    </div>
-    <div class="navbar-links">
-      <!-- If you don't have projects yet, you can remove this link -->
+      <a href="index.html">Hayden Hedman</a> |
       <a href="projects.html">Projects</a>
       <a href="publications.html">Publications</a>
     </div>
@@ -178,4 +162,22 @@
         <strong>Education</strong><br>
         MS, Computer Science, Georgia Institute of Technology (2024–2026)<br>
         PhD, Environment & Sustainability, University of Michigan (2013–2019)<br>
-        BA, Ecology & Evolutionary Biology, <em>Magna Cum Laude</em>, University of Colorado (2009–2013
+        BA, Ecology & Evolutionary Biology, <em>Magna Cum Laude</em>, University of Colorado (2009–2013)
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/h-hedman" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+        </a>
+        <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar">
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
