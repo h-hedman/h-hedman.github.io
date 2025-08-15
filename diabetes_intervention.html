@@ -65,6 +65,13 @@
       font-style: italic;
     }
 
+    h4 {
+      font-size: 1.1rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
     .gray-box {
       background-color: #f1f1f1;
       padding: 20px;
@@ -82,15 +89,6 @@
       line-height: 1.5;
     }
 
-    img {
-      width: 100%;
-      max-height: 500px;
-      object-fit: contain;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      margin-bottom: 2rem;
-    }
-
     .readme-link {
       font-size: 0.95rem;
       color: #214c38;
@@ -101,6 +99,31 @@
     .readme-link:hover {
       color: #1a2f25;
       text-decoration: underline;
+    }
+
+    .image-row {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 1rem;
+    }
+
+    .image-col {
+      flex: 1 1 48%;
+    }
+
+    .image-col img {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 700px) {
+      .image-col {
+        flex: 1 1 100%;
+      }
     }
   </style>
 </head>
@@ -130,11 +153,17 @@
 
     <h3>Visual Summaries</h3>
 
-    <h4>Average A1c Trajectory by Treatment Group</h4>
-    <img src="assets/img/a1c_by_treatment.png" alt="Average A1c by Treatment Group">
+    <div class="image-row">
+      <div class="image-col">
+        <h4>Average A1c Trajectory by Treatment Group</h4>
+        <img src="assets/img/a1c_by_treatment.png" alt="Average A1c by Treatment Group">
+      </div>
+      <div class="image-col">
+        <h4>Event Study Estimates (ATT)</h4>
+        <img src="assets/img/event_study_a1c.png" alt="Event Study A1c ATT">
+      </div>
+    </div>
 
-    <h4>Event Study Estimates (ATT)</h4>
-    <img src="assets/img/event_study_a1c.png" alt="Event Study A1c ATT">
   </div>
 
 </body>
