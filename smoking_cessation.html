@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smoking Cessation Study | Hayden Hedman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #214c38;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    .navbar-title {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .navbar-title a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .navbar-title a:hover {
+      background-color: #a5d6b5;
+      color: #1a2f25;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: normal;
+      color: #555;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    .gray-box {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      margin-left: 1.25rem;
+      padding-left: 0.75rem;
+    }
+
+    li {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .readme-link {
+      font-size: 0.95rem;
+      color: #214c38;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .readme-link:hover {
+      color: #1a2f25;
+      text-decoration: underline;
+    }
+
+    .image-row {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 1rem;
+    }
+
+    .image-col {
+      flex: 1 1 100%;
+    }
+
+    .image-col img {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-title">
+      <a href="index.html">Hayden Hedman</a> |
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Simulated Smoking Cessation Study</h2>
+
+    <div class="gray-box">
+      <p>This project explores factors influencing successful quit attempts among baseline smokers using a simulated dataset and logistic regression modeling (N = 1,968).</p>
+      <ul>
+        <li>Participation in the cessation program significantly increased quit success (OR ≈ 2.1, p &lt; 0.001)</li>
+        <li>Higher education and income levels were positively associated with success</li>
+        <li>Age had a small but significant negative association</li>
+        <li>Model was statistically significant (Pseudo R² = 0.047; LLR p &lt; 1e–23)</li>
+      </ul>
+      <p>Demonstrates foundational causal inference logic and statistical reporting using synthetic health data. View the <a class="readme-link" href="https://github.com/yourusername/smoking-cessation-study" target="_blank">GitHub repository</a> for full code and methods.</p>
+    </div>
+
+    <h3>Visual Summary</h3>
+
+    <div class="image-row">
+      <div class="image-col">
+        <h4>Age Distribution by Education Group</h4>
+        <img src="assets/img/age_by_education_boxplot.png" alt="Boxplot of Age by Education Group">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
