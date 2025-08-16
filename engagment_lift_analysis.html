@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Steamly Recommender Experiment | Hayden Hedman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #214c38;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    .navbar-title {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .navbar-title a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .navbar-title a:hover {
+      background-color: #a5d6b5;
+      color: #1a2f25;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: normal;
+      color: #555;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    .gray-box {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      margin-left: 1.25rem;
+      padding-left: 0.75rem;
+    }
+
+    li {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .readme-link {
+      font-size: 0.95rem;
+      color: #214c38;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .readme-link:hover {
+      color: #1a2f25;
+      text-decoration: underline;
+    }
+
+    .image-row {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 1rem;
+    }
+
+    .image-col {
+      flex: 1 1 100%;
+    }
+
+    .image-col img {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 700px) {
+      .image-col {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-title">
+      <a href="index.html">Hayden Hedman</a> |
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Estimating Engagement Lift from Steamly’s New Recommender</h2>
+
+    <div class="gray-box">
+      <p>This project simulates and evaluates the impact of a new content recommendation engine for <strong>Steamly</strong>, a fictional streaming platform. It demonstrates a structured causal inference workflow grounded in business analytics practice.</p>
+      <ul>
+        <li>Simulated user-level data with realistic engagement behavior across time, cohorts, and segments</li>
+        <li>Checked baseline balance using mixed-effects pre-trend models</li>
+        <li>Estimated treatment effect using <strong>g-formula linear models</strong> with covariate adjustment</li>
+        <li>Observed a statistically significant engagement lift of ~3.8 minutes per user</li>
+        <li>Used random intercepts to model user-level heterogeneity in engagement</li>
+      </ul>
+      <p>Built to show business-aware causal analysis techniques such as pre-trend validation and treatment effect estimation in a streaming product context. See the <a class="readme-link" href="https://github.com/yourusername/engagement-lift-analysis" target="_blank">full repository</a> for methods and code.</p>
+    </div>
+
+    <h3>Visual Summary</h3>
+
+    <div class="image-row">
+      <div class="image-col">
+        <h4>Pre-Treatment Average Engagement by Group</h4>
+        <img src="assets/img/pretrend_means.png" alt="Pre-Treatment Engagement Plot">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
