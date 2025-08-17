@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Metrics & Churn Modeling | Hayden Hedman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #214c38;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    .navbar-title {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .navbar-title a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .navbar-title a:hover {
+      background-color: #a5d6b5;
+      color: #1a2f25;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: normal;
+      color: #555;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    .gray-box {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      margin-left: 1.25rem;
+      padding-left: 0.75rem;
+    }
+
+    li {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .readme-link {
+      font-size: 0.95rem;
+      color: #214c38;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .readme-link:hover {
+      color: #1a2f25;
+      text-decoration: underline;
+    }
+
+    .image-row {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 1rem;
+    }
+
+    .image-col {
+      flex: 1 1 100%;
+    }
+
+    .image-col img {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+
+    @media (max-width: 700px) {
+      .image-col {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-title">
+      <a href="index.html">Hayden Hedman</a> |
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Product Metrics and Bayesian Churn Modeling</h2>
+
+    <div class="gray-box">
+      <p>This project simulates product metric analysis and causal modeling for <em>Streamly</em>, a fictional subscription-based streaming platform. It demonstrates how product data scientists quantify user retention and estimate causal uplift using Bayesian methods.</p>
+      <ul>
+        <li>Simulated transactional and usage data including churn events and plan types</li>
+        <li>Computed ARPU and retention by cohort, with behavioral segmentation</li>
+        <li>Applied Bayesian logistic regression to estimate churn reduction from annual plans</li>
+        <li>Visualized posterior distribution and interpreted business impact</li>
+        <li>Posterior results indicate a ~30 percentage point reduction in churn with high certainty</li>
+      </ul>
+      <p>For full code and methodology, see the <a class="readme-link" href="https://github.com/h-hedman/bayesian-product-metrics" target="_blank">GitHub repository</a>.</p>
+    </div>
+
+    <h3>Visual Summary</h3>
+
+    <div class="image-row">
+      <div class="image-col">
+        <h4>Posterior Churn Reduction Estimate (Annual Plan vs Monthly)</h4>
+        <img src="assets/img/churn_reduction_density.png" alt="Bayesian Churn Posterior Plot">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
