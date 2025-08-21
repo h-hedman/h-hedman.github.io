@@ -94,7 +94,7 @@
     }
 
     .education-block {
-      font-size: 1rem;
+      font-size: 0.95rem;
       color: #333;
       margin-top: 2rem;
       line-height: 1.8;
@@ -122,13 +122,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 14px;
-      margin-top: 2rem;
+      margin: 2rem 0;
+      gap: 16px;
     }
 
     .social-icons a img {
       width: 28px;
       height: 28px;
+      display: inline-block;
     }
 
     @media (max-width: 600px) {
@@ -146,16 +147,11 @@
       .bio {
         max-width: 100%;
       }
-
-      .social-icons {
-        justify-content: center;
-      }
     }
   </style>
 </head>
 
 <body>
-
   <div class="navbar">
     <div class="navbar-title">
       <a href="index.html">Hayden Hedman</a> |
@@ -188,19 +184,17 @@
           <span class="edu-focus">Focus: Experimental Design, Biostatistics, Computational Modeling, Causal Inference</span>
         </div>
 
-        <div class="edu-entry" style="white-space: nowrap; font-size: 0.92rem;">
+        <div class="edu-entry">
           <strong>B.A., Ecology & Evolutionary Biology</strong> – University of Colorado Boulder (2009–2013), <em>Magna Cum Laude</em>
         </div>
       </div>
     </div>
-
-    <div class="social-icons">
-      <a href="https://github.com/h-hedman"><img src="assets/img/github-icon.png" alt="GitHub" /></a>
-      <a href="https://linkedin.com/in/h-hedman"><img src="assets/img/linkedin-icon.png" alt="LinkedIn" /></a>
-      <a href="https://scholar.google.com/citations?user=XYZ"><img src="assets/img/scholar-icon.png" alt="Google Scholar" /></a>
-    </div>
-
   </div>
 
+  <div class="social-icons">
+    <a href="https://github.com/h-hedman"><img src="assets/icons/github-icon.png" alt="GitHub" /></a>
+    <a href="https://linkedin.com/in/h-hedman"><img src="assets/icons/linkedin-icon.png" alt="LinkedIn" /></a>
+    <a href="https://scholar.google.com/citations?user=XYZ"><img src="assets/icons/scholar-icon.png" alt="Google Scholar" /></a>
+  </div>
 </body>
 </html>
