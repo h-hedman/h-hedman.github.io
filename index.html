@@ -1,71 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hayden Hedman | Portfolio</title>
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <meta charset="UTF-8">
+  <title>Hayden Hedman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      margin: 2rem auto;
-      max-width: 700px;
-      padding: 1rem;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
       color: #333;
-      background: #fff;
     }
 
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
+    .navbar {
+      background-color: #214c38;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      flex-wrap: wrap;
     }
 
-    p {
-      margin: 0.5rem 0;
+    .navbar-title {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
     }
 
-    a {
-      color: #007acc;
+    .navbar-title a {
+      color: white;
       text-decoration: none;
+      margin-left: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .navbar-title a:hover {
+      background-color: #a5d6b5;
+      color: #1a2f25;
+    }
+
+    .landing {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      padding: 3rem 2rem 2rem 2rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .profile-block {
+      text-align: center;
+      margin-right: 2rem;
+      flex-shrink: 0;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      background-color: #ccc;
+    }
+
+    .profile-title {
+      margin-top: 0.5rem;
+      font-weight: 500;
+      font-size: 1rem;
+      color: #444;
+    }
+
+    .bio {
+      max-width: 700px;
+    }
+
+    .bio h2 {
+      margin-top: 0;
+      font-size: 2rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .bio p.subtitle {
+      font-style: italic;
+      margin-top: -0.25rem;
+      color: #666;
+      font-size: 1rem;
+    }
+
+    .education-block {
+      font-size: 1rem;
+      color: #333;
+      margin-top: 2rem;
+      line-height: 1.8;
     }
 
     .edu-entry {
-      font-size: 0.94rem;
-      color: #555;
-      margin: 0.5rem 0 0.4rem 0;
-      line-height: 1.4;
+      margin-bottom: 1.5rem;
     }
 
     .edu-focus {
-      font-style: italic;
-      font-size: 0.88rem;
-      color: #777;
-      margin-top: 0.1rem;
       display: block;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 0.3rem;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .social-icons a img {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+    }
+
+    @media (max-width: 600px) {
+      .landing {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .profile-block {
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
+
+      .bio {
+        max-width: 100%;
+      }
+
+      .social-icons {
+        justify-content: center;
+      }
     }
   </style>
 </head>
+
 <body>
 
-  <h1>Hayden Hedman</h1>
-  <p>Data Scientist | Causal Inference | Product Experimentation | Machine Learning</p>
-  <p>
-    <a href="mailto:hayden@example.com">hayden@example.com</a> |
-    <a href="https://www.linkedin.com/in/h-hedman/">LinkedIn</a> |
-    <a href="https://h-hedman.github.io">Portfolio</a>
-  </p>
-
-  <div class="edu-entry">
-    <strong>M.S., Computer Science</strong> – Georgia Institute of Technology (2024–2026)
-    <span class="edu-focus">Focus: Machine Learning, Artificial Intelligence, Computer Vision</span>
+  <div class="navbar">
+    <div class="navbar-title">
+      <a href="index.html">Hayden Hedman</a> |
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+    </div>
   </div>
 
-  <div class="edu-entry">
-    <strong>Ph.D., University of Michigan</strong> – Ann Arbor (2013–2019)
-    <span class="edu-focus">Focus: Experimental Design, Biostatistics, Computational Modeling, Causal Inference</span>
-  </div>
+  <div class="landing">
+    <div class="profile-block">
+      <img src="assets/img/portfolio_profile.jpg" alt="Hayden Hedman" class="profile-pic">
+      <p class="profile-title">Data Scientist</p>
+    </div>
 
-  <div class="edu-entry">
-    <strong>B.A., Ecology & Evolutionary Biology</strong> – University of Colorado Boulder (2009–2013), <em>Magna Cum Laude</em>
+    <div class="bio">
+      <h2>Systems Thinking in Practice</h2>
+      <p class="subtitle">Bridging complexity, uncertainty, and action through data</p>
+      <p>
+        I’ve led analytics work across multiple federal agencies, applying a systems lens to real-world problems that matter. I thrive in ambiguous settings where goals are underdefined, data is incomplete, and the next step isn’t always obvious. I'm comfortable working through uncertainty and use rigorous methods to deliver insights that are both actionable and grounded. My work spans predictive modeling, causal design, product strategy, and operational analytics. I'm always learning and exploring new tools to better connect data with impact.
+      </p>
+
+      <div class="education-block">
+        <div class="edu-entry">
+          <strong>M.S., Computer Science</strong> – Georgia Institute of Technology (2024–2026)
+          <span class="edu-focus">Focus: Machine Learning, Artificial Intelligence, Computer Vision</span>
+        </div>
+
+        <div class="edu-entry">
+          <strong>Ph.D., University of Michigan</strong> – Ann Arbor (2013–2019)
+          <span class="edu-focus">Focus: Experimental Design, Biostatistics, Computational Modeling, Causal Inference</span>
+        </div>
+
+        <div class="edu-entry">
+          <strong>B.A., Ecology & Evolutionary Biology</strong> – University of Colorado Boulder (2009–2013), <em>Magna Cum Laude</em>
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/h-hedman" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/hayden-hedman/" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+        </a>
+        <a href="https://scholar.google.com/citations?user=UW_UW9QAAAAJ&hl=en" target="_blank">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar">
+        </a>
+      </div>
+    </div>
   </div>
 
 </body>
