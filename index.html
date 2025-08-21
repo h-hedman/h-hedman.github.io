@@ -18,7 +18,7 @@
       padding: 1rem 2rem;
       display: flex;
       align-items: center;
-      justify-content: space-between; /* matches publications page */
+      justify-content: space-between;
       color: white;
       flex-wrap: wrap;
     }
@@ -45,36 +45,6 @@
       color: #1a2f25;
     }
 
-    .education-block {
-  font-size: 1rem;
-  color: #333;
-  margin-top: 2rem;
-  line-height: 1.6;
-}
-
-.education-block h3 {
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
-  color: #222;
-}
-
-.edu-entry {
-  margin-bottom: 1.2rem;
-}
-
-.edu-entry ul {
-  margin: 0.3em 0 0 1.2em;
-  padding-left: 1em;
-  list-style-type: disc;
-}
-
-.edu-entry li {
-  font-style: italic;
-  color: #444;
-  font-size: 0.95rem;
-}
-
-
     .landing {
       display: flex;
       flex-wrap: wrap;
@@ -93,7 +63,6 @@
     .profile-pic {
       width: 160px;
       height: 160px;
-      aspect-ratio: 1 / 1;
       border-radius: 50%;
       object-fit: cover;
       background-color: #ccc;
@@ -123,6 +92,25 @@
       font-size: 1rem;
     }
 
+    .education-block {
+      font-size: 1rem;
+      color: #333;
+      margin-top: 2rem;
+      line-height: 1.8;
+    }
+
+    .edu-entry {
+      margin-bottom: 1.5rem;
+    }
+
+    .edu-focus {
+      display: block;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 0.3rem;
+    }
+
     .social-icons {
       display: flex;
       justify-content: center;
@@ -135,13 +123,6 @@
       display: inline-block;
       width: 24px;
       height: 24px;
-    }
-
-    .education-inline {
-      font-size: 0.9rem;
-      color: #888;
-      line-height: 1.5;
-      margin-top: 1.5rem;
     }
 
     @media (max-width: 600px) {
@@ -166,6 +147,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <div class="navbar">
@@ -187,32 +169,23 @@
       <p class="subtitle">Bridging complexity, uncertainty, and action through data</p>
       <p>
         I’ve led analytics work across multiple federal agencies, applying a systems lens to real-world problems that matter. I thrive in ambiguous settings where goals are underdefined, data is incomplete, and the next step isn’t always obvious. I'm comfortable working through uncertainty and use rigorous methods to deliver insights that are both actionable and grounded. My work spans predictive modeling, causal design, product strategy, and operational analytics. I'm always learning and exploring new tools to better connect data with impact.
-      
-         <div class="education-block">
-    
-      <div class="edu-entry">
-        <strong>M.S., Computer Science</strong> – Georgia Institute of Technology (2024–2026)
-        <ul>
-          <li><em>Focus: Machine Learning, Artificial Intelligence, Computer Vision</em></li>
-        </ul>
-      </div>
-    
-      <div class="edu-entry">
-        <strong>Ph.D., University of Michigan</strong> – Ann Arbor (2013–2019)
-        <ul>
-          <li><em>Focus: Experimental Design, Biostatistics, Computational Modeling, Causal Inference</em></li>
-        </ul>
-      </div>
-    
-      <div class="edu-entry">
-      <strong>B.A., Ecology & Evolutionary Biology</strong> – University of Colorado Boulder (2009–2013), <em>Magna Cum Laude</em>
-        <ul>
-          <li><em>Magna Cum Laude</em></li>
-        </ul>
-      </div>
-    </div>
-    
+      </p>
 
+      <div class="education-block">
+        <div class="edu-entry">
+          <strong>M.S., Computer Science</strong> – Georgia Institute of Technology (2024–2026)
+          <span class="edu-focus">Focus: Machine Learning, Artificial Intelligence, Computer Vision</span>
+        </div>
+
+        <div class="edu-entry">
+          <strong>Ph.D., University of Michigan</strong> – Ann Arbor (2013–2019)
+          <span class="edu-focus">Focus: Experimental Design, Biostatistics, Computational Modeling, Causal Inference</span>
+        </div>
+
+        <div class="edu-entry">
+          <strong>B.A., Ecology & Evolutionary Biology</strong> – University of Colorado Boulder (2009–2013), <em>Magna Cum Laude</em>
+        </div>
+      </div>
 
       <div class="social-icons">
         <a href="https://github.com/h-hedman" target="_blank">
