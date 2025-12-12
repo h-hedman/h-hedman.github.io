@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GLP-1 Clinical NLP Pipeline | Hayden Hedman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #214c38;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    .navbar-title {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .navbar-title a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .navbar-title a:hover {
+      background-color: #a5d6b5;
+      color: #1a2f25;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: normal;
+      color: #555;
+      margin-top: 2.5rem;
+      margin-bottom: 1.25rem;
+      font-style: italic;
+    }
+
+    h4 {
+      font-size: 1.05rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .gray-box {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 2.5rem;
+    }
+
+    ul {
+      margin-left: 1.25rem;
+      padding-left: 0.75rem;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+      line-height: 1.4;
+    }
+
+    .readme-link {
+      font-size: 0.95rem;
+      color: #214c38;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .readme-link:hover {
+      color: #1a2f25;
+      text-decoration: underline;
+    }
+
+    .image-col img {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="navbar-title">
+      <a href="index.html">Hayden Hedman</a> |
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Clinical NLP Pipeline for GLP-1 Medication Abstraction</h2>
+
+    <div class="gray-box">
+      <p>
+        This project demonstrates a compact, end-to-end healthcare NLP pipeline for transforming unstructured
+        clinical notes into structured, analysis-ready labels using synthetic GLP-1 medication data.
+      </p>
+      <ul>
+        <li>Ingests heterogeneous clinical inputs (notes, prescriptions, diagnoses)</li>
+        <li>Normalizes and parses free-text medication mentions</li>
+        <li>Applies simple temporal and context rules for label abstraction</li>
+        <li>Outputs interpretable, tabular labels suitable for downstream analytics</li>
+      </ul>
+      <p>
+        Designed to emphasize <strong>pipeline structure, auditability, and healthcare realism</strong>,
+        rather than model complexity.
+        See the <a class="readme-link" href="https://github.com/h-hedman/glp1-nlp-demo" target="_blank">full repository</a>
+        for implementation details.
+      </p>
+    </div>
+
+    <h3>Pipeline Overview</h3>
+
+    <div class="image-col">
+      <img src="https://github.com/h-hedman/h-hedman.github.io/blob/main/assets/img/nlp_glp1_pipeline_diagram_v2.png?raw=true"
+           alt="GLP-1 NLP Pipeline Diagram">
+    </div>
+
+    <h3>Example Output</h3>
+
+    <div class="image-col">
+      <h4>Temporal Distribution of Abstracted GLP-1 Labels</h4>
+      <img src="https://github.com/h-hedman/h-hedman.github.io/blob/main/assets/img/nlp_glp1.png?raw=true"
+           alt="GLP-1 NLP Time Series Output">
+    </div>
+
+  </div>
+
+</body>
+</html>
