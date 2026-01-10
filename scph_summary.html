@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Summit County Public Health – Analytics</title>
+  <title>Summit County Public Health – Analytics | Hayden Hedman</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <style>
@@ -122,38 +122,11 @@
       margin-bottom: 0.35rem;
     }
 
-    .two-col {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin-top: 0.75rem;
-    }
-
-    .col {
-      flex: 1 1 48%;
-      min-width: 280px;
-    }
-
-    .card {
-      background-color: #ffffff;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      padding: 14px 14px;
-      margin-top: 0.75rem;
-    }
-
     .note {
       font-size: 0.95rem;
       color: #555;
       margin-top: 0.75rem;
       line-height: 1.5;
-    }
-
-    @media (max-width: 700px) {
-      .col {
-        flex: 1 1 100%;
-      }
     }
   </style>
 </head>
@@ -178,7 +151,7 @@
 
       <h4>Key Contributions</h4>
       <ul>
-        <li>Led analytics supporting operational and policy decision-making across multiple health outcomes (not limited to a single program area)</li>
+        <li>Led analytics supporting operational and policy decision-making across multiple health outcomes</li>
         <li>Conducted geospatial analysis to identify clusters and subpopulations with elevated risk or unmet need</li>
         <li>Built predictive models to support short-term planning and local policy decisions under uncertainty</li>
         <li>Designed and maintained end-to-end analytical pipelines for statistical and machine learning workflows</li>
@@ -187,8 +160,8 @@
       </ul>
 
       <p class="note">
-        Due to data governance and privacy requirements, most operational artifacts are not publicly shareable. This page summarizes scope and
-        transferable methods.
+        Due to data governance and privacy requirements, most operational artifacts are not publicly shareable.
+        This page summarizes scope and transferable methods.
       </p>
 
       <div class="meta-line">
@@ -208,43 +181,30 @@
       </div>
     </div>
 
-    <h3>Public Reporting (Limited)</h3>
+    <h3>Public References (Limited)</h3>
 
-    <div class="two-col">
-      <div class="col">
-        <div class="card">
-          <h4>COVID-19 Weekly Data (County Page)</h4>
-          <p class="note">
-            Public-facing hospitalization and reporting summary maintained by Summit County.
-          </p>
-          <p>
-            <a class="readme-link"
-               href="https://www.summitcountyco.gov/services/health_human_services/public_health/communicable_disease/covid_19/summit_countys_covid19_weekly_data.php"
-               target="_blank" rel="noopener noreferrer">
-              View Summit County COVID-19 Weekly Data
-            </a>
-          </p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card">
-          <h4>Automated Hospitalization Summary (PDF)</h4>
-          <p class="note">
-            Automatically generated PDF summarizing recent COVID-19 hospitalizations (restricted pipeline; output shared here).
-          </p>
-          <p>
-            <a class="readme-link"
-               href="https://github.com/h-hedman/scph/blob/main/covid-19/output-data/SCPH_COVID_Hospitalizations.pdf"
-               target="_blank" rel="noopener noreferrer">
-              Open PDF in New Tab
-            </a>
-          </p>
-          <p class="note" style="margin-bottom: 0;">
-            Tip: If GitHub renders a preview page, use the download icon or open the “Raw” file for a direct PDF view.
-          </p>
-        </div>
-      </div>
+    <div class="gray-box">
+      <p class="note" style="margin-top:0;">
+        Utility links to public-facing reporting. Included for reference only.
+      </p>
+      <ul style="margin-bottom:0;">
+        <li>
+          <strong>County COVID-19 weekly reporting page:</strong>
+          <a class="readme-link"
+             href="https://www.summitcountyco.gov/services/health_human_services/public_health/communicable_disease/covid_19/summit_countys_covid19_weekly_data.php"
+             target="_blank" rel="noopener noreferrer">
+            Summit County weekly data
+          </a>
+        </li>
+        <li>
+          <strong>Automated hospitalization summary (PDF):</strong>
+          <a class="readme-link"
+             href="https://raw.githubusercontent.com/h-hedman/scph/main/covid-19/output-data/SCPH_COVID_Hospitalizations.pdf"
+             target="_blank" rel="noopener noreferrer">
+            Open PDF
+          </a>
+        </li>
+      </ul>
     </div>
 
   </div>
