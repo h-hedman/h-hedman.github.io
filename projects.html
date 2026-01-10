@@ -5,6 +5,7 @@
   <title>Projects | Hayden Hedman</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
   <style>
     body {
       margin: 0;
@@ -28,12 +29,13 @@
       align-items: center;
       font-size: 1.5rem;
       font-weight: 600;
+      gap: 0.75rem;
+      flex-wrap: wrap;
     }
 
     .navbar-title a {
       color: white;
       text-decoration: none;
-      margin-left: 1rem;
       font-size: 1rem;
       font-weight: 400;
       padding: 0.25rem 0.5rem;
@@ -46,151 +48,210 @@
     }
 
     .content {
-      max-width: 800px;
+      max-width: 900px;
       margin: 3rem auto 2rem;
       padding: 0 1rem;
     }
 
     h2 {
-      font-size: 1.75rem;
-      margin-bottom: 1.5rem;
+      font-size: 1.9rem;
+      margin: 0 0 1.25rem 0;
     }
 
-    .project {
+    .intro {
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 1.75rem;
+      font-size: 1.0rem;
+    }
+
+    /* Accordion buckets */
+    .bucket {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+
+    .bucket-btn {
+      width: 100%;
       display: flex;
-      align-items: flex-start;
-      gap: 1.2rem;
-      margin-bottom: 2.5rem;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1.1rem 1.25rem;
+      border: none;
+      background: #fff;
+      cursor: pointer;
       text-align: left;
-      flex-wrap: nowrap;
     }
 
-    .project img {
-      width: 80px;
-      height: auto;
-      border-radius: 6px;
-      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
-      flex-shrink: 0;
+    .bucket-title {
+      font-size: 1.35rem;     /* larger bucket text */
+      font-weight: 650;
+      color: #214c38;
+      letter-spacing: 0.2px;
+    }
+
+    .bucket-arrow {
+      font-size: 1.2rem;
+      color: #214c38;
       transition: transform 0.2s ease;
+      flex-shrink: 0;
     }
 
-    .project img:hover {
-      transform: scale(1.03);
+    .bucket.open .bucket-arrow {
+      transform: rotate(90deg);
     }
 
-    .project-text {
-      flex: 1;
+    .bucket-body {
+      display: none;
+      padding: 0 1.25rem 1.1rem 1.25rem;
+      border-top: 1px solid #eee;
     }
 
-    .project-text a {
+    .bucket.open .bucket-body {
+      display: block;
+    }
+
+    .subprojects {
+      margin: 0.9rem 0 0 0;
+      padding-left: 1.1rem;
+    }
+
+    .subprojects li {
+      margin: 0.5rem 0;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    .subprojects a {
       color: #214c38;
       text-decoration: none;
       font-weight: 600;
     }
 
-    .project-text a:hover {
+    .subprojects a:hover {
       color: #1a2f25;
       text-decoration: underline;
     }
 
-    .project-text p {
-      margin: 0.2rem 0 0 0;
+    .muted {
       color: #666;
-      font-size: 0.9rem;
-      line-height: 1.5;
+      font-weight: 500;
     }
 
-    .social-icons {
+    /* Single-link bucket (no dropdown list) */
+    .bucket-link {
+      width: 100%;
       display: flex;
-      justify-content: center;
       align-items: center;
-      gap: 10px;
-      margin: 3rem auto 2rem;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1.1rem 1.25rem;
+      text-decoration: none;
+      background: #fff;
+      color: inherit;
     }
 
-    .social-icons a img {
-      display: inline-block;
-      width: 24px;
-      height: 24px;
+    .bucket-link:hover {
+      background: #f4fbf6;
     }
 
+    /* Mobile */
     @media (max-width: 600px) {
-      .project {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+      .content {
+        margin-top: 2.2rem;
       }
-
-      .project-text {
-        text-align: center;
+      .bucket-title {
+        font-size: 1.2rem;
       }
     }
   </style>
 </head>
-<body>
 
+<body>
   <div class="navbar">
     <div class="navbar-title">
-      <a href="index.html">Hayden Hedman</a> |
+      <a href="index.html">Hayden Hedman</a>
+      <span style="opacity:.6;">|</span>
       <a href="projects.html">Projects</a>
       <a href="publications.html">Publications</a>
     </div>
   </div>
 
   <div class="content">
-    <h2>Featured Projects</h2>
+    <h2>Projects</h2>
+    <p class="intro">
+      Curated, real-world work organized by core data science capabilities. Buckets expand on click.
+      Only items with public URLs are linked.
+    </p>
 
-    
-    <div class="project">
-      <a href="engagment_lift_analysis.html">
-        <img src="assets/img/pretrend_means.png" alt="Engagement Lift Project">
-      </a>
-      <div class="project-text">
-        <strong><a href="engagment_lift_analysis.html">Engagement Lift Estimation</a></strong>
-        <p>Modeled a real-world A/B test to measure homepage recommender impact on engagement. Applied causal inference, pre-trend checks, and mixed-effects modeling to identify lift drivers and user segments with the highest ROI potential.</p>
+    <!-- 1) Measurement & Experimentation -->
+    <div class="bucket" data-bucket>
+      <button class="bucket-btn" type="button" aria-expanded="false">
+        <span class="bucket-title">1. Measurement &amp; Experimentation</span>
+        <span class="bucket-arrow">›</span>
+      </button>
+      <div class="bucket-body">
+        <ul class="subprojects">
+          <li><span class="muted">Longitudinal Monitoring of Health Outcomes Across Human &amp; Animal Populations — University of Michigan</span></li>
+          <li><span class="muted">Spatial Evaluation of Disease Management Program Implementation — University of Illinois</span></li>
+          <li><a href="https://h-hedman.github.io/scph_summary.html">County-Level Analytics &amp; Initiatives — Summit County Public Health</a></li>
+        </ul>
       </div>
     </div>
 
-    <div class="project">
-  <a href="streamly_churn.html">
-    <img src="assets/img/churn_reduction_density.png" alt="Product Metrics and Bayesian Churn Modeling">
-  </a>
-  <div class="project-text">
-    <strong><a href="bayesian_prod_metrics.html">Product Metrics and Bayesian Churn Modeling</a></strong>
-    <p>A simulated case study for a fictional streaming platform demonstrating how product data scientists decompose core metrics and apply Bayesian causal inference to quantify the impact of subscription plans on user churn.</p>
-  </div>
-</div>
-
-    <div class="project">
-  <a href="product_impact_eval.html">
-    <img src="assets/img/feature_importance_barplot.png" alt="Product Impact Evaluation">
-  </a>
-  <div class="project-text">
-    <strong><a href="product_impact_eval.html">Product Impact Evaluation</a></strong>
-    <p>Ran a simulated A/B test to evaluate engagement lift from a new product feature. Used GEE and XGBoost to estimate treatment effects, identify key drivers, and validate findings with sensitivity analyses.</p>
-  </div>
-</div>
-
-
-
-    <div class="project">
-      <a href="healthcare.html">
-        <img src="assets/img/healthcare_ds.png" alt="Healthcare Data Science Projects">
-      </a>
-      <div class="project-text">
-        <strong><a href="healthcare.html">Healthcare Data Science Projects</a></strong>
-        <p>A collection of tools and models developed while leading federal emergency responses and public health initiatives, applying machine learning, statistical modeling, and data visualization to complex, real-world healthcare data.</p>
+    <!-- 2) Modeling & Forecasting -->
+    <div class="bucket" data-bucket>
+      <button class="bucket-btn" type="button" aria-expanded="false">
+        <span class="bucket-title">2. Modeling &amp; Forecasting</span>
+        <span class="bucket-arrow">›</span>
+      </button>
+      <div class="bucket-body">
+        <ul class="subprojects">
+          <li><span class="muted">Operational Optimization &amp; Capacity Planning for Transportation Programs — U.S. DOT</span></li>
+          <li><span class="muted">Reinforcement Learning Simulation for Adaptive Risk Dynamics — Georgia Tech</span></li>
+          <li><span class="muted">Performance Modeling for Global Health Funding Allocation — U.S. DOS</span></li>
+        </ul>
       </div>
     </div>
 
+    <!-- 3) Decision Support & Systems -->
+    <div class="bucket" data-bucket>
+      <button class="bucket-btn" type="button" aria-expanded="false">
+        <span class="bucket-title">3. Decision Support &amp; Systems</span>
+        <span class="bucket-arrow">›</span>
+      </button>
+      <div class="bucket-body">
+        <ul class="subprojects">
+          <li><a href="https://h-hedman.github.io/healthify-flu-app/">Influenza Surveillance &amp; Modeling Platform — CDC</a></li>
+          <li><a href="https://h-hedman.github.io/automated_epi_report.html">Outbreak Monitoring &amp; Trend Reporting Automation — CDC</a></li>
+          <li><a href="https://h-hedman.github.io/quarentine_engine.html">Automated Quarantine Triage &amp; Decision Support — CDC</a></li>
+        </ul>
+      </div>
+    </div>
 
+    <!-- 4) Native American Projects & Mentorship (single link) -->
+    <div class="bucket">
+      <a class="bucket-link" href="https://h-hedman.github.io/indigenous_projects.html">
+        <span class="bucket-title">4. Native American Projects &amp; Mentorship</span>
+        <span class="bucket-arrow">›</span>
+      </a>
+    </div>
+  </div>
 
-  </div> <!-- End of .content -->
-
-</body>
-</html>
-
-
-  
+  <script>
+    // Simple accordion: click a bucket header to toggle open/closed
+    document.querySelectorAll('[data-bucket]').forEach(bucket => {
+      const btn = bucket.querySelector('.bucket-btn');
+      btn.addEventListener('click', () => {
+        const isOpen = bucket.classList.contains('open');
+        bucket.classList.toggle('open', !isOpen);
+        btn.setAttribute('aria-expanded', String(!isOpen));
+      });
+    });
+  </script>
 </body>
 </html>
