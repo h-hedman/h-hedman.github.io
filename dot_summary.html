@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>U.S. Department of Transportation — Operational Optimization & Capacity Planning | Hayden Hedman</title>
+  <title>U.S. Department of Transportation | Hayden Hedman</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <style>
@@ -53,7 +53,7 @@
 
     h2 {
       font-size: 1.75rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.4rem;
     }
 
     .subtitle {
@@ -61,7 +61,7 @@
       color: #555;
       font-style: italic;
       line-height: 1.5;
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
     }
 
     .gray-box {
@@ -84,7 +84,7 @@
     }
 
     li {
-      margin-bottom: 0.85rem;
+      margin-bottom: 0.75rem;
       line-height: 1.5;
     }
 
@@ -109,17 +109,6 @@
       margin-bottom: 0.35rem;
     }
 
-    .links a {
-      color: #214c38;
-      text-decoration: none;
-      font-weight: 650;
-    }
-
-    .links a:hover {
-      color: #1a2f25;
-      text-decoration: underline;
-    }
-
     .note {
       font-size: 0.95rem;
       color: #555;
@@ -140,84 +129,64 @@
   </div>
 
   <div class="content">
-    <h2>U.S. Department of Transportation — Operational Optimization &amp; Capacity Planning</h2>
+    <h2>Operational Optimization and Capacity Planning for Transportation Programs</h2>
     <p class="subtitle">
-      Applied machine learning and optimization to translate a national operations dataset into interpretable
-      planning insights (v1.0 — early development).
+      Applied machine learning and optimization using a national operations dataset
+      early development phase
     </p>
 
     <div class="gray-box">
       <p style="margin-top:0;">
-        Developing an applied analytics framework using the National Census of Ferry Operators (NCFO),
-        a nationwide dataset describing operators, assets, terminals, and route segments. The goal is to produce
-        practical, policy-relevant decision support outputs using tools and infrastructure available in a regulated
-        federal environment — with an emphasis on interpretable models and feasibility assessment rather than
-        production deployment of large-scale AI systems.
+        Developing an applied analytics framework using the National Census of Ferry Operators dataset to
+        support planning assessment and system characterization. The focus is on interpretable modeling and
+        practical decision support rather than large scale deployment.
       </p>
 
-      <p class="note" style="margin-top: 0.75rem;">
-        All analyses are derived exclusively from publicly available NCFO materials.
-      </p>
-
-      <div class="links" style="margin-top: 0.75rem; line-height: 1.6;">
-        <strong>Data sources:</strong><br>
-        <a href="https://www.bts.gov/surveys/national-census-ferry-operators-ncfo/ncfo-previous-datasets" target="_blank" rel="noopener noreferrer">
-          NCFO previous datasets
-        </a><br>
-        <a href="https://data.bts.gov/stories/s/2022-NCFO-Data-Files/tpws-52ei" target="_blank" rel="noopener noreferrer">
-          2022 NCFO data files (story page)
-        </a><br>
-        <a href="https://data.bts.gov/stories/s/5dqg-uz62" target="_blank" rel="noopener noreferrer">
-          NCFO summary (story page)
-        </a><br>
-        <a href="https://www.bts.gov/browse-statistical-products-and-data/surveys/national-census-ferry-operators-ncfo/2022-national" target="_blank" rel="noopener noreferrer">
-          2022 NCFO data dictionary
-        </a>
-      </div>
-
-      <h4>What I’m Building (v1.0)</h4>
+      <h4>Core Focus Areas</h4>
       <ul>
         <li>
-          <strong>Demand and capacity characterization:</strong> Lightweight predictive and descriptive modeling to
-          characterize passenger/vehicle demand patterns from asset attributes, network connectivity, operator features,
-          and geographic context (interpretable emphasis).
+          <strong>Demand and capacity characterization</strong><br>
+          Descriptive and predictive modeling to identify patterns in usage capacity and asset utilization
+          using available system attributes.
         </li>
         <li>
-          <strong>Operational optimization assessment:</strong> Identify segments with capacity stress, under-utilized assets,
-          and mismatches between asset capabilities and inferred demand to support comparative planning.
+          <strong>Operational optimization assessment</strong><br>
+          Identification of segments with capacity stress underutilized assets and mismatches between
+          system characteristics and observed demand.
         </li>
         <li>
-          <strong>System archetype clustering:</strong> Unsupervised learning to group systems into operational archetypes for
-          benchmarking and cross-system comparison.
+          <strong>System archetype clustering</strong><br>
+          Grouping systems into comparable operational profiles to support benchmarking and comparison.
         </li>
         <li>
-          <strong>Resilience-oriented indicators:</strong> Composite indicator framework informed by fleet composition, fuel type,
-          accessibility, multimodal connectivity, and redundancy — designed for comparative assessment, not prescriptive ranking.
+          <strong>Resilience oriented indicators</strong><br>
+          Construction of composite indicators based on fleet composition accessibility connectivity and
+          redundancy for comparative assessment.
         </li>
         <li>
-          <strong>Data quality and AI readiness:</strong> Evaluate missingness, definitional stability, and cross-year consistency
-          to inform future survey design and enable more advanced analytics over time.
+          <strong>Data readiness evaluation</strong><br>
+          Assessment of structure completeness and consistency to inform future analytics and survey design.
         </li>
       </ul>
 
-      <h4>Expected Deliverables</h4>
+      <h4>Planned Outputs</h4>
       <ul>
-        <li>Demand and capacity characterization summary</li>
+        <li>Demand and capacity summary</li>
         <li>Operational optimization assessment</li>
-        <li>System archetype analysis (benchmarking framework)</li>
+        <li>System archetype analysis</li>
         <li>Resilience indicator framework</li>
-        <li>Data quality and AI readiness appendix</li>
+        <li>Data readiness appendix</li>
       </ul>
 
       <p class="note">
-        Note: This is an exploratory analytics framework intended to support planning and assessment.
-        Versioned updates document scope refinements and methodological improvements over time.
+        This work is exploratory and iterative. Methods and scope are refined through versioned updates as
+        feasibility and utility are evaluated.
       </p>
 
       <div class="meta-line">
-        <strong>Affiliation:</strong> U.S. Department of Transportation (BTS)<br>
-        <strong>Methods:</strong> interpretable ML, clustering, optimization assessment, indicator design, data quality evaluation<br>
-        <strong>Tooling:</strong> Python, pandas, scikit-learn, geospatial and network-style feature engineering (as applicable)
+        <strong>Affiliation:</strong> U.S. Department of Transportation<br>
+        <strong>Methods:</strong> interpretable machine learning clustering optimization indicators<br>
+        <strong>Tooling:</strong> Python pandas scikit learn
       </div>
 
       <div style="margin-top: 0.9rem;">
