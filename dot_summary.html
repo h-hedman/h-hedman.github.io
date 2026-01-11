@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>U.S. Department of Transportation — Operational Optimization & Capacity Planning | Hayden Hedman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #214c38;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    .navbar-title {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .navbar-title a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .navbar-title a:hover {
+      background-color: #a5d6b5;
+      color: #1a2f25;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      margin-top: 0;
+      color: #555;
+      font-style: italic;
+      line-height: 1.5;
+      margin-bottom: 1.25rem;
+    }
+
+    .gray-box {
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 2rem;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    ul {
+      margin-left: 1.25rem;
+      padding-left: 0.75rem;
+    }
+
+    li {
+      margin-bottom: 0.85rem;
+      line-height: 1.5;
+    }
+
+    .meta-line {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ddd;
+      font-size: 0.95rem;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    .pill {
+      display: inline-block;
+      background: #e7efe9;
+      color: #1a2f25;
+      border: 1px solid #cfe0d4;
+      border-radius: 999px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.85rem;
+      margin-right: 0.35rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .links a {
+      color: #214c38;
+      text-decoration: none;
+      font-weight: 650;
+    }
+
+    .links a:hover {
+      color: #1a2f25;
+      text-decoration: underline;
+    }
+
+    .note {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 0.75rem;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="navbar-title">
+      <a href="index.html">Hayden Hedman</a> |
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>U.S. Department of Transportation — Operational Optimization &amp; Capacity Planning</h2>
+    <p class="subtitle">
+      Applied machine learning and optimization to translate a national operations dataset into interpretable
+      planning insights (v1.0 — early development).
+    </p>
+
+    <div class="gray-box">
+      <p style="margin-top:0;">
+        Developing an applied analytics framework using the National Census of Ferry Operators (NCFO),
+        a nationwide dataset describing operators, assets, terminals, and route segments. The goal is to produce
+        practical, policy-relevant decision support outputs using tools and infrastructure available in a regulated
+        federal environment — with an emphasis on interpretable models and feasibility assessment rather than
+        production deployment of large-scale AI systems.
+      </p>
+
+      <p class="note" style="margin-top: 0.75rem;">
+        All analyses are derived exclusively from publicly available NCFO materials.
+      </p>
+
+      <div class="links" style="margin-top: 0.75rem; line-height: 1.6;">
+        <strong>Data sources:</strong><br>
+        <a href="https://www.bts.gov/surveys/national-census-ferry-operators-ncfo/ncfo-previous-datasets" target="_blank" rel="noopener noreferrer">
+          NCFO previous datasets
+        </a><br>
+        <a href="https://data.bts.gov/stories/s/2022-NCFO-Data-Files/tpws-52ei" target="_blank" rel="noopener noreferrer">
+          2022 NCFO data files (story page)
+        </a><br>
+        <a href="https://data.bts.gov/stories/s/5dqg-uz62" target="_blank" rel="noopener noreferrer">
+          NCFO summary (story page)
+        </a><br>
+        <a href="https://www.bts.gov/browse-statistical-products-and-data/surveys/national-census-ferry-operators-ncfo/2022-national" target="_blank" rel="noopener noreferrer">
+          2022 NCFO data dictionary
+        </a>
+      </div>
+
+      <h4>What I’m Building (v1.0)</h4>
+      <ul>
+        <li>
+          <strong>Demand and capacity characterization:</strong> Lightweight predictive and descriptive modeling to
+          characterize passenger/vehicle demand patterns from asset attributes, network connectivity, operator features,
+          and geographic context (interpretable emphasis).
+        </li>
+        <li>
+          <strong>Operational optimization assessment:</strong> Identify segments with capacity stress, under-utilized assets,
+          and mismatches between asset capabilities and inferred demand to support comparative planning.
+        </li>
+        <li>
+          <strong>System archetype clustering:</strong> Unsupervised learning to group systems into operational archetypes for
+          benchmarking and cross-system comparison.
+        </li>
+        <li>
+          <strong>Resilience-oriented indicators:</strong> Composite indicator framework informed by fleet composition, fuel type,
+          accessibility, multimodal connectivity, and redundancy — designed for comparative assessment, not prescriptive ranking.
+        </li>
+        <li>
+          <strong>Data quality and AI readiness:</strong> Evaluate missingness, definitional stability, and cross-year consistency
+          to inform future survey design and enable more advanced analytics over time.
+        </li>
+      </ul>
+
+      <h4>Expected Deliverables</h4>
+      <ul>
+        <li>Demand and capacity characterization summary</li>
+        <li>Operational optimization assessment</li>
+        <li>System archetype analysis (benchmarking framework)</li>
+        <li>Resilience indicator framework</li>
+        <li>Data quality and AI readiness appendix</li>
+      </ul>
+
+      <p class="note">
+        Note: This is an exploratory analytics framework intended to support planning and assessment.
+        Versioned updates document scope refinements and methodological improvements over time.
+      </p>
+
+      <div class="meta-line">
+        <strong>Affiliation:</strong> U.S. Department of Transportation (BTS)<br>
+        <strong>Methods:</strong> interpretable ML, clustering, optimization assessment, indicator design, data quality evaluation<br>
+        <strong>Tooling:</strong> Python, pandas, scikit-learn, geospatial and network-style feature engineering (as applicable)
+      </div>
+
+      <div style="margin-top: 0.9rem;">
+        <span class="pill">Optimization</span>
+        <span class="pill">Capacity Planning</span>
+        <span class="pill">Interpretable ML</span>
+        <span class="pill">Clustering</span>
+        <span class="pill">Benchmarking</span>
+        <span class="pill">Data Readiness</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
