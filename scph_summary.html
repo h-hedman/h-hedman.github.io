@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Summit County Public Health — Analytics | Hayden Hedman</title>
+  <title>Summit County Public Health — Operational Analytics | Hayden Hedman</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <style>
@@ -56,15 +56,6 @@
       margin-bottom: 0.75rem;
     }
 
-    h3 {
-      font-size: 1.25rem;
-      font-weight: normal;
-      color: #555;
-      margin-top: 2.25rem;
-      margin-bottom: 1.25rem;
-      font-style: italic;
-    }
-
     h4 {
       font-size: 1.1rem;
       margin-top: 1.25rem;
@@ -85,20 +76,15 @@
     }
 
     li {
-      margin-bottom: 0.85rem;
+      margin-bottom: 0.65rem;
       line-height: 1.5;
     }
 
-    .readme-link {
+    .note {
       font-size: 0.95rem;
-      color: #214c38;
-      font-weight: 600;
-      text-decoration: none;
-    }
-
-    .readme-link:hover {
-      color: #1a2f25;
-      text-decoration: underline;
+      color: #555;
+      margin-top: 0.75rem;
+      line-height: 1.5;
     }
 
     .meta-line {
@@ -122,11 +108,14 @@
       margin-bottom: 0.35rem;
     }
 
-    .note {
-      font-size: 0.95rem;
-      color: #555;
-      margin-top: 0.75rem;
-      line-height: 1.5;
+    .repo-link a {
+      color: #214c38;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(33,76,56,0.35);
+    }
+
+    .repo-link a:hover {
+      border-bottom-color: rgba(33,76,56,0.75);
     }
   </style>
 </head>
@@ -141,85 +130,60 @@
   </div>
 
   <div class="content">
-    <h2>Summit County Public Health — County-Level Analytics & Initiatives</h2>
+    <h2>Summit County Public Health — Operational Analytics</h2>
 
     <div class="gray-box">
       <p style="margin-top:0;">
-        Built and maintained applied analytics for a local public health authority in Colorado,
-        spanning surveillance, reporting automation, and operational decision support under
-        privacy, governance, and infrastructure constraints.
+        <strong>Outcome:</strong> Built and maintained operational analytics that enabled county leadership
+        to monitor risk, prioritize action, and make timely decisions—while reducing recurring reporting
+        workflows from hours of manual effort to under two minutes through automation.
       </p>
 
-      <p style="font-style: italic; color: #555; margin-top: 0.75rem;">
-        Reduced recurring reporting workflows from hours of manual effort to under two minutes
-        through end-to-end automation.
-      </p>
-
-      <h4>Key Contributions</h4>
+      <h4>Decision Context</h4>
       <ul>
-        <li>
-          <strong>Operational analytics:</strong> Produced decision-ready summaries across multiple
-          health outcomes for mixed technical and policy audiences.
-        </li>
-        <li>
-          <strong>Automation & reliability:</strong> Replaced fragile, manual reporting processes
-          with versioned, reproducible pipelines.
-        </li>
-        <li>
-          <strong>Geospatial & equity analysis:</strong> Identified geographic clustering and
-          subpopulations with elevated risk or unmet need.
-        </li>
-        <li>
-          <strong>Short-horizon forecasting:</strong> Applied time-series and predictive modeling
-          to support local planning under uncertainty.
-        </li>
+        <li>Leaders needed reliable, up-to-date metrics to guide local response and planning</li>
+        <li>Data arrived from fragmented systems with strict governance and privacy constraints</li>
+        <li>Manual reporting pipelines were slow, brittle, and difficult to audit or reproduce</li>
+      </ul>
+
+      <h4>What I Led</h4>
+      <ul>
+        <li><strong>Operational decision support:</strong> Delivered clear, decision-ready summaries for mixed technical and policy audiences</li>
+        <li><strong>Automation & reliability:</strong> Replaced manual reporting with versioned, reproducible pipelines</li>
+        <li><strong>Risk identification:</strong> Used geospatial and trend analysis to surface emerging hotspots and equity gaps</li>
+        <li><strong>Short-horizon forecasting:</strong> Applied time-series and predictive methods to support local planning under uncertainty</li>
+      </ul>
+
+      <h4>Impact</h4>
+      <ul>
+        <li>Enabled faster, more consistent decision-making across multiple public health initiatives</li>
+        <li>Improved trust in reported metrics through reproducibility and data quality checks</li>
+        <li>Freed staff time by eliminating repetitive, manual reporting workflows</li>
       </ul>
 
       <p class="note">
-        Many operational datasets and internal reports are not publicly shareable due to data
-        governance and privacy requirements. This page summarizes transferable methods and
-        selected public-facing artifacts.
+        Many operational datasets and internal analyses are not publicly shareable due to governance
+        and privacy requirements. Public artifacts and code below illustrate transferable methods
+        and system design patterns.
       </p>
 
-      <div class="meta-line">
-        <strong>Methods:</strong> geospatial analysis, time-series modeling, predictive modeling,
-        data quality assessment, reporting automation<br>
-        <strong>Tooling:</strong> R, Python, SQL, automated reporting pipelines, GIS tooling
+      <div class="meta-line repo-link">
+        <strong>Methods:</strong> geospatial analysis, time-series modeling, predictive modeling, reporting automation<br>
+        <strong>Tools:</strong> R, Python, SQL, automated reporting pipelines, GIS tooling ·
+        <a href="https://github.com/h-hedman/scph" target="_blank" rel="noopener noreferrer">
+          supporting code
+        </a>
       </div>
 
       <div style="margin-top: 0.9rem;">
-        <span class="pill">Automation</span>
-        <span class="pill">Spatial</span>
-        <span class="pill">Time-Series</span>
-        <span class="pill">Predictive Modeling</span>
-        <span class="pill">Data Quality</span>
         <span class="pill">Decision Support</span>
+        <span class="pill">Automation</span>
+        <span class="pill">Reliability</span>
+        <span class="pill">Spatial Analytics</span>
+        <span class="pill">Time-Series</span>
+        <span class="pill">Data Quality</span>
       </div>
     </div>
-
-    <h3>Public References (Limited)</h3>
-
-    <div class="gray-box">
-      <ul style="margin-top:0; margin-bottom:0;">
-        <li>
-          <strong>County COVID-19 weekly reporting page:</strong>
-          <a class="readme-link"
-             href="https://www.summitcountyco.gov/services/health_human_services/public_health/communicable_disease/covid_19/summit_countys_covid19_weekly_data.php"
-             target="_blank" rel="noopener noreferrer">
-            Summit County weekly data
-          </a>
-        </li>
-        <li>
-          <strong>Automated hospitalization summary (PDF):</strong>
-          <a class="readme-link"
-             href="https://raw.githubusercontent.com/h-hedman/scph/main/covid-19/output-data/SCPH_COVID_Hospitalizations.pdf"
-             target="_blank" rel="noopener noreferrer">
-            PDF
-          </a>
-        </li>
-      </ul>
-    </div>
-
   </div>
 
 </body>
