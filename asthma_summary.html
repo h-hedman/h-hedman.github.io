@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Georgia Tech — Predictive Decision Trees for Occupational Exposure | Hayden Hedman</title>
+  <title>Georgia Tech — Decision-Focused Risk Modeling | Hayden Hedman</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <style>
@@ -53,15 +53,14 @@
 
     h2 {
       font-size: 1.75rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
     }
 
-    .subtitle {
-      margin-top: 0;
-      color: #555;
-      font-style: italic;
-      line-height: 1.5;
-      margin-bottom: 1.25rem;
+    h4 {
+      font-size: 1.1rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #333;
     }
 
     .gray-box {
@@ -71,20 +70,20 @@
       margin-bottom: 2rem;
     }
 
-    h4 {
-      font-size: 1.1rem;
-      margin-top: 1.5rem;
-      margin-bottom: 0.5rem;
-      color: #333;
-    }
-
     ul {
       margin-left: 1.25rem;
       padding-left: 0.75rem;
     }
 
     li {
-      margin-bottom: 0.85rem;
+      margin-bottom: 0.65rem;
+      line-height: 1.5;
+    }
+
+    .note {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 0.75rem;
       line-height: 1.5;
     }
 
@@ -112,19 +111,11 @@
     .links a {
       color: #214c38;
       text-decoration: none;
-      font-weight: 650;
+      border-bottom: 1px solid rgba(33,76,56,0.35);
     }
 
     .links a:hover {
-      color: #1a2f25;
-      text-decoration: underline;
-    }
-
-    .note {
-      font-size: 0.95rem;
-      color: #555;
-      margin-top: 0.75rem;
-      line-height: 1.5;
+      border-bottom-color: rgba(33,76,56,0.75);
     }
   </style>
 </head>
@@ -140,82 +131,60 @@
   </div>
 
   <div class="content">
-    <h2>Georgia Tech — Predictive Decision Trees for Occupational Exposure</h2>
-    <p class="subtitle">
-      Simulation-based modeling of chemical exposure risk and asthma-like symptoms to support
-      occupational health monitoring in data-scarce environments.
-    </p>
+    <h2>Georgia Tech — Decision-Focused Risk Modeling Under Data Scarcity</h2>
 
     <div class="gray-box">
       <p style="margin-top:0;">
-        Developed an exploratory simulation tool and supervised learning pipeline to model how
-        routine exposure to common workplace irritants may relate to asthma-like symptoms among
-        professional cleaning staff working in laboratory and healthcare-adjacent environments.
-        The work emphasizes practical risk modeling when direct exposure surveillance data are limited.
+        <strong>Outcome:</strong> Built an interpretable risk-modeling framework to support occupational
+        health decision-making when direct exposure data are limited, emphasizing early risk detection
+        and conservative safety thresholds.
       </p>
 
-      <div class="links" style="margin-top: 0.75rem; line-height: 1.6;">
-        <strong>Paper:</strong>
-        <a href="https://doi.org/10.3390/laboratories3010002" target="_blank" rel="noopener noreferrer">
-          DOI: 10.3390/laboratories3010002
-        </a>
-        <br>
-        <strong>Code:</strong>
-        <a href="https://github.com/h-hedman/healthcare-data-science/tree/main/rf_asthma_lab" target="_blank" rel="noopener noreferrer">
-          GitHub repository (reproducible pipeline)
-        </a>
-      </div>
+      <h4>Decision Context</h4>
+      <ul>
+        <li>Workplace exposure risks are difficult to monitor directly in many operational environments</li>
+        <li>Decision-makers still need tools to prioritize monitoring and prevention efforts</li>
+        <li>False negatives carry higher cost than false positives in safety-critical settings</li>
+      </ul>
 
       <h4>What I Built</h4>
       <ul>
-        <li>
-          <strong>Simulation framework:</strong> Generated a 20,000-record synthetic cohort
-          parameterized from published occupational exposure research to support structured scenario testing.
-        </li>
-        <li>
-          <strong>Modeling pipeline:</strong> Trained and compared four tree-based classifiers
-          (Decision Tree, Random Forest, Gradient Boosting, XGBoost) for predicting asthma-like symptoms.
-        </li>
-        <li>
-          <strong>Safety-first evaluation:</strong> Tuned decision thresholds to prioritize recall
-          (minimizing false negatives) given workplace safety implications and outcome rarity.
-        </li>
-        <li>
-          <strong>Interpretability:</strong> Used SHAP-based global feature importance to support
-          transparent risk-driver communication and model review.
-        </li>
-        <li>
-          <strong>Reproducibility:</strong> Provided end-to-end code for data generation, feature engineering,
-          model training, and evaluation.
-        </li>
+        <li><strong>Simulation-based cohort:</strong> Generated structured synthetic data grounded in published exposure research to enable scenario analysis</li>
+        <li><strong>Predictive modeling pipeline:</strong> Trained and compared multiple tree-based classifiers for nonlinear risk relationships</li>
+        <li><strong>Safety-oriented evaluation:</strong> Tuned thresholds to prioritize recall and minimize missed high-risk cases</li>
+        <li><strong>Interpretability layer:</strong> Applied feature attribution to support transparent review and communication of risk drivers</li>
+        <li><strong>Reproducible workflow:</strong> Delivered an end-to-end pipeline from data generation through evaluation</li>
       </ul>
 
-      <h4>Transferable Technical Signals</h4>
+      <h4>Impact</h4>
       <ul>
-        <li>Risk modeling under severe class imbalance (AUC-PR emphasis, threshold tuning)</li>
-        <li>Tree-based ML for nonlinear exposure–outcome relationships</li>
-        <li>Feature engineering informed by domain constraints and operational use</li>
-        <li>Model interpretation and communication for non-technical stakeholders</li>
+        <li>Demonstrated a practical approach for decision support when real-world data are incomplete</li>
+        <li>Provided interpretable signals to guide monitoring and prevention prioritization</li>
+        <li>Established a reusable framework adaptable to other low-observability risk domains</li>
       </ul>
 
       <p class="note">
-        Note: This work uses simulated data and is intended as an exploratory framework for decision support,
-        not as a clinical diagnostic model.
+        This work focuses on decision support and risk prioritization rather than clinical diagnosis.
+        Simulation is used deliberately to explore feasibility and trade-offs under realistic constraints.
       </p>
 
-      <div class="meta-line">
-        <strong>Affiliation:</strong> Georgia Tech (School of Computer Science)<br>
-        <strong>Methods:</strong> simulation modeling, supervised learning, threshold tuning, SHAP interpretability<br>
-        <strong>Tooling:</strong> Python, NumPy, pandas, scikit-learn, XGBoost, imbalanced learning methods
+      <div class="meta-line links">
+        <strong>Methods:</strong> simulation modeling, supervised learning, threshold tuning, interpretability<br>
+        <strong>Tools:</strong> Python, pandas, scikit-learn, XGBoost ·
+        <a href="https://doi.org/10.3390/laboratories3010002" target="_blank" rel="noopener noreferrer">
+          peer-reviewed paper
+        </a> ·
+        <a href="https://github.com/h-hedman/healthcare-data-science/tree/main/rf_asthma_lab" target="_blank" rel="noopener noreferrer">
+          supporting code
+        </a>
       </div>
 
       <div style="margin-top: 0.9rem;">
-        <span class="pill">Predictive Modeling</span>
-        <span class="pill">Decision Trees</span>
+        <span class="pill">Decision Support</span>
+        <span class="pill">Risk Modeling</span>
+        <span class="pill">Interpretable ML</span>
         <span class="pill">Class Imbalance</span>
-        <span class="pill">Interpretability</span>
-        <span class="pill">Occupational Risk</span>
-        <span class="pill">Reproducible Pipeline</span>
+        <span class="pill">Safety-Critical Systems</span>
       </div>
     </div>
   </div>
