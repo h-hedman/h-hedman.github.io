@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>U.S. Department of Transportation | Hayden Hedman</title>
+  <title>U.S. Department of Transportation — Operational Analytics | Hayden Hedman</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <style>
@@ -53,15 +53,14 @@
 
     h2 {
       font-size: 1.75rem;
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.75rem;
     }
 
-    .subtitle {
-      margin-top: 0;
-      color: #555;
-      font-style: italic;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
+    h4 {
+      font-size: 1.1rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #333;
     }
 
     .gray-box {
@@ -71,20 +70,20 @@
       margin-bottom: 2rem;
     }
 
-    h4 {
-      font-size: 1.1rem;
-      margin-top: 1.5rem;
-      margin-bottom: 0.5rem;
-      color: #333;
-    }
-
     ul {
       margin-left: 1.25rem;
       padding-left: 0.75rem;
     }
 
     li {
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.65rem;
+      line-height: 1.5;
+    }
+
+    .note {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 0.75rem;
       line-height: 1.5;
     }
 
@@ -108,13 +107,6 @@
       margin-right: 0.35rem;
       margin-bottom: 0.35rem;
     }
-
-    .note {
-      font-size: 0.95rem;
-      color: #555;
-      margin-top: 0.75rem;
-      line-height: 1.5;
-    }
   </style>
 </head>
 
@@ -129,69 +121,52 @@
   </div>
 
   <div class="content">
-    <h2>Operational Optimization and Capacity Planning for Transportation Programs</h2>
-    <p class="subtitle">
-      Applied machine learning and optimization using a national operations dataset
-      early development phase
-    </p>
+    <h2>U.S. Department of Transportation — Operational Analytics & Capacity Planning</h2>
 
     <div class="gray-box">
       <p style="margin-top:0;">
-        Developing an applied analytics framework using the National Census of Ferry Operators dataset to
-        support planning assessment and system characterization. The focus is on interpretable modeling and
-        practical decision support rather than large scale deployment.
+        <strong>Outcome:</strong> Developing an applied analytics framework to help transportation program
+        stakeholders understand demand, capacity, and system constraints—supporting more informed planning,
+        benchmarking, and future investment decisions.
       </p>
 
-      <h4>Core Focus Areas</h4>
+      <h4>Decision Context</h4>
       <ul>
-        <li>
-          <strong>Demand and capacity characterization</strong><br>
-          Descriptive and predictive modeling to identify patterns in usage capacity and asset utilization
-          using available system attributes.
-        </li>
-        <li>
-          <strong>Operational optimization assessment</strong><br>
-          Identification of segments with capacity stress underutilized assets and mismatches between
-          system characteristics and observed demand.
-        </li>
-        <li>
-          <strong>System archetype clustering</strong><br>
-          Grouping systems into comparable operational profiles to support benchmarking and comparison.
-        </li>
-        <li>
-          <strong>Resilience oriented indicators</strong><br>
-          Construction of composite indicators based on fleet composition accessibility connectivity and
-          redundancy for comparative assessment.
-        </li>
-        <li>
-          <strong>Data readiness evaluation</strong><br>
-          Assessment of structure completeness and consistency to inform future analytics and survey design.
-        </li>
+        <li>National transportation systems vary widely in scale, usage, and operational constraints</li>
+        <li>Existing summaries obscured capacity stress, underutilization, and structural differences</li>
+        <li>Planners needed interpretable analytics to guide comparison, prioritization, and future data collection</li>
       </ul>
 
-      <h4>Planned Outputs</h4>
+      <h4>What I’m Building</h4>
       <ul>
-        <li>Demand and capacity summary</li>
-        <li>Operational optimization assessment</li>
-        <li>System archetype analysis</li>
-        <li>Resilience indicator framework</li>
-        <li>Data readiness appendix</li>
+        <li><strong>Demand & capacity characterization:</strong> Descriptive and predictive analysis of utilization and asset capacity</li>
+        <li><strong>Operational segmentation:</strong> Clustering systems into comparable archetypes for benchmarking</li>
+        <li><strong>Optimization assessment:</strong> Identifying mismatches between observed demand and available capacity</li>
+        <li><strong>Resilience indicators:</strong> Constructing interpretable metrics capturing redundancy, accessibility, and connectivity</li>
+        <li><strong>Data readiness evaluation:</strong> Assessing survey structure and consistency to inform future analytics and design</li>
+      </ul>
+
+      <h4>Impact (In Progress)</h4>
+      <ul>
+        <li>Provides a clearer picture of where systems experience capacity stress or underutilization</li>
+        <li>Enables apples-to-apples comparison across heterogeneous transportation systems</li>
+        <li>Establishes a foundation for scalable analytics and improved data collection strategies</li>
       </ul>
 
       <p class="note">
-        This work is exploratory and iterative. Methods and scope are refined through versioned updates as
-        feasibility and utility are evaluated.
+        This work emphasizes interpretability and decision relevance over model complexity. Methods and
+        outputs are refined iteratively based on stakeholder feedback and practical utility.
       </p>
 
       <div class="meta-line">
         <strong>Affiliation:</strong> U.S. Department of Transportation<br>
-        <strong>Methods:</strong> interpretable machine learning clustering optimization indicators<br>
-        <strong>Tooling:</strong> Python pandas scikit learn
+        <strong>Methods:</strong> interpretable machine learning, clustering, indicator construction, optimization analysis<br>
+        <strong>Tools:</strong> Python, pandas, scikit-learn
       </div>
 
       <div style="margin-top: 0.9rem;">
-        <span class="pill">Optimization</span>
         <span class="pill">Capacity Planning</span>
+        <span class="pill">Operational Analytics</span>
         <span class="pill">Interpretable ML</span>
         <span class="pill">Clustering</span>
         <span class="pill">Benchmarking</span>
