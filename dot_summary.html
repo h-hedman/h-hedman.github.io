@@ -1,186 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>U.S. Department of Transportation — Operational Analytics | Hayden Hedman</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-    }
+<meta charset="UTF-8">
+<title>U.S. Department of Transportation — Operational Analytics | Hayden Hedman</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
 
-    .navbar {
-      background-color: #214c38;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      color: white;
-      flex-wrap: wrap;
-    }
+<style>
 
-    .navbar-title {
-      display: flex;
-      align-items: center;
-      font-size: 1.5rem;
-      font-weight: 600;
-    }
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:#f9f9f9;
+color:#333;
+}
 
-    .navbar-title a {
-      color: white;
-      text-decoration: none;
-      margin-left: 1rem;
-      font-size: 1rem;
-      font-weight: 400;
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
-    }
+.navbar{
+background:#214c38;
+padding:1rem 2rem;
+display:flex;
+align-items:center;
+justify-content:space-between;
+color:white;
+flex-wrap:wrap;
+}
 
-    .navbar-title a:hover {
-      background-color: #a5d6b5;
-      color: #1a2f25;
-    }
+.navbar-title{
+display:flex;
+align-items:center;
+font-size:1.5rem;
+font-weight:600;
+}
 
-    .content {
-      max-width: 800px;
-      margin: 3rem auto;
-      padding: 0 2rem;
-    }
+.navbar-title a{
+color:white;
+text-decoration:none;
+margin-left:1rem;
+font-size:1rem;
+font-weight:400;
+padding:0.25rem 0.5rem;
+border-radius:4px;
+}
 
-    h2 {
-      font-size: 1.75rem;
-      margin-bottom: 0.75rem;
-    }
+.navbar-title a:hover{
+background:#a5d6b5;
+color:#1a2f25;
+}
 
-    h4 {
-      font-size: 1.1rem;
-      margin-top: 1.25rem;
-      margin-bottom: 0.5rem;
-      color: #333;
-    }
+.content{
+max-width:800px;
+margin:3rem auto;
+padding:0 2rem;
+}
 
-    .gray-box {
-      background-color: #f1f1f1;
-      padding: 20px;
-      border-radius: 6px;
-      margin-bottom: 2rem;
-    }
+h2{
+font-size:1.75rem;
+margin-bottom:.75rem;
+}
 
-    ul {
-      margin-left: 1.25rem;
-      padding-left: 0.75rem;
-    }
+h4{
+font-size:1.1rem;
+margin-top:1.5rem;
+margin-bottom:.5rem;
+color:#333;
+}
 
-    li {
-      margin-bottom: 0.65rem;
-      line-height: 1.5;
-    }
+.gray-box{
+background:#f1f1f1;
+padding:20px;
+border-radius:6px;
+margin-bottom:2rem;
+}
 
-    .note {
-      font-size: 0.95rem;
-      color: #555;
-      margin-top: 0.75rem;
-      line-height: 1.5;
-    }
+ul{
+margin-left:1.25rem;
+padding-left:.75rem;
+}
 
-    .meta-line {
-      margin-top: 1rem;
-      padding-top: 1rem;
-      border-top: 1px solid #ddd;
-      font-size: 0.95rem;
-      color: #444;
-      line-height: 1.5;
-    }
+li{
+margin-bottom:.65rem;
+line-height:1.5;
+}
 
-    .pill {
-      display: inline-block;
-      background: #e7efe9;
-      color: #1a2f25;
-      border: 1px solid #cfe0d4;
-      border-radius: 999px;
-      padding: 0.2rem 0.6rem;
-      font-size: 0.85rem;
-      margin-right: 0.35rem;
-      margin-bottom: 0.35rem;
-    }
-  </style>
+.note{
+font-size:.95rem;
+color:#555;
+margin-top:.75rem;
+line-height:1.5;
+}
+
+.meta-line{
+margin-top:1rem;
+padding-top:1rem;
+border-top:1px solid #ddd;
+font-size:.95rem;
+color:#444;
+line-height:1.5;
+}
+
+.pill{
+display:inline-block;
+background:#e7efe9;
+color:#1a2f25;
+border:1px solid #cfe0d4;
+border-radius:999px;
+padding:.2rem .6rem;
+font-size:.85rem;
+margin-right:.35rem;
+margin-bottom:.35rem;
+}
+
+.repo-link a{
+color:#214c38;
+text-decoration:none;
+border-bottom:1px solid rgba(33,76,56,0.35);
+}
+
+.repo-link a:hover{
+border-bottom-color:rgba(33,76,56,0.75);
+}
+
+</style>
 </head>
 
 <body>
 
-  <div class="navbar">
-    <div class="navbar-title">
-      <a href="index.html">Hayden Hedman</a> |
-      <a href="projects.html">Projects</a>
-      <a href="publications.html">Publications</a>
-    </div>
-  </div>
+<div class="navbar">
+<div class="navbar-title">
+<a href="index.html">Hayden Hedman</a> |
+<a href="projects.html">Projects</a>
+<a href="publications.html">Publications</a>
+</div>
+</div>
 
-  <div class="content">
-    <h2>U.S. Department of Transportation — Operational Analytics & Capacity Planning</h2>
+<div class="content">
 
-    <div class="gray-box">
-      <p style="margin-top:0;">
-        <strong>Outcome:</strong> Developing an applied analytics framework to help transportation program
-        stakeholders understand demand, capacity, and system constraints, supporting more informed planning,
-        benchmarking, and future investment decisions.
-      </p>
+<h2>U.S. Department of Transportation — Operational Analytics & Capacity Planning</h2>
 
-      <h4>Decision Context</h4>
-      <ul>
-        <li>National transportation systems vary widely in scale, usage, and operational constraints</li>
-        <li>Existing summaries obscured capacity stress, underutilization, and structural differences</li>
-        <li>Planners needed interpretable analytics to guide comparison, prioritization, and future data collection</li>
-      </ul>
+<div class="gray-box">
 
-      <h4>What I’m Building</h4>
-      <ul>
-        <li><strong>Demand & capacity characterization:</strong> Descriptive and predictive analysis of utilization and asset capacity</li>
-        <li><strong>Operational segmentation:</strong> Clustering systems into comparable archetypes for benchmarking</li>
-        <li><strong>Optimization assessment:</strong> Identifying mismatches between observed demand and available capacity</li>
-        <li><strong>Resilience indicators:</strong> Constructing interpretable metrics capturing redundancy, accessibility, and connectivity</li>
-        <li><strong>Data readiness evaluation:</strong> Assessing survey structure and consistency to inform future analytics and design</li>
-      </ul>
+<p style="margin-top:0;">
+<strong>Outcome:</strong> Developing an applied analytics framework to help transportation program
+stakeholders understand demand, capacity, and system constraints, supporting more informed planning,
+benchmarking, and future investment decisions.
+</p>
 
-      <h4>Impact (In Progress)</h4>
-      <ul>
-        <li>Provides a clearer picture of where systems experience capacity stress or underutilization</li>
-        <li>Enables apples-to-apples comparison across heterogeneous transportation systems</li>
-        <li>Establishes a foundation for scalable analytics and improved data collection strategies</li>
-      </ul>
+<h4>Decision Context</h4>
 
-      <p class="note">
-        This work emphasizes interpretability and decision relevance over model complexity. Methods and
-        outputs are refined iteratively based on stakeholder feedback and practical utility.
-      </p>
+<ul>
+<li>National transportation systems vary widely in scale, usage, and operational constraints</li>
+<li>Existing summaries obscured capacity stress, underutilization, and structural differences</li>
+<li>Planners needed interpretable analytics to guide comparison, prioritization, and future data collection</li>
+</ul>
 
-      <div class="meta-line">
-        <strong>Affiliation:</strong> U.S. Department of Transportation<br>
-        <strong>Methods:</strong> interpretable machine learning, clustering, indicator construction, optimization analysis<br>
-        <strong>Tools:</strong> Python, pandas, scikit-learn<br>
-        <strong>Code:</strong>
-        <a href="https://github.com/h-hedman/ncfo-ferry-capacity-analysis" target="_blank" rel="noopener noreferrer">
-          supporting code
-        </a>
-      </div>
+<h4>What I’m Building</h4>
 
+<ul>
+<li><strong>Demand & capacity characterization:</strong> Descriptive and predictive analysis of utilization and asset capacity</li>
+<li><strong>Operational segmentation:</strong> Clustering systems into comparable archetypes for benchmarking</li>
+<li><strong>Optimization assessment:</strong> Identifying mismatches between observed demand and available capacity</li>
+<li><strong>Resilience indicators:</strong> Constructing interpretable metrics capturing redundancy, accessibility, and connectivity</li>
+<li><strong>Data readiness evaluation:</strong> Assessing survey structure and consistency to inform future analytics and design</li>
+</ul>
 
-      
+<h4>Impact (In Progress)</h4>
 
-      <div style="margin-top: 0.9rem;">
-        <span class="pill">Capacity Planning</span>
-        <span class="pill">Operational Analytics</span>
-        <span class="pill">Interpretable ML</span>
-        <span class="pill">Clustering</span>
-        <span class="pill">Benchmarking</span>
-        <span class="pill">Data Readiness</span>
-      </div>
-    </div>
-  </div>
+<ul>
+<li>Provides a clearer picture of where systems experience capacity stress or underutilization</li>
+<li>Enables apples-to-apples comparison across heterogeneous transportation systems</li>
+<li>Establishes a foundation for scalable analytics and improved data collection strategies</li>
+</ul>
+
+<p class="note">
+This work emphasizes interpretability and decision relevance over model complexity.
+Methods and outputs are refined iteratively based on stakeholder feedback and practical utility.
+</p>
+
+<div class="meta-line repo-link">
+<strong>Affiliation:</strong> U.S. Department of Transportation<br>
+<strong>Methods:</strong> interpretable machine learning, clustering, indicator construction, optimization analysis<br>
+<strong>Tools:</strong> Python, pandas, scikit-learn ·
+<a href="https://github.com/h-hedman/ncfo-ferry-capacity-analysis" target="_blank" rel="noopener noreferrer">
+analysis pipeline
+</a>
+</div>
+
+<div style="margin-top:.9rem;">
+<span class="pill">Capacity Planning</span>
+<span class="pill">Operational Analytics</span>
+<span class="pill">Interpretable ML</span>
+<span class="pill">Clustering</span>
+<span class="pill">Benchmarking</span>
+<span class="pill">Data Readiness</span>
+</div>
+
+</div>
+</div>
 
 </body>
 </html>
