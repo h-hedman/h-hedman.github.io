@@ -16,3 +16,5 @@ Healthify's [static site](https://h-hedman.github.io/healthcare-data-science/hea
 ## Organization update
 
 On October 24, 2026, Healthify and SCPH source links were consolidated under Healthcare Data Science, and NCFO source links moved to Transportation Analytics. Main portfolio page URLs are unchanged.
+
+Legacy Healthify HTML addresses are preserved by redirect pages in this site's healthify-flu-app/ folder; the separate Healthify repository is no longer required.
